@@ -12,13 +12,13 @@ namespace Clase_02.Entidades {
         public static ConsoleColor colorFondo, colorLetra;
 
         public static string Imprimir() {
-            return Sello.mensaje;
+            return Sello.ArmarFormatoMensaje();
         }
 
         public static void ImprimirEnColor() {
             Console.BackgroundColor = colorFondo;
             Console.ForegroundColor = colorLetra;
-            Console.WriteLine(Sello.mensaje);
+            Console.WriteLine(Sello.ArmarFormatoMensaje());
             Console.BackgroundColor = ConsoleColor.Black;
             Console.ForegroundColor = ConsoleColor.Gray;
         }
@@ -27,5 +27,19 @@ namespace Clase_02.Entidades {
             Sello.mensaje = "";
         }
 
+        private static string ArmarFormatoMensaje() {
+            short f;
+            string mensajeConFormato = "\n";
+
+            for (f=0; f< mensaje.Length+2; f++) {
+                mensajeConFormato += "#";
+            }
+            mensajeConFormato = mensajeConFormato + "\n#" + Sello.mensaje + "#\n";
+            for (f = 0; f < mensaje.Length + 2; f++) {
+                mensajeConFormato += "#";
+            }
+
+            return mensajeConFormato;
+        }
     }
 }

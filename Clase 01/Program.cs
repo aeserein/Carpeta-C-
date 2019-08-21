@@ -48,7 +48,7 @@ namespace Clase_01 {    // CAMBIAR NOMBRE A Clase_02
             Sello.colorFondo = ConsoleColor.Red;
             Sello.colorFondo = ConsoleColor.DarkRed;
             Sello.ImprimirEnColor();
-            Console.WriteLine("\n----------------------------------");
+            Console.WriteLine("\n----------------------------------\n{0}", Sello.mensaje);
             Console.Read();
         }
     }
