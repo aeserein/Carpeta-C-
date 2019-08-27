@@ -1,0 +1,2 @@
+D:\Alvaro\Trabajos\Programación\04 - Programación 2\Serein.Álvaro\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csprojAssemblyReference.cache
+D:\Alvaro\Trabajos\Programación\04 - Programación 2\Serein.Álvaro\Clase_02.Entidades\obj\Debug\Clase_02.Entidades.csproj.CoreCompileInputs.cache

@@ -1,0 +1,88 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 01\\Clase 01.csproj": {}
+  },
+  "projects": {
+    "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 01\\Clase 01.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 01\\Clase 01.csproj",
+        "projectName": "Clase 01",
+        "projectPath": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 01\\Clase 01.csproj",
+        "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
+        "outputPath": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 01\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sant_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.0": {
+            "projectReferences": {
+              "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase_02.Entidades.csproj": {
+                "projectPath": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase_02.Entidades.csproj"
+              },
+              "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\MiLibrería\\MiLibrería.csproj": {
+                "projectPath": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\MiLibrería\\MiLibrería.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.0": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.0.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase_02.Entidades.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase_02.Entidades.csproj",
+        "projectName": "Clase_02.Entidades",
+        "projectPath": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase_02.Entidades.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\MiLibrería\\MiLibrería.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\MiLibrería\\MiLibrería.csproj",
+        "projectName": "MiLibrería",
+        "projectPath": "D:\\Alvaro\\Trabajos\\Programación\\04 - Programación 2\\Serein.Álvaro\\MiLibrería\\MiLibrería.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}
