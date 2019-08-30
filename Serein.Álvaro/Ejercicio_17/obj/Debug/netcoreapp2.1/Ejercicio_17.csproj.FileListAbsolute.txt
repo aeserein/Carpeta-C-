@@ -3,7 +3,6 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_17\bin\Deb
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_17\bin\Debug\netcoreapp2.1\Ejercicio_17.runtimeconfig.dev.json
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_17\bin\Debug\netcoreapp2.1\Ejercicio_17.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_17\bin\Debug\netcoreapp2.1\Ejercicio_17.pdb
-D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_17\obj\Debug\netcoreapp2.1\Ejercicio_17.csprojAssemblyReference.cache
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_17\obj\Debug\netcoreapp2.1\Ejercicio_17.csproj.CoreCompileInputs.cache
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_17\obj\Debug\netcoreapp2.1\Ejercicio_17.AssemblyInfoInputs.cache
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_17\obj\Debug\netcoreapp2.1\Ejercicio_17.AssemblyInfo.cs

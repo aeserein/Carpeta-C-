@@ -1,0 +1,4 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 02\obj\Debug\netcoreapp2.0\Clase 02.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 02\obj\Debug\netcoreapp2.0\Clase 02.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 02\obj\Debug\netcoreapp2.0\Clase 02.AssemblyInfoInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 02\obj\Debug\netcoreapp2.0\Clase 02.AssemblyInfo.cs

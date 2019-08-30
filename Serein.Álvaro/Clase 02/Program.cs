@@ -34,9 +34,9 @@ namespace Clase_02 {
             }
 
             Console.WriteLine("\n----------------------------------\nNombre desde librería");
-            MiLibrería.MiClase.nombre = "El Donaldo";
-            otroString = MiLibrería.MiClase.MostrarNombre();
-            Console.WriteLine(otroString);
+            //MiLibrería.MiClase.nombre = "El Donaldo";
+            //otroString = MiLibrería.MiClase.MostrarNombre();
+            //Console.WriteLine(otroString);
 
             Console.WriteLine("\n----------------------------------\nNombre desde otra libreria con 'using'");
             Sello.mensaje = "Mensaje";

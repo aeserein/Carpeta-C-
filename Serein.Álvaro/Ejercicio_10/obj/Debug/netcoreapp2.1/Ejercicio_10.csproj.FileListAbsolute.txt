@@ -8,3 +8,13 @@ D:\Alvaro\Trabajos\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_1
 D:\Alvaro\Trabajos\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\obj\Debug\netcoreapp2.1\Ejercicio_10.AssemblyInfo.cs
 D:\Alvaro\Trabajos\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\obj\Debug\netcoreapp2.1\Ejercicio_10.dll
 D:\Alvaro\Trabajos\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\obj\Debug\netcoreapp2.1\Ejercicio_10.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\bin\Debug\netcoreapp2.1\Ejercicio_10.deps.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\bin\Debug\netcoreapp2.1\Ejercicio_10.runtimeconfig.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\bin\Debug\netcoreapp2.1\Ejercicio_10.runtimeconfig.dev.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\bin\Debug\netcoreapp2.1\Ejercicio_10.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\bin\Debug\netcoreapp2.1\Ejercicio_10.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\obj\Debug\netcoreapp2.1\Ejercicio_10.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\obj\Debug\netcoreapp2.1\Ejercicio_10.AssemblyInfoInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\obj\Debug\netcoreapp2.1\Ejercicio_10.AssemblyInfo.cs
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\obj\Debug\netcoreapp2.1\Ejercicio_10.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_10\obj\Debug\netcoreapp2.1\Ejercicio_10.pdb
