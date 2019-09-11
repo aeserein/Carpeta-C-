@@ -12,6 +12,24 @@ namespace Clase_06.Entidades
         private string marca;
         private int cantidad;
 
+        //////////////////////////////////////////////////
+
+        public ConsoleColor GetColor {
+            get {
+                return this.color;
+            }
+        }
+        public string GetMarca {
+            get {
+                return this.marca;
+            }
+        }
+        public int GetCantidad {
+            get {
+                return this.cantidad;
+            }
+        }
+
         public Tempera(ConsoleColor color, string marca, int cantidad) {
             this.cantidad = cantidad;
             this.color = color;
@@ -66,6 +84,22 @@ namespace Clase_06.Entidades
             } else {
                 return tempera1;
             }
+        }
+
+        public static Tempera operator -(Tempera tempera1, Tempera tempera2) {
+
+            int cantidad;
+            if (tempera1 == tempera2) {
+
+                if (tempera1.cantidad - tempera2.cantidad < 0)
+                    return null;
+                else {
+                    cantidad = tempera1.cantidad - tempera2.cantidad;
+                    tempera1.cantidad = cantidad;
+                    return tempera1;
+                }                
+            }
+            return tempera1;            
         }
     }
 }

@@ -8,9 +8,29 @@ namespace Entidades {
 
         public static double Operar(Numero num1, Numero num2, string operador) {
             operador = ValidarOperador(operador);
+            double resultado;
             switch(operador) {
-                case "+":
+                case "+": {
+                    resultado = num1 + num2;
+                    break;
+                }
+                case "-": {
+                    resultado = num1 - num2;
+                    break;
+                }
+                case "*": {
+                    resultado = num1 * num2;
+                    break;
+                }                    
+                case "/": {
+                    resultado = num1 / num2;
+                    break;
+                }
+                default:
+                    resultado = double.MinValue;
+                    break;
             }
+            return resultado;
         }
 
         private static string ValidarOperador(string operador) {

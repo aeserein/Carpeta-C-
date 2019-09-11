@@ -33,7 +33,10 @@
             this.tsPaleta = new System.Windows.Forms.ToolStripMenuItem();
             this.tsTempera = new System.Windows.Forms.ToolStripMenuItem();
             this.gboxPaleta = new System.Windows.Forms.GroupBox();
+            this.btnMas = new System.Windows.Forms.Button();
+            this.btnMenos = new System.Windows.Forms.Button();
             this.listboxTemperas = new System.Windows.Forms.ListBox();
+            this.btnModificar = new System.Windows.Forms.Button();
             this.menuStrip1.SuspendLayout();
             this.gboxPaleta.SuspendLayout();
             this.SuspendLayout();
@@ -68,12 +71,15 @@
             // tsTempera
             // 
             this.tsTempera.Name = "tsTempera";
-            this.tsTempera.Size = new System.Drawing.Size(120, 22);
+            this.tsTempera.Size = new System.Drawing.Size(121, 22);
             this.tsTempera.Text = "Témpera";
             this.tsTempera.Click += new System.EventHandler(this.tsTempera_Click);
             // 
             // gboxPaleta
             // 
+            this.gboxPaleta.Controls.Add(this.btnModificar);
+            this.gboxPaleta.Controls.Add(this.btnMas);
+            this.gboxPaleta.Controls.Add(this.btnMenos);
             this.gboxPaleta.Controls.Add(this.listboxTemperas);
             this.gboxPaleta.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gboxPaleta.Location = new System.Drawing.Point(0, 24);
@@ -84,15 +90,55 @@
             this.gboxPaleta.Text = "Paleta";
             this.gboxPaleta.Visible = false;
             // 
+            // btnMas
+            // 
+            this.btnMas.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnMas.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.btnMas.Location = new System.Drawing.Point(3, 255);
+            this.btnMas.Name = "btnMas";
+            this.btnMas.Size = new System.Drawing.Size(794, 30);
+            this.btnMas.TabIndex = 2;
+            this.btnMas.Text = "+";
+            this.btnMas.UseVisualStyleBackColor = true;
+            this.btnMas.Visible = false;
+            this.btnMas.Click += new System.EventHandler(this.btnMas_Click);
+            // 
+            // btnMenos
+            // 
+            this.btnMenos.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnMenos.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold);
+            this.btnMenos.Location = new System.Drawing.Point(3, 285);
+            this.btnMenos.Name = "btnMenos";
+            this.btnMenos.Size = new System.Drawing.Size(794, 30);
+            this.btnMenos.TabIndex = 1;
+            this.btnMenos.Text = "-";
+            this.btnMenos.UseVisualStyleBackColor = true;
+            this.btnMenos.Visible = false;
+            this.btnMenos.Click += new System.EventHandler(this.btnMenos_Click);
+            // 
             // listboxTemperas
             // 
-            this.listboxTemperas.Dock = System.Windows.Forms.DockStyle.Left;
+            this.listboxTemperas.Dock = System.Windows.Forms.DockStyle.Top;
             this.listboxTemperas.FormattingEnabled = true;
             this.listboxTemperas.Location = new System.Drawing.Point(3, 16);
             this.listboxTemperas.Name = "listboxTemperas";
-            this.listboxTemperas.Size = new System.Drawing.Size(275, 299);
+            this.listboxTemperas.Size = new System.Drawing.Size(794, 238);
             this.listboxTemperas.TabIndex = 0;
             this.listboxTemperas.Visible = false;
+            // 
+            // btnModificar
+            // 
+            this.btnModificar.AutoSize = true;
+            this.btnModificar.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.5F);
+            this.btnModificar.Location = new System.Drawing.Point(3, 225);
+            this.btnModificar.Name = "btnModificar";
+            this.btnModificar.Size = new System.Drawing.Size(794, 30);
+            this.btnModificar.TabIndex = 3;
+            this.btnModificar.Text = "Modificar";
+            this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Visible = false;
+            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
             // 
             // frmPaleta
             // 
@@ -109,6 +155,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.gboxPaleta.ResumeLayout(false);
+            this.gboxPaleta.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -122,6 +169,9 @@
         private System.Windows.Forms.ToolStripMenuItem tsTempera;
         private System.Windows.Forms.GroupBox gboxPaleta;
         private System.Windows.Forms.ListBox listboxTemperas;
+        private System.Windows.Forms.Button btnMas;
+        private System.Windows.Forms.Button btnMenos;
+        private System.Windows.Forms.Button btnModificar;
     }
 }
 

@@ -11,12 +11,24 @@ namespace Clase_06.Entidades {
         private Tempera[] colores;
         private int cantidadMaximaColores;
 
+        //////////////////////////////////////////////////
+
+        public int GetCantidad {
+            get {
+                return this.cantidadMaximaColores;
+            }
+        }
+
+        //////////////////////////////////////////////////
+
         private Paleta() : this(5) { }
 
         private Paleta(int cantidad) {
             this.cantidadMaximaColores = cantidad;
             this.colores = new Tempera[cantidad];
         }
+
+        //////////////////////////////////////////////////
 
         public static implicit operator Paleta(int cantidad) {
 
@@ -57,8 +69,7 @@ namespace Clase_06.Entidades {
             return false;
         }
 
-        public static bool operator !=(Paleta paleta, Tempera tempera)
-        {
+        public static bool operator !=(Paleta paleta, Tempera tempera) {
             return !(paleta == tempera);
         }
 
@@ -73,6 +84,18 @@ namespace Clase_06.Entidades {
                 if (index >= 0)
                     paleta.colores[index] = tempera;
             }
+            return paleta;
+        }
+
+        public static Paleta operator -(Paleta paleta, Tempera tempera) {
+
+            int index;
+            if (paleta==tempera) {
+
+                index = paleta.BuscarTemperaEnPaleta(tempera);
+                paleta.colores[index] -= tempera;
+            }
+
             return paleta;
         }
 
@@ -111,21 +134,14 @@ namespace Clase_06.Entidades {
             }
             return -1;
         }
-        //*************///
-        public static Paleta operator -(Paleta paleta, Tempera tempera)
-        {
-            if (paleta == tempera)
-            {
-                if (tempera == paleta.colores[paleta | tempera])
-                {
-                    if ((paleta.colores[paleta | tempera] + -1) == null)
-                    {
-                        return paleta;
-                    }
-                }
-            }
 
-            return paleta;
+        public Tempera this[int index] {
+            get {
+                return this.colores[index];
+            }
+            set {
+                this.colores[index] = value;
+            }
         }
 
     }

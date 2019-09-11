@@ -21,6 +21,12 @@ namespace Clase07 {
             }
         }
 
+        public frmTempera(Tempera t) : this() {
+            this.txtMarca.Text = t.GetMarca;
+            this.txtCantidad.Text = t.GetCantidad.ToString();
+            this.cbColor.SelectedItem = t.GetColor;
+        }
+
         public frmTempera() {
             InitializeComponent();
 
@@ -41,7 +47,7 @@ namespace Clase07 {
 
             int cantidad;
             if (int.TryParse(txtCantidad.Text, out cantidad)) {
-                //parsea2
+                //parsea3
             } else {
                 txtCantidad.Focus();
                 return;
