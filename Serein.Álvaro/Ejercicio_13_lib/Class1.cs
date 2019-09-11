@@ -109,6 +109,15 @@ namespace Ejercicio_13_lib {
 
             return resultadoEnBinario;
         }
+
+        public bool Validar() {
+            string sAux = this.GetNumero();
+            for (byte f=0; f<sAux.Length; f++) {
+                if (sAux[f] != '0' && sAux[f] != '1')
+                    return false;
+            }
+            return true;
+        }
     }
 
     public class NumeroDecimal {

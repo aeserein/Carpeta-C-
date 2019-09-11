@@ -1,0 +1,8 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_23bis\obj\Debug\netstandard2.0\Ejercicio_23bis (Moneda).csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_23bis\obj\Debug\netstandard2.0\Ejercicio_23bis (Moneda).AssemblyInfoInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_23bis\obj\Debug\netstandard2.0\Ejercicio_23bis (Moneda).AssemblyInfo.cs
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_23bis\bin\Debug\netstandard2.0\Ejercicio_23bis (Moneda).deps.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_23bis\bin\Debug\netstandard2.0\Ejercicio_23bis (Moneda).dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_23bis\bin\Debug\netstandard2.0\Ejercicio_23bis (Moneda).pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_23bis\obj\Debug\netstandard2.0\Ejercicio_23bis (Moneda).dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_23bis\obj\Debug\netstandard2.0\Ejercicio_23bis (Moneda).pdb

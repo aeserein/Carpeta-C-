@@ -12,3 +12,17 @@ C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\obj\Debug\netcore
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase05.Entidades.dll
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase05.Entidades.pdb
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.deps.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.runtimeconfig.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.runtimeconfig.dev.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase05.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase05.Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.AssemblyInfoInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.AssemblyInfo.cs
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.pdb

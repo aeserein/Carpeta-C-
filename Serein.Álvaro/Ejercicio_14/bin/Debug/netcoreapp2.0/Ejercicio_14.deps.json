@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Ejercicio_14/1.0.0": {
+        "dependencies": {
+          "Ejercicio_14bis": "1.0.0"
+        },
+        "runtime": {
+          "Ejercicio_14.dll": {}
+        }
+      },
+      "Ejercicio_14bis/1.0.0": {
+        "runtime": {
+          "Ejercicio_14bis.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ejercicio_14/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Ejercicio_14bis/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

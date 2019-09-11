@@ -1,0 +1,28 @@
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\bin\Debug\Clase07.exe.config
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\bin\Debug\Clase07.exe
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\bin\Debug\Clase07.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\bin\Debug\Clase06.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\bin\Debug\Clase06.Entidades.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.frmPaleta.resources
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.Properties.Resources.resources
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.csproj.CopyComplete
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.exe
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase07\obj\Debug\Clase07.frmTempera.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase07.exe.config
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase07.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase07.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase06.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase06.Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.frmPaleta.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.frmTempera.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.Properties.Resources.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.csproj.GenerateResource.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.pdb

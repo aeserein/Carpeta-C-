@@ -7,3 +7,12 @@ C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase05.Entidades\obj\Debu
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.AssemblyInfo.cs
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.dll
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\bin\Debug\netstandard2.0\Clase05.Entidades.deps.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\bin\Debug\netstandard2.0\Clase05.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\bin\Debug\netstandard2.0\Clase05.Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.AssemblyInfoInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.AssemblyInfo.cs
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase05.Entidades.pdb

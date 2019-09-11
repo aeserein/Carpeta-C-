@@ -9,7 +9,6 @@ namespace Billetes {
             Peso pesos = new Peso(50);
             Dolar dolares = new Dolar(10);
             Euro euros = new Euro(5);
-            double unDoble = 2;
 
             Dolar resultadoDolar;
             Euro resultadoEuro;
@@ -40,8 +39,7 @@ namespace Billetes {
         public Euro(double cantidad) {
             this.cantidad = cantidad;
         }
-        public Euro(double cantidad, double cotizacion) {
-            this.cantidad = cantidad;
+        public Euro(double cantidad, double cotizacion) : this(cantidad) {
             Euro.cotizRespectoDolar = cotizacion;
         }
 
@@ -79,26 +77,35 @@ namespace Billetes {
         }
 
         public static bool operator !=(Euro e1, Euro e2) {
-            return (e1.GetCantidad() == e2.GetCantidad());
+            return !(e1 == e2);
         }
         public static bool operator !=(Euro e, Peso p) {
-            return (e.GetCantidad() != p.GetCantidad());
+            return !(e == p);
         }
         public static bool operator !=(Euro e, Dolar d) {
-            return (e.GetCantidad() != e.GetCantidad());
+            return !(e == d);
         }
 
+        /////////////////////////////////////////////////////
+
+        public static Euro operator +(Euro e1, Euro e2) {
+            return e1.GetCantidad() + e2.GetCantidad();
+        }
         public static Euro operator +(Euro e, Peso p) {
-            return e.GetCantidad() + (p.GetCantidad() * Peso.GetCotizacion() / Euro.GetCotizacion());
+            return e + (Euro)p;
         }
         public static Euro operator +(Euro e, Dolar d) {
-            return e.GetCantidad() + (d.GetCantidad() / Euro.GetCotizacion());
+            return e + (Euro)d;
+        }
+
+        public static Euro operator -(Euro e1, Euro e2) {
+            return e1.GetCantidad() - e2.GetCantidad();
         }
         public static Euro operator -(Euro e, Peso p) {
-            return e.GetCantidad() - (p.GetCantidad() * Peso.GetCotizacion() / Euro.GetCotizacion());
+            return e - (Euro)p;
         }
         public static Euro operator -(Euro e, Dolar d) {
-            return e.GetCantidad() - (d.GetCantidad() / Euro.GetCotizacion());
+            return e - (Euro)d;
         }
 
     }
@@ -115,8 +122,7 @@ namespace Billetes {
         public Dolar(double cantidad) {
             this.cantidad = cantidad;
         }
-        public Dolar(double cantidad, double cotizacion) {
-            this.cantidad = cantidad;
+        public Dolar(double cantidad, double cotizacion) : this(cantidad) {
             Dolar.cotizRespectoDolar = cotizacion;
         }
 
@@ -154,28 +160,35 @@ namespace Billetes {
         }
 
         public static bool operator !=(Dolar d1, Dolar d2) {
-            return (d1.GetCantidad() == d2.GetCantidad());
+            return !(d1 == d2);
         }
         public static bool operator !=(Dolar d, Peso p) {
-            return (d.GetCantidad() != p.GetCantidad());
+            return !(d == p);
         }
         public static bool operator !=(Dolar d, Euro e) {
-            return (d.GetCantidad() != e.GetCantidad());
+            return !(d == e);
         }
 
         /////////////////////////////////////////////////////
 
+        public static Dolar operator +(Dolar d1, Dolar d2) {
+            return d1.GetCantidad() + d2.GetCantidad();
+        }
         public static Dolar operator +(Dolar d, Peso p) {
-            return d.GetCantidad() + (p.GetCantidad()*Peso.GetCotizacion());
+            return d + (Dolar)p.GetCantidad();
         }
         public static Dolar operator +(Dolar d, Euro e) {
-            return d.GetCantidad() + (e.GetCantidad()*Euro.GetCotizacion());
+            return d + (Dolar)e;
+        }
+
+        public static Dolar operator -(Dolar d1, Dolar d2) {
+            return d1.GetCantidad() - d2.GetCantidad();
         }
         public static Dolar operator -(Dolar d, Peso p) {
-            return d.GetCantidad() - (p.GetCantidad() * Peso.GetCotizacion());
+            return d - (Dolar)p;
         }
         public static Dolar operator -(Dolar d, Euro e) {
-            return d.GetCantidad() - (e.GetCantidad() * Euro.GetCotizacion());
+            return d - (Dolar)e;
         }
     }
 
@@ -193,8 +206,7 @@ namespace Billetes {
         public Peso(double cantidad) {
             this.cantidad = cantidad;
         }
-        public Peso(double cantidad, double cotizacion) {
-            this.cantidad = cantidad;
+        public Peso(double cantidad, double cotizacion) : this(cantidad){
             Peso.cotizRespectoDolar = cotizacion;
         }
 
@@ -232,35 +244,36 @@ namespace Billetes {
         }
 
         public static bool operator !=(Peso p1, Peso p2) {
-            return (p1.GetCantidad() == p2.GetCantidad());
+            return !(p1 == p2);
         }
         public static bool operator !=(Peso p, Dolar d) {
-            return (p.GetCantidad() != d.GetCantidad());
+            return !(p == d);
         }
         public static bool operator !=(Peso p, Euro e) {
-            return (p.GetCantidad() != e.GetCantidad());
+            return !(p == e);
         }
 
+        /////////////////////////////////////////////////////
+
+        public static Peso operator +(Peso p1, Peso p2) {
+            return p1.GetCantidad() + p2.GetCantidad();
+        }
         public static Peso operator +(Peso p, Dolar d) {
-            return p.GetCantidad() + (d.GetCantidad() / Peso.GetCotizacion());
+            return p + (Peso)d;
         }
         public static Peso operator +(Peso p, Euro e) {
-            return p.GetCantidad() + (e.GetCantidad() * Euro.GetCotizacion() / Peso.GetCotizacion());
+            return p + (Peso)e;
+        }
+
+        public static Peso operator -(Peso p1, Peso p2) {
+            return p1.GetCantidad() - p2.GetCantidad();
         }
         public static Peso operator -(Peso p, Dolar d) {
-            return p.GetCantidad() - (d.GetCantidad() / Peso.GetCotizacion());
+            return p - (Peso)d;
         }
         public static Peso operator -(Peso p, Euro e) {
-            return p.GetCantidad() - (e.GetCantidad() * Euro.GetCotizacion() / Peso.GetCotizacion());
+            return p - (Peso)e;
         }
     }
 
 }
-
-
-/* PREGUNTAS
-    Falta conversor de suma para sumar de cantidades de la misma moneda?
-    Tengo que calcular la conversion en los casteos y tambien en las conversiones de las operaciones?
-    No puedo castear dentro de la operacion + para no recalcular lo mismo?
-    Los warnings de sobre la sobrecarga de metodos de object
-    */
