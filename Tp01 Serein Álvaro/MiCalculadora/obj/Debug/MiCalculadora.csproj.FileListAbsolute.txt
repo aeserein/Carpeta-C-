@@ -1,0 +1,13 @@
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe.config
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.exe
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\MiCalculadora.pdb
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.FormCalculadora.resources
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.Properties.Resources.resources
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.GenerateResource.cache
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.exe
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.pdb
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\bin\Debug\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\MiCalculadora\obj\Debug\MiCalculadora.csproj.CopyComplete

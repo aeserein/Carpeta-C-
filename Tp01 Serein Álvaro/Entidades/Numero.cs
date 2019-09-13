@@ -8,7 +8,7 @@ namespace Entidades {
 
         ///////////////////////////////////////////////  Propiedades
 
-        public string SetNumero {
+        private string SetNumero {
             set {
                 this.numero = ValidarNumero(value);
             }
@@ -23,7 +23,7 @@ namespace Entidades {
         }
 
         public Numero(string strNumero) {
-
+            this.SetNumero = strNumero;
         }
 
         ///////////////////////////////////////////////  Métodos
@@ -55,6 +55,9 @@ namespace Entidades {
         }
 
         public static string DecimalBinario(double numero) {
+
+            if (numero == double.MinValue)
+                return "Valor inválido\n(En func. string DecimalBinario(double)";
 
             string binario = "";
             long parteEntera = (long)numero;
