@@ -7,3 +7,12 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\lib_flow\obj\Debug\n
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.AssemblyInfo.cs
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\bin\Debug\netstandard2.0\lib_flow.deps.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\bin\Debug\netstandard2.0\lib_flow.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\bin\Debug\netstandard2.0\lib_flow.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\lib_flow\obj\Debug\netstandard2.0\lib_flow.pdb

@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Ejercicio_28 {
+
     public partial class Form1 : Form {
+
         public Form1() {
             InitializeComponent();
         }
@@ -29,7 +31,7 @@ namespace Ejercicio_28 {
                     diccionario.Add(palabras[f], 1);
                 }
             }
-
+           
             for (f=0; f<3; f++) {
                 iMax = int.MinValue;
                 index = -1;

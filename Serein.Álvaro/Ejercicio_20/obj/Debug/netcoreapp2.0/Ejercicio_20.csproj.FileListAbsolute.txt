@@ -9,3 +9,14 @@ d:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_20\obj\Deb
 d:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.AssemblyInfo.cs
 d:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.dll
 d:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\bin\Debug\netcoreapp2.0\Ejercicio_20.deps.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\bin\Debug\netcoreapp2.0\Ejercicio_20.runtimeconfig.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\bin\Debug\netcoreapp2.0\Ejercicio_20.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\bin\Debug\netcoreapp2.0\Ejercicio_20.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\bin\Debug\netcoreapp2.0\Ejercicio_20.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_20\obj\Debug\netcoreapp2.0\Ejercicio_20.pdb

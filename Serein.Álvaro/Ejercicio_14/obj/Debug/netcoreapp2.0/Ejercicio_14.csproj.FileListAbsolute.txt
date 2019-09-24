@@ -12,3 +12,17 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_14\obj\Deb
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.csproj.CopyComplete
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\bin\Debug\netcoreapp2.0\Ejercicio_14.deps.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\bin\Debug\netcoreapp2.0\Ejercicio_14.runtimeconfig.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\bin\Debug\netcoreapp2.0\Ejercicio_14.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\bin\Debug\netcoreapp2.0\Ejercicio_14.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\bin\Debug\netcoreapp2.0\Ejercicio_14.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\bin\Debug\netcoreapp2.0\Ejercicio_14bis.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\bin\Debug\netcoreapp2.0\Ejercicio_14bis.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.csproj.CopyComplete
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14\obj\Debug\netcoreapp2.0\Ejercicio_14.pdb

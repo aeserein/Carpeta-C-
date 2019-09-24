@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29215.179
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_01", "Ejercicio_01\Ejercicio_01.csproj", "{865DB3B6-E69D-4CA9-9B41-E002C386BA4D}"
 EndProject
@@ -55,7 +55,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_22", "Ejercicio_2
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase 05", "Clase 05\Clase 05.csproj", "{46F61FB3-6140-4282-A75E-92CE1212B6AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase05.Entidades", "Clase05.Entidades\Clase05.Entidades.csproj", "{7FDCBFC9-7164-4F69-BB4F-D94BA88B2A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase 05.Entidades", "Clase05.Entidades\Clase 05.Entidades.csproj", "{7FDCBFC9-7164-4F69-BB4F-D94BA88B2A6F}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_23bis", "Ejercicio_23bis\Ejercicio_23bis.csproj", "{61F052B4-7707-45C0-9A8B-8A6E39E1B5AA}"
 EndProject
@@ -63,15 +63,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_23", "Ejercicio_2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_25", "Ejercicio_25\Ejercicio_25.csproj", "{944DF6E4-05E1-4161-918F-3EDEF5644E95}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase_02.Entidades", "Clase_02.Entidades\Clase_02.Entidades.csproj", "{33B40B1F-FBD7-440B-AF35-12D818EEF4F5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 02.Entidades", "Clase_02.Entidades\Clase 02.Entidades.csproj", "{33B40B1F-FBD7-440B-AF35-12D818EEF4F5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase 02", "Clase 02\Clase 02.csproj", "{3BC70CFE-84F6-4DD7-BFF7-022C18F0FC09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase06.Entidades", "Clase06.Entidades\Clase06.Entidades.csproj", "{C577D3B6-8FD1-41AD-A867-014446D2AD66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 06.Entidades", "Clase06.Entidades\Clase 06.Entidades.csproj", "{C577D3B6-8FD1-41AD-A867-014446D2AD66}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase07", "Clase07\Clase07.csproj", "{F21C332E-0EDC-49B9-B3A5-5BC419C3F05E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 07", "Clase07\Clase 07.csproj", "{F21C332E-0EDC-49B9-B3A5-5BC419C3F05E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase09.Entidades", "Clase09.Entidades\Clase09.Entidades.csproj", "{7349795B-04D9-4CB6-93AF-443FB6F65A9D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase 09.Entidades", "Clase09.Entidades\Clase 09.Entidades.csproj", "{7349795B-04D9-4CB6-93AF-443FB6F65A9D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_26", "Ejercicio_26\Ejercicio_26.csproj", "{0AE7C2EA-2566-4211-89AD-4651D0EC68F9}"
 EndProject
@@ -93,7 +93,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_34", "Ejercicio_3
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_35", "Ejercicio_35\Ejercicio_35.csproj", "{50941447-A629-4F95-984D-95817C41EA46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio_36", "Ejercicio_36\Ejercicio_36.csproj", "{4BDE0E5F-3785-43BE-BC70-1775A6AF35CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_36", "Ejercicio_36\Ejercicio_36.csproj", "{4BDE0E5F-3785-43BE-BC70-1775A6AF35CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase 11.Entidades", "Clase11.Entidades\Clase 11.Entidades.csproj", "{C7E38EA3-1E1A-4802-99A0-42232F2CAB5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 11", "Clase11\Clase 11.csproj", "{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -285,6 +289,14 @@ Global
 		{4BDE0E5F-3785-43BE-BC70-1775A6AF35CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BDE0E5F-3785-43BE-BC70-1775A6AF35CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BDE0E5F-3785-43BE-BC70-1775A6AF35CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7E38EA3-1E1A-4802-99A0-42232F2CAB5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7E38EA3-1E1A-4802-99A0-42232F2CAB5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7E38EA3-1E1A-4802-99A0-42232F2CAB5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7E38EA3-1E1A-4802-99A0-42232F2CAB5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

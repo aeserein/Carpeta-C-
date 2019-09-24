@@ -12,3 +12,17 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_15\obj\Deb
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.csproj.CopyComplete
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\bin\Debug\netcoreapp2.0\Ejercicio_15.deps.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\bin\Debug\netcoreapp2.0\Ejercicio_15.runtimeconfig.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\bin\Debug\netcoreapp2.0\Ejercicio_15.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\bin\Debug\netcoreapp2.0\Ejercicio_15.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\bin\Debug\netcoreapp2.0\Ejercicio_15.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\bin\Debug\netcoreapp2.0\lib_flow.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\bin\Debug\netcoreapp2.0\lib_flow.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.csproj.CopyComplete
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_15\obj\Debug\netcoreapp2.0\Ejercicio_15.pdb

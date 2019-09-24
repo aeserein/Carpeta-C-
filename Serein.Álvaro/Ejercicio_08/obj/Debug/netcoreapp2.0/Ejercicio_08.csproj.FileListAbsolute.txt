@@ -9,3 +9,14 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_08\obj\Deb
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.AssemblyInfo.cs
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\bin\Debug\netcoreapp2.0\Ejercicio_08.deps.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\bin\Debug\netcoreapp2.0\Ejercicio_08.runtimeconfig.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\bin\Debug\netcoreapp2.0\Ejercicio_08.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\bin\Debug\netcoreapp2.0\Ejercicio_08.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\bin\Debug\netcoreapp2.0\Ejercicio_08.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_08\obj\Debug\netcoreapp2.0\Ejercicio_08.pdb

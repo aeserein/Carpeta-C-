@@ -7,3 +7,12 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_13_lib\obj
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.AssemblyInfo.cs
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\bin\Debug\netstandard2.0\Ejercicio_13_lib.deps.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\bin\Debug\netstandard2.0\Ejercicio_13_lib.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\bin\Debug\netstandard2.0\Ejercicio_13_lib.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_13_lib\obj\Debug\netstandard2.0\Ejercicio_13_lib.pdb

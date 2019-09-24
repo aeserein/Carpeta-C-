@@ -7,3 +7,12 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_14bis\obj\
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.AssemblyInfo.cs
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\bin\Debug\netstandard2.0\Ejercicio_14bis.deps.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\bin\Debug\netstandard2.0\Ejercicio_14bis.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\bin\Debug\netstandard2.0\Ejercicio_14bis.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicio_14bis\obj\Debug\netstandard2.0\Ejercicio_14bis.pdb
