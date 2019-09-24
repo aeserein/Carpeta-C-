@@ -56,6 +56,7 @@
             // 
             // btnCerrar
             // 
+            this.btnCerrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCerrar.Location = new System.Drawing.Point(269, 109);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(119, 35);
@@ -102,6 +103,7 @@
             // 
             // cmbOperador
             // 
+            this.cmbOperador.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOperador.Font = new System.Drawing.Font("Microsoft Sans Serif", 16F);
             this.cmbOperador.FormattingEnabled = true;
             this.cmbOperador.Location = new System.Drawing.Point(160, 55);
@@ -117,13 +119,15 @@
             this.lblResultado.Name = "lblResultado";
             this.lblResultado.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.lblResultado.Size = new System.Drawing.Size(375, 26);
-            this.lblResultado.TabIndex = 8;
+            this.lblResultado.TabIndex = 0;
             this.lblResultado.TextAlign = System.Drawing.ContentAlignment.TopRight;
             // 
             // FormCalculadora
             // 
+            this.AcceptButton = this.btnOperar;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.btnCerrar;
             this.ClientSize = new System.Drawing.Size(400, 203);
             this.Controls.Add(this.lblResultado);
             this.Controls.Add(this.cmbOperador);
@@ -135,6 +139,7 @@
             this.Controls.Add(this.btnLimpiar);
             this.Controls.Add(this.btnOperar);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FormCalculadora";
