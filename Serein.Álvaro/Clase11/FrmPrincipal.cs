@@ -12,28 +12,22 @@ namespace WindowsForms
 {
     public partial class FrmPrincipal : Form
     {
-        public FrmPrincipal()
-        {
+        public FrmPrincipal() {
             InitializeComponent();
-            this.IsMdiContainer = true;
-            this.WindowState = FormWindowState.Maximized;
         }
 
-        private void SalirToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        private void SalirToolStripMenuItem_Click(object sender, EventArgs e) {
             this.Close();
         }
 
 
-        private void CatedraToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        private void CatedraToolStripMenuItem_Click(object sender, EventArgs e) {
             FrmCatedra frm = new FrmCatedra();
             frm.MdiParent = this;
             frm.Show();
         }
 
-        private void CrearToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        private void CrearToolStripMenuItem_Click(object sender, EventArgs e) {
 
         }
     }

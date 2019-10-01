@@ -1,0 +1,11 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\bin\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.deps.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\bin\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.runtimeconfig.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\bin\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.runtimeconfig.dev.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\bin\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\bin\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\obj\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\obj\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\obj\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.AssemblyInfoInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\obj\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.AssemblyInfo.cs
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\obj\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 12.CentralitaPolimorfismo\obj\Debug\netcoreapp2.1\Clase 12.CentralitaPolimorfismo.pdb

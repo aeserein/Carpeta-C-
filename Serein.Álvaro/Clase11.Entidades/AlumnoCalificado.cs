@@ -25,7 +25,7 @@ namespace Entidades {
         #endregion
 
         #region Propiedades
-        protected double Nota {
+        public double Nota {
             get { return this.nota; }
         }
         #endregion
@@ -34,6 +34,7 @@ namespace Entidades {
         public string Mostrar() {
             return Alumno.Mostrar(this) + " Nota: " + this.Nota;
         }
+
         public override string ToString() {
             return this.Mostrar();
         }

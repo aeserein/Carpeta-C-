@@ -111,10 +111,6 @@
       <Project>{c7e38ea3-1e1a-4802-99a0-42232f2cab5d}</Project>
       <Name>Clase 11.Entidades</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Entidades\Entidades.csproj">
-      <Project>{e12f7a6e-3450-4e08-b48b-f50aacf8c504}</Project>
-      <Name>Entidades</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

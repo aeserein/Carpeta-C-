@@ -47,42 +47,44 @@
             this.groupBox1.Controls.Add(this.btnModificar);
             this.groupBox1.Controls.Add(this.btnCalificar);
             this.groupBox1.Controls.Add(this.btnAgregar);
-            this.groupBox1.Location = new System.Drawing.Point(12, 23);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(776, 314);
+            this.groupBox1.Size = new System.Drawing.Size(420, 249);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Alumnos";
             // 
             // cmbOrdenar
             // 
+            this.cmbOrdenar.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOrdenar.FormattingEnabled = true;
-            this.cmbOrdenar.Location = new System.Drawing.Point(68, 272);
+            this.cmbOrdenar.Location = new System.Drawing.Point(6, 220);
             this.cmbOrdenar.Name = "cmbOrdenar";
-            this.cmbOrdenar.Size = new System.Drawing.Size(648, 21);
+            this.cmbOrdenar.Size = new System.Drawing.Size(407, 21);
             this.cmbOrdenar.TabIndex = 1;
             this.cmbOrdenar.SelectedIndexChanged += new System.EventHandler(this.CmbOrdenar_SelectedIndexChanged);
             // 
             // lstAlumnos
             // 
             this.lstAlumnos.FormattingEnabled = true;
-            this.lstAlumnos.Location = new System.Drawing.Point(68, 72);
+            this.lstAlumnos.Location = new System.Drawing.Point(6, 59);
             this.lstAlumnos.Name = "lstAlumnos";
-            this.lstAlumnos.Size = new System.Drawing.Size(648, 173);
+            this.lstAlumnos.Size = new System.Drawing.Size(407, 147);
             this.lstAlumnos.TabIndex = 3;
             // 
             // btnModificar
             // 
-            this.btnModificar.Location = new System.Drawing.Point(641, 20);
+            this.btnModificar.Location = new System.Drawing.Point(338, 23);
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.Size = new System.Drawing.Size(75, 23);
             this.btnModificar.TabIndex = 2;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = true;
+            this.btnModificar.Click += new System.EventHandler(this.BtnModificar_Click);
             // 
             // btnCalificar
             // 
-            this.btnCalificar.Location = new System.Drawing.Point(359, 20);
+            this.btnCalificar.Location = new System.Drawing.Point(171, 23);
             this.btnCalificar.Name = "btnCalificar";
             this.btnCalificar.Size = new System.Drawing.Size(75, 23);
             this.btnCalificar.TabIndex = 1;
@@ -92,7 +94,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(68, 20);
+            this.btnAgregar.Location = new System.Drawing.Point(6, 23);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 0;
@@ -103,9 +105,9 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.lstAlumnosCalificados);
-            this.groupBox2.Location = new System.Drawing.Point(12, 343);
+            this.groupBox2.Location = new System.Drawing.Point(12, 269);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(776, 257);
+            this.groupBox2.Size = new System.Drawing.Size(420, 236);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Alumnos Calificados";
@@ -113,16 +115,16 @@
             // lstAlumnosCalificados
             // 
             this.lstAlumnosCalificados.FormattingEnabled = true;
-            this.lstAlumnosCalificados.Location = new System.Drawing.Point(68, 28);
+            this.lstAlumnosCalificados.Location = new System.Drawing.Point(6, 29);
             this.lstAlumnosCalificados.Name = "lstAlumnosCalificados";
-            this.lstAlumnosCalificados.Size = new System.Drawing.Size(648, 199);
+            this.lstAlumnosCalificados.Size = new System.Drawing.Size(407, 199);
             this.lstAlumnosCalificados.TabIndex = 0;
             // 
             // FrmCatedra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 624);
+            this.ClientSize = new System.Drawing.Size(443, 515);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Name = "FrmCatedra";

@@ -32,25 +32,31 @@ namespace Entidades {
 
         #endregion
 
-        #region Constructor
+        #region Constructores
         public Alumno(string nombre, string apellido, int legajo, ETipoExamen examen) {
             this.nombre = nombre;
             this.apellido = apellido;
             this.legajo = legajo;
             this.examen = examen;
         }
+        #endregion
 
+        #region Enumerados
+        public enum ETipoExamen {
+            Primero,
+            Segundo,
+            Final
+        }
         #endregion
 
         #region Sobrecarga de Operadores
         public static bool operator ==(Alumno a, Alumno b) {
-            bool sonIguales = false;
             if (!Object.ReferenceEquals(a, null) && !Object.ReferenceEquals(b, null)) {
                 if (a.legajo == b.legajo) {
-                    sonIguales = true;
+                    return true;
                 }
             }
-            return sonIguales;
+            return false;
         }
 
         public static bool operator !=(Alumno a, Alumno b) {
@@ -71,8 +77,6 @@ namespace Entidades {
 
         public static int OrdenarPorLegajoAsc(Alumno a, Alumno b) {
             int r = 0;
-            // 1 si se cumple el criterio
-
             if (a.legajo > b.legajo) {
                 r = 1;
             }
@@ -83,12 +87,11 @@ namespace Entidades {
         }
 
         public static int OrdenarPorLegajoDesc(Alumno a, Alumno b) {
-            return -1 * Alumno.OrdenarPorApellidoAsc(a, b);
+            return (Alumno.OrdenarPorLegajoAsc(b, a));
         }
 
         public static int OrdenarPorApellidoAsc(Alumno a, Alumno b) {
             int r = 0;
-
             if (string.Compare(a.apellido, b.apellido) < 0) {
                 r = 1;
             } else {

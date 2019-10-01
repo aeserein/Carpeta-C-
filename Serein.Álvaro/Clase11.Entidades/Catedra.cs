@@ -10,15 +10,15 @@ namespace Entidades {
 
         private List<Alumno> alumnos;
 
-        #region Constructores
-        public Catedra() {
-            this.alumnos = new List<Alumno>();
-        }
-        #endregion
-
         #region Propiedades
         public List<Alumno> Alumnos {
             get { return this.alumnos; }
+        }
+        #endregion
+
+        #region Constructores
+        public Catedra() {
+            this.alumnos = new List<Alumno>();
         }
         #endregion
 
@@ -33,18 +33,15 @@ namespace Entidades {
 
         #region Operadores
         public static bool operator ==(Catedra c, Alumno a) {
-            bool r = false;
             if (!Object.ReferenceEquals(c, null) && !Object.ReferenceEquals(a, null)) {
                 foreach (Alumno value in c.alumnos) {
                     if (value == a) {
-                        r = true;
-                        break;
+                        return true;
                     }
                 }
             }
-            return r;
+            return false;
         }
-
 
         public static bool operator !=(Catedra c, Alumno a) {
             return !(c == a);

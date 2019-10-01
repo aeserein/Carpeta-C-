@@ -29,28 +29,42 @@
         private void InitializeComponent()
         {
             this.txtNota = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // txtNota
             // 
-            this.txtNota.Location = new System.Drawing.Point(40, 342);
+            this.txtNota.Location = new System.Drawing.Point(15, 259);
             this.txtNota.Name = "txtNota";
             this.txtNota.Size = new System.Drawing.Size(274, 20);
             this.txtNota.TabIndex = 11;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(12, 241);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(30, 13);
+            this.label5.TabIndex = 12;
+            this.label5.Text = "Nota";
             // 
             // FrmAlumnoCalificado
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(385, 450);
+            this.ClientSize = new System.Drawing.Size(305, 341);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.txtNota);
             this.Name = "FrmAlumnoCalificado";
             this.Text = "FrmAlumnoCalificado";
+            this.Controls.SetChildIndex(this.btnAceptar, 0);
+            this.Controls.SetChildIndex(this.btnCancelar, 0);
             this.Controls.SetChildIndex(this.txtNombre, 0);
             this.Controls.SetChildIndex(this.txtApellido, 0);
             this.Controls.SetChildIndex(this.txtLegajo, 0);
             this.Controls.SetChildIndex(this.cmbTipoDeExamen, 0);
             this.Controls.SetChildIndex(this.txtNota, 0);
+            this.Controls.SetChildIndex(this.label5, 0);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -59,5 +73,6 @@
         #endregion
 
         private System.Windows.Forms.TextBox txtNota;
+        private System.Windows.Forms.Label label5;
     }
 }
