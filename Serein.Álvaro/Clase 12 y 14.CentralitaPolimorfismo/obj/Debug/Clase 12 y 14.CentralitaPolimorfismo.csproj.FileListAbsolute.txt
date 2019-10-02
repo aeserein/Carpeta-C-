@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 12 y 14.CentralitaPolimorfismo\bin\Debug\Clase 12 y 14.CentralitaPolimorfismo.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 12 y 14.CentralitaPolimorfismo\bin\Debug\Clase 12 y 14.CentralitaPolimorfismo.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 12 y 14.CentralitaPolimorfismo\obj\Debug\Clase 12 y 14.CentralitaPolimorfismo.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 12 y 14.CentralitaPolimorfismo\obj\Debug\Clase 12 y 14.CentralitaPolimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 12 y 14.CentralitaPolimorfismo\obj\Debug\Clase 12 y 14.CentralitaPolimorfismo.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 12 y 14.CentralitaPolimorfismo\obj\Debug\Clase 12 y 14.CentralitaPolimorfismo.pdb

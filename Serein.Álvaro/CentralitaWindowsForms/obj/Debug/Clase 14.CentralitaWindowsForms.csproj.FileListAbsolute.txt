@@ -1,0 +1,16 @@
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\Clase 14.CentralitaWindowsForms.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\CentralitaWindowsForms.FormLocal.resources
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\CentralitaWindowsForms.FormProvincial.resources
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\CentralitaWindowsForms.FrmCentralita.resources
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\CentralitaWindowsForms.Llamada.resources
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\CentralitaWindowsForms.Properties.Resources.resources
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\Clase 14.CentralitaWindowsForms.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\Clase 14.CentralitaWindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\bin\Debug\CentralitaWindowsForms.exe.config
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\bin\Debug\CentralitaWindowsForms.exe
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\bin\Debug\CentralitaWindowsForms.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\bin\Debug\Clase 12 y 14.CentralitaPolimorfismo.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\bin\Debug\Clase 12 y 14.CentralitaPolimorfismo.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\Clase 14.CentralitaWindowsForms.csproj.CopyComplete
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\CentralitaWindowsForms.exe
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\CentralitaWindowsForms\obj\Debug\CentralitaWindowsForms.pdb

@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29215.179
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_01", "Ejercicio_01\Ejercicio_01.csproj", "{865DB3B6-E69D-4CA9-9B41-E002C386BA4D}"
 EndProject
@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase 11.Entidades", "Clase
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 11", "Clase11\Clase 11.csproj", "{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Clase 12.CentralitaPolimorfismo", "Clase 12.CentralitaPolimorfismo\Clase 12.CentralitaPolimorfismo.csproj", "{9F42736E-4536-448B-AFFD-0CA8C33AC648}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 12.CentralitaPolimorfismo", "Clase 12 y 14.CentralitaPolimorfismo\Clase 12.CentralitaPolimorfismo.csproj", "{3EF5BC56-1EA1-4767-9104-8736CDCB3757}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 14.CentralitaWindowsForms", "CentralitaWindowsForms\Clase 14.CentralitaWindowsForms.csproj", "{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -299,10 +301,14 @@ Global
 		{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16D3AFA4-A085-4E1D-8C79-4BCDA24B5076}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9F42736E-4536-448B-AFFD-0CA8C33AC648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9F42736E-4536-448B-AFFD-0CA8C33AC648}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9F42736E-4536-448B-AFFD-0CA8C33AC648}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9F42736E-4536-448B-AFFD-0CA8C33AC648}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF5BC56-1EA1-4767-9104-8736CDCB3757}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF5BC56-1EA1-4767-9104-8736CDCB3757}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF5BC56-1EA1-4767-9104-8736CDCB3757}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF5BC56-1EA1-4767-9104-8736CDCB3757}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
