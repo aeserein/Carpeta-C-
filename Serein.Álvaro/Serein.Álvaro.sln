@@ -103,6 +103,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 12.CentralitaPolimorf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 14.CentralitaWindowsForms", "CentralitaWindowsForms\Clase 14.CentralitaWindowsForms.csproj", "{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 15.Entidades (ModeloDeParcial)", "Clase 15.Entidades (ModeloDeParcial)\Clase 15.Entidades (ModeloDeParcial).csproj", "{F845CF34-DD50-424B-8110-ECE9B62053F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 15 (ModeloDeParcial)", "ConsoleApp1\Clase 15 (ModeloDeParcial).csproj", "{B48A5689-9D13-4416-AD57-13B944496358}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +313,14 @@ Global
 		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C127181-9D8C-4D0A-8A53-C66D8C0F8480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F845CF34-DD50-424B-8110-ECE9B62053F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F845CF34-DD50-424B-8110-ECE9B62053F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F845CF34-DD50-424B-8110-ECE9B62053F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F845CF34-DD50-424B-8110-ECE9B62053F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B48A5689-9D13-4416-AD57-13B944496358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B48A5689-9D13-4416-AD57-13B944496358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B48A5689-9D13-4416-AD57-13B944496358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B48A5689-9D13-4416-AD57-13B944496358}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
