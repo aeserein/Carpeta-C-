@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27703.2047
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ejercicio_01", "Ejercicio_01\Ejercicio_01.csproj", "{865DB3B6-E69D-4CA9-9B41-E002C386BA4D}"
 EndProject
@@ -106,6 +106,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 15.Entidades (ModeloDeParcial)", "Clase 15.Entidades (ModeloDeParcial)\Clase 15.Entidades (ModeloDeParcial).csproj", "{F845CF34-DD50-424B-8110-ECE9B62053F8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clase 15 (ModeloDeParcial)", "ConsoleApp1\Clase 15 (ModeloDeParcial).csproj", "{B48A5689-9D13-4416-AD57-13B944496358}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Práctica Parcial 01", "Práctica Parcial 01\Práctica Parcial 01.csproj", "{88434651-6DEA-461C-A817-33FC295CA044}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,10 @@ Global
 		{B48A5689-9D13-4416-AD57-13B944496358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B48A5689-9D13-4416-AD57-13B944496358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B48A5689-9D13-4416-AD57-13B944496358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88434651-6DEA-461C-A817-33FC295CA044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88434651-6DEA-461C-A817-33FC295CA044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88434651-6DEA-461C-A817-33FC295CA044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88434651-6DEA-461C-A817-33FC295CA044}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
