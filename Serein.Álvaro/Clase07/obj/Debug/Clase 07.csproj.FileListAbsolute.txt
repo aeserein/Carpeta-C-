@@ -1,0 +1,14 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase07.exe.config
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase07.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase07.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase06.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\bin\Debug\Clase06.Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase 07.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.frmPaleta.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.frmTempera.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.Properties.Resources.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase 07.csproj.GenerateResource.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase 07.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase 07.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase07\obj\Debug\Clase07.pdb

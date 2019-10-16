@@ -1,0 +1,10 @@
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\bin\Debug\Clase 16_Archivos.exe.config
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\bin\Debug\Clase 16_Archivos.exe
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\bin\Debug\Clase 16_Archivos.pdb
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.exe
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.pdb
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\bin\Debug\Metodo4Exception.dll
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\bin\Debug\Metodo4Exception.pdb
+C:\Users\alumno\Desktop\Serein.Alvaro.2A\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.csproj.CopyComplete

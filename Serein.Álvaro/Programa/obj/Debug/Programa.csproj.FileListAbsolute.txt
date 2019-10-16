@@ -1,0 +1,10 @@
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\bin\Debug\Programa.exe.config
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\bin\Debug\Programa.exe
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\bin\Debug\Programa.pdb
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\bin\Debug\Entidades.dll
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\bin\Debug\Entidades.pdb
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\obj\Debug\Programa.csprojAssemblyReference.cache
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\obj\Debug\Programa.csproj.CoreCompileInputs.cache
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\obj\Debug\Programa.csproj.CopyComplete
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\obj\Debug\Programa.exe
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Programa\obj\Debug\Programa.pdb

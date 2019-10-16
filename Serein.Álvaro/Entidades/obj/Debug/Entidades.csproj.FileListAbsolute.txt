@@ -1,0 +1,6 @@
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Entidades\bin\Debug\Entidades.dll
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Entidades\bin\Debug\Entidades.pdb
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Entidades\obj\Debug\Entidades.dll
+D:\--------------------------------------Serein\Serein.Alvaro.2A\Entidades\obj\Debug\Entidades.pdb

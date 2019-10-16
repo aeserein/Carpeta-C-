@@ -1,0 +1,6 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\bin\Debug\Clase06.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\bin\Debug\Clase06.Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase 06.Entidades.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase 06.Entidades.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase06.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase06.Entidades.pdb
