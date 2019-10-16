@@ -1,0 +1,5 @@
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicios_48\bin\Debug\Ejercicios_48.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicios_48\bin\Debug\Ejercicios_48.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicios_48\obj\Debug\Ejercicio_48.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicios_48\obj\Debug\Ejercicios_48.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Ejercicios_48\obj\Debug\Ejercicios_48.pdb

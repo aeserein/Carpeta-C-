@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "Clase 17.TestEntidades/1.0.0": {
+        "runtime": {
+          "Clase 17.TestEntidades.dll": {}
+        }
+      },
+      "Clase 17.Entidades/1.0.0": {
+        "runtime": {
+          "Clase 17.Entidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clase 17.TestEntidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clase 17.Entidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

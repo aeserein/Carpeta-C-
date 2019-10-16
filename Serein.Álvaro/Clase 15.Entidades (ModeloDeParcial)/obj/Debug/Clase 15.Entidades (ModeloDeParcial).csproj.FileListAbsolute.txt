@@ -3,3 +3,4 @@ C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 15.Entidades (Modelo
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 15.Entidades (ModeloDeParcial)\bin\Debug\Clase 15.Entidades (ModeloDeParcial).pdb
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 15.Entidades (ModeloDeParcial)\obj\Debug\Clase 15.Entidades (ModeloDeParcial).dll
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 15.Entidades (ModeloDeParcial)\obj\Debug\Clase 15.Entidades (ModeloDeParcial).pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 15.Entidades (ModeloDeParcial)\obj\Debug\Clase 15.Entidades (ModeloDeParcial).csprojAssemblyReference.cache

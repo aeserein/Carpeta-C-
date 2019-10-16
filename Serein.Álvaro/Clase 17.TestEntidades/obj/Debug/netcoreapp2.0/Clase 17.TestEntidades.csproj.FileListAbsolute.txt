@@ -1,0 +1,14 @@
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\obj\Debug\netcoreapp2.0\Clase 17.TestEntidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\obj\Debug\netcoreapp2.0\Clase 17.TestEntidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\obj\Debug\netcoreapp2.0\Clase 17.TestEntidades.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\obj\Debug\netcoreapp2.0\Clase 17.TestEntidades.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\bin\Debug\netcoreapp2.0\Clase 17.TestEntidades.deps.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\bin\Debug\netcoreapp2.0\Clase 17.TestEntidades.runtimeconfig.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\bin\Debug\netcoreapp2.0\Clase 17.TestEntidades.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\bin\Debug\netcoreapp2.0\Clase 17.TestEntidades.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\bin\Debug\netcoreapp2.0\Clase 17.TestEntidades.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\bin\Debug\netcoreapp2.0\Clase 17.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\bin\Debug\netcoreapp2.0\Clase 17.Entidades.pdb
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\obj\Debug\netcoreapp2.0\Clase 17.TestEntidades.csproj.CopyComplete
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\obj\Debug\netcoreapp2.0\Clase 17.TestEntidades.dll
+C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 17.TestEntidades\obj\Debug\netcoreapp2.0\Clase 17.TestEntidades.pdb
