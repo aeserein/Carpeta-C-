@@ -694,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj",
       "projectName": "Ejercicio_32",
-      "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_32\\Ejercicio_32.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Ejercicio_32\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_32\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -714,8 +714,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj": {
-              "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj"
+            "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj": {
+              "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_29\\Ejercicio_29.csproj"
             }
           }
         }

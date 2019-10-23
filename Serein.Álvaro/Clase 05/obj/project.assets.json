@@ -691,11 +691,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Clase 05\\Clase 05.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Clase 05\\Clase 05.csproj",
       "projectName": "Clase 05",
-      "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Clase 05\\Clase 05.csproj",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Clase 05\\Clase 05.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Clase 05\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Clase 05\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -711,8 +711,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Clase05.Entidades\\Clase 05.Entidades.csproj": {
-              "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-Csharp\\Serein.Álvaro\\Clase05.Entidades\\Clase 05.Entidades.csproj"
+            "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Clase05.Entidades\\Clase 05.Entidades.csproj": {
+              "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Clase05.Entidades\\Clase 05.Entidades.csproj"
             }
           }
         }
