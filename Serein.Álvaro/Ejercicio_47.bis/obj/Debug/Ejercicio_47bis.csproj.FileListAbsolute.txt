@@ -1,0 +1,6 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_47.bis\obj\Debug\Ejercicio_47bis.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_47.bis\obj\Debug\Ejercicio_47bis.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_47.bis\bin\Debug\Ejercicio_47.bis.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_47.bis\bin\Debug\Ejercicio_47.bis.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_47.bis\obj\Debug\Ejercicio_47.bis.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_47.bis\obj\Debug\Ejercicio_47.bis.pdb

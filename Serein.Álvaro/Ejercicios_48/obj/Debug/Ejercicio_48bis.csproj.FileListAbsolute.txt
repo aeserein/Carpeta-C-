@@ -1,0 +1,5 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicios_48\obj\Debug\Ejercicio_48bis.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicios_48\obj\Debug\Ejercicios_48.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicios_48\obj\Debug\Ejercicios_48.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicios_48\bin\Debug\Ejercicios_48.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicios_48\bin\Debug\Ejercicios_48.pdb
