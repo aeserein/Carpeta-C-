@@ -1,0 +1,14 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.1\Clase 19.Consola3.deps.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.1\Clase 19.Consola3.runtimeconfig.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.1\Clase 19.Consola3.runtimeconfig.dev.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.1\Clase 19.Consola3.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.1\Clase 19.Consola3.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.1\Clase 19.Entidades 2.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.1\Clase 19.Entidades 2.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.1\Clase 19.Consola3.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.1\Clase 19.Consola3.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.1\Clase 19.Consola3.AssemblyInfoInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.1\Clase 19.Consola3.AssemblyInfo.cs
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.1\Clase 19.Consola3.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.1\Clase 19.Consola3.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.1\Clase 19.Consola3.pdb

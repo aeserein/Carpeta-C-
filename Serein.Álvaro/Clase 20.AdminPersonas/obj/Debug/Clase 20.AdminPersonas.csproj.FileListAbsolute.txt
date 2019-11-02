@@ -1,0 +1,15 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\bin\Debug\AdminPersonas.exe.config
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\bin\Debug\AdminPersonas.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\bin\Debug\AdminPersonas.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\bin\Debug\Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\bin\Debug\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\Clase 20.AdminPersonas.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.frmPersona.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.FrmPrincipal.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.frmVisorPersona.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.Properties.Resources.resources
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\Clase 20.AdminPersonas.csproj.GenerateResource.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\Clase 20.AdminPersonas.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\Clase 20.AdminPersonas.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.pdb

@@ -14,6 +14,16 @@ namespace Clase_19.Entidades_2 {
         public string marca;
         public double precio;
 
+        #region Constructores
+        public Auto() {
+        }
+
+        public Auto(string marca, double precio) {
+            this.marca = marca;
+            this.precio = precio;
+        }
+        #endregion
+
         #region Métodos
         public override string ToString() {
             return this.marca + " - " + this.precio;
@@ -29,7 +39,8 @@ namespace Clase_19.Entidades_2 {
                 xmlSerializer.Serialize(xmlTextWriter, this);
                 xmlTextWriter.Close();
                 return true;
-            } catch {
+            } catch (Exception e) {
+                Console.WriteLine(e.Message);
                 return false;
             }
         }
@@ -41,7 +52,8 @@ namespace Clase_19.Entidades_2 {
                 obj = xmlSerializer.Deserialize(xmlTextReader);
                 xmlTextReader.Close();
                 return true;
-            } catch {
+            } catch (Exception e) {
+                Console.WriteLine(e.Message);
                 obj = null;
                 return false;
             }

@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.1",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "Clase 19.Consola3/1.0.0": {
+        "runtime": {
+          "Clase 19.Consola3.dll": {}
+        }
+      },
+      "Clase 19.Entidades 2/1.0.0": {
+        "runtime": {
+          "Clase 19.Entidades 2.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clase 19.Consola3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Clase 19.Entidades 2/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

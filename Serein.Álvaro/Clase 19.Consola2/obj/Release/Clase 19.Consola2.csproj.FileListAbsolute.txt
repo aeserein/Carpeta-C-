@@ -1,0 +1,10 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\obj\Release\Clase 19.Consola2.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\bin\Release\Clase 19.Consola2.exe.config
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\bin\Release\Clase 19.Consola2.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\bin\Release\Clase 19.Consola2.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\bin\Release\Clase 19.Entidades 2.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\bin\Release\Clase 19.Entidades 2.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\obj\Release\Clase 19.Consola2.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\obj\Release\Clase 19.Consola2.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\obj\Release\Clase 19.Consola2.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Consola2\obj\Release\Clase 19.Consola2.pdb

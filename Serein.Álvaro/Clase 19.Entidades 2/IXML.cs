@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Clase_19.Entidades_2 {
 
-    interface IXML {
+    public interface IXML {
 
         bool Guardar(string s);
-        bool Leer(string s, out object);
+        bool Leer(string s, out object obj);
     }
 }

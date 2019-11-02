@@ -4,14 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using System.Xml.Serialization;
+
 namespace Clase_19.Entidades_2 {
 
+    [XmlInclude(typeof(Alumno))]
+    [XmlInclude(typeof(Empleado))]
     public class Persona {
 
         public string nombre;
         public string apellido;
         private int edad;
         private List<String> apodos;
+
 
         #region Propiedades
         public int Edad
@@ -27,13 +32,11 @@ namespace Clase_19.Entidades_2 {
         #endregion
 
         #region Constructores
-        public Persona()
-        {
+        public Persona() {
             this.apodos = new List<string>();
         }
 
-        public Persona(string nombre, string apellido, int edad) : this()
-        {
+        public Persona(string nombre, string apellido, int edad) : this() {
             this.nombre = nombre;
             this.apellido = apellido;
             this.edad = edad;

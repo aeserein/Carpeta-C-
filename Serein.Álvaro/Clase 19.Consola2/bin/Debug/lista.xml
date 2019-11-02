@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfPersona xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Persona>
+    <nombre>Persona1</nombre>
+    <apellido>PERSONA1</apellido>
+    <Edad>1</Edad>
+    <Apodos />
+  </Persona>
+  <Persona xsi:type="Empleado">
+    <nombre>Empleado1</nombre>
+    <apellido>EMPLEADO1</apellido>
+    <Edad>1</Edad>
+    <Apodos />
+    <legajo>11</legajo>
+    <sueldo>1111</sueldo>
+  </Persona>
+  <Persona xsi:type="Alumno">
+    <nombre>Alumno1</nombre>
+    <apellido>ALUMNO1</apellido>
+    <Edad>1</Edad>
+    <Apodos />
+    <nota>11</nota>
+  </Persona>
+  <Persona>
+    <nombre>Persona2</nombre>
+    <apellido>PERSONA2</apellido>
+    <Edad>2</Edad>
+    <Apodos />
+  </Persona>
+  <Persona xsi:type="Empleado">
+    <nombre>Empleado2</nombre>
+    <apellido>EMPLEADO2</apellido>
+    <Edad>2</Edad>
+    <Apodos />
+    <legajo>22</legajo>
+    <sueldo>2222</sueldo>
+  </Persona>
+  <Persona xsi:type="Alumno">
+    <nombre>Alumno2</nombre>
+    <apellido>ALUMNO2</apellido>
+    <Edad>2</Edad>
+    <Apodos />
+    <nota>22</nota>
+  </Persona>
+</ArrayOfPersona>
