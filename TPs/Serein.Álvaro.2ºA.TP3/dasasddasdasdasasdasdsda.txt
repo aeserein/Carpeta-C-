@@ -1,0 +1,7 @@
+Al profesor:
+1 - Excepcion y mensaje base en DniInvalidoException
+2 - Comparacion == Universitarios segun "tipo"
+
+
+A mi:
+1 - En Jornada.cs, variable "Universidad.EClases"
