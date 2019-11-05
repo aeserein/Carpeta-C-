@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using Entidades;
+using System.Data.SqlClient;
 
 namespace AdminPersonas
 {
@@ -34,9 +36,8 @@ namespace AdminPersonas
             this.txtEdad.Text = per.edad.ToString();
         }
 
-        protected void btnAceptar_Click(object sender, EventArgs e)
-        {
-            //implementar
+        protected void btnAceptar_Click(object sender, EventArgs e) {
+            SqlConnection sqlConnection = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
             miPersona = new Persona(txtNombre.Text, txtApellido.Text, int.Parse(txtEdad.Text));
             this.DialogResult = DialogResult.OK;
         }

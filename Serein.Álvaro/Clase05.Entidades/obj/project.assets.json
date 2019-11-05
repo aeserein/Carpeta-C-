@@ -43,11 +43,11 @@
       ]
     },
     "NETStandard.Library/2.0.3": {
-      "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
+      "sha512": "548M6mnBSJWxsIlkQHfbzoYxpiYFXZZSL00p4GHYv8PkiqFBnnT68mW5mGEsA/ch9fDO9GkPgkFQpWiXZN7mAQ==",
       "type": "package",
       "path": "netstandard.library/2.0.3",
       "files": [
-        ".nupkg.metadata",
+        ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "build/netstandard2.0/NETStandard.Library.targets",
@@ -177,23 +177,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sant_\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\alumno\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase05.Entidades\\Clase 05.Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Clase05.Entidades\\Clase 05.Entidades.csproj",
       "projectName": "Clase 05.Entidades",
-      "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase05.Entidades\\Clase 05.Entidades.csproj",
-      "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-      "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase05.Entidades\\obj\\",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Clase05.Entidades\\Clase 05.Entidades.csproj",
+      "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Clase05.Entidades\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\sant_\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
