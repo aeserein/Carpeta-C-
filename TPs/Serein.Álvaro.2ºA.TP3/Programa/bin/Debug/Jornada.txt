@@ -1,0 +1,15 @@
+﻿ALUMNOS:
+Apellido y nombre: Suarez, Joaquin
+Nacionalidad: Extranjero
+DNI: 91122456
+Legajo: 7
+ESTADO DE CUENTA: AlDiaTOMA CLASE DE Laboratorio
+CLASE: Laboratorio
+PROFESOR: Apellido y nombre: Lopez, Juan
+Nacionalidad: Argentino
+DNI: 12234456
+Legajo: 1
+CLASES:
+SPD
+Laboratorio
+

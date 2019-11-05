@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Text.RegularExpressions;
 using Excepciones;
 
-namespace Clases_Abstractas {
+namespace EntidadesAbstractas {
 
     public abstract class Universitario : Persona {
 
@@ -39,11 +39,8 @@ namespace Clases_Abstractas {
 
         #region Operadores
         public static bool operator == (Universitario pg1, Universitario pg2) {
-            if (pg1.Nombre == pg2.Nombre &&
-                pg1.Apellido == pg2.Apellido &&
-                pg1.DNI == pg2.DNI &&
-                pg1.Nacionalidad == pg2.Nacionalidad &&
-                pg1.legajo == pg2.legajo) {
+            if ( (pg1.GetType() == pg2.GetType()) &&
+                 (pg1.DNI == pg2.DNI || pg1.legajo == pg2.legajo) ) {
                 throw new AlumnoRepetidoException();
             } else {
                 return false;

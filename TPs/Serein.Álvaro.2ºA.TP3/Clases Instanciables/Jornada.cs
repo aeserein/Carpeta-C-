@@ -4,7 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Universidad;
+using System.IO;
+using Archivos;
 
 namespace Clases_Instanciables {
 
@@ -41,26 +42,54 @@ namespace Clases_Instanciables {
         #endregion
 
         #region Métodos
-        public bool GuardarJornada(Jornada jornada) {
-            throw new NotImplementedException();
+        public static bool Guardar(Jornada jornada) {
+            Texto texto = new Texto();
+            try {
+                texto.Guardar("Jornada.txt", jornada.ToString());
+                return true;
+            } catch {
+                return false;
+            }            
         }
         public string Leer() {
-            throw new NotImplementedException();
+            Texto texto = new Texto();
+            try {
+                string datos;
+                texto.Leer("Jornada.txt", out datos);
+                return datos;
+            } catch {
+                return "-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_";
+            }
         }
         public override string ToString() {
-            throw new NotImplementedException();
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine("JORNADA:");
+            sb.AppendFormat("CLASE DE {0} POR NOMBRE COMPLETO: {1}", this.Clase, this.Instructor);
+            foreach(Alumno alumno in this.alumnos) {
+                sb.AppendLine(alumno.ToString());
+            }
+            sb.AppendLine("CLASE: " + this.clase.ToString());
+            sb.AppendLine("PROFESOR: " + instructor.ToString());
+            return sb.ToString();
         }
         #endregion
 
         #region Operadores
         public static bool operator == (Jornada j, Alumno a) {
-            throw new NotImplementedException();
+            foreach(Alumno alumno in j.alumnos) {
+                if (alumno == a)
+                    return true;
+            }
+            return false;
         }
         public static bool operator != (Jornada j, Alumno a) {
             return !(j == a);
         }
         public static Jornada operator + (Jornada j, Alumno a) {
-            throw new NotImplementedException();
+            if (j!=a) {
+                j.alumnos.Add(a);
+            }
+            return j;
         }
         #endregion
     }

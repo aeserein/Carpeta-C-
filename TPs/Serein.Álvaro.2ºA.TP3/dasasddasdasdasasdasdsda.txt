@@ -5,3 +5,4 @@ Al profesor:
 
 A mi:
 1 - En Jornada.cs, variable "Universidad.EClases"
+2 - En Jornada.cs dónde mierda guardo el archivo txt

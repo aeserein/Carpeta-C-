@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Clases Instanciables", "Clases Instanciables\Clases Instanciables.csproj", "{EBAA760F-7942-4C91-B709-53E537820597}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Archivos", "Archivos\Archivos.csproj", "{B0703222-C07F-4706-BE02-6E818D9873BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programa", "Programa\Programa.csproj", "{3A5C800F-8731-495C-BCEF-C20962684DEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{EBAA760F-7942-4C91-B709-53E537820597}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBAA760F-7942-4C91-B709-53E537820597}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBAA760F-7942-4C91-B709-53E537820597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0703222-C07F-4706-BE02-6E818D9873BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0703222-C07F-4706-BE02-6E818D9873BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0703222-C07F-4706-BE02-6E818D9873BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0703222-C07F-4706-BE02-6E818D9873BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A5C800F-8731-495C-BCEF-C20962684DEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A5C800F-8731-495C-BCEF-C20962684DEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A5C800F-8731-495C-BCEF-C20962684DEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A5C800F-8731-495C-BCEF-C20962684DEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

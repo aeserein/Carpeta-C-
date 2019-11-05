@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Clases_Abstractas;
+using EntidadesAbstractas;
 
 namespace Clases_Instanciables {
 
-    public class Alumno : Universitario {
+    public sealed class Alumno : Universitario {
 
         private Universidad.EClases claseQueToma;
         private EEstadoCuenta estadoCuenta;
@@ -48,13 +48,13 @@ namespace Clases_Instanciables {
                     a.estadoCuenta != EEstadoCuenta.Deudor);
         }
         public static bool operator != (Alumno a, Universidad.EClases clase) {
-            return !(a.claseQueToma == clase);
+            return (a.claseQueToma != clase);
         }
         #endregion
 
         #region Enumerados
         public enum EEstadoCuenta {
-            AlDía,      // 0
+            AlDia,      // 0
             Deudor,     // 1
             Becado      // 2
         }
