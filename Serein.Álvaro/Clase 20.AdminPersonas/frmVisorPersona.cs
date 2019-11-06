@@ -7,7 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+
 using Entidades;
+using System.Data.SqlClient;
 
 namespace AdminPersonas
 {
@@ -30,50 +32,89 @@ namespace AdminPersonas
             this.Actualizar();
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e)
-        {
+        private void btnAgregar_Click(object sender, EventArgs e) {
             frmPersona frm = new frmPersona();
             frm.StartPosition = FormStartPosition.CenterScreen;
-
-            //implementar
             frm.ShowDialog();
-            if(DialogResult.OK == frm.DialogResult)
-            {
+
+            if (DialogResult.OK == frm.DialogResult) {
                 this.lista.Add(frm.Persona);
                 this.Actualizar();
+
+                try {
+                    SqlConnection sqlConnection = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
+                    SqlCommand sqlCommand = new SqlCommand();
+                    string consulta = "INSERT INTO Persona VALUES('{frm.Persona.nombre}','{frm.Persona.apellido}',{frm.Persona.edad})";
+
+                    sqlCommand.Connection = sqlConnection;
+                    sqlCommand.CommandType = CommandType.Text;
+                    sqlCommand.CommandText = consulta;
+                    sqlConnection.Open();
+                    sqlCommand.ExecuteNonQuery();
+                } catch (Exception E) {
+                    MessageBox.Show(E.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+
             }
         }
 
-        private void btnModificar_Click(object sender, EventArgs e)
-        {
-            int indice = lstVisor.SelectedIndex;
-            if(lstVisor.SelectedIndex >= 0)
-            {
-                Persona per = lista[indice];
-                frmPersona frm = new frmPersona(per);
+        private void btnModificar_Click(object sender, EventArgs e) {
+
+            int index = lstVisor.SelectedIndex;
+
+            if(lstVisor.SelectedIndex >= 0) {
+                Persona persona = lista[index];
+                frmPersona frm = new frmPersona(persona);
                 frm.StartPosition = FormStartPosition.CenterScreen;
                 frm.ShowDialog();
-                if(frm.DialogResult == DialogResult.OK)
-                {
-                    this.lista.Remove(per);
+
+                if(frm.DialogResult == DialogResult.OK) {
+                    this.lista.Remove(persona);
                     lista.Add(frm.Persona);
+
+                    try {
+                        SqlConnection sqlConnection = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
+                        SqlCommand sqlCommand = new SqlCommand();
+                        string consulta = "UPDATE Persona SET nombre = '{frm.Persona.nombre}', apellido = '{frm.Persona.apellido}', edad = {frm.Persona.edad}  WHERE id = {indice + 1}";
+
+                        sqlCommand.Connection = sqlConnection;
+                        sqlCommand.CommandType = CommandType.Text;
+                        sqlCommand.CommandText = consulta;
+                        sqlConnection.Open();
+                        sqlCommand.ExecuteNonQuery();
+
+                    } catch (Exception E) {
+                        MessageBox.Show(E.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
                 }
                 this.Actualizar();
             }
-
-            //implementar
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e)
-        {
+        private void btnEliminar_Click(object sender, EventArgs e) {
+
             frmPersona frm = new frmPersona();
             frm.StartPosition = FormStartPosition.CenterScreen;
-            int indice = this.lstVisor.SelectedIndex;
-            //implementar
-            if(indice >= 0)
-            {
-                this.lista.Remove(lista[indice]);
+            int index = this.lstVisor.SelectedIndex;
+
+            if(index >= 0) {
+                this.lista.Remove(lista[index]);
                 this.Actualizar();
+
+                try {
+                    SqlConnection sqlConnection = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
+                    SqlCommand sqlCommand = new SqlCommand();
+                    string consulta = "DELETE FROM Persona WHERE id = {index + 1}";
+
+                    sqlCommand.Connection = sqlConnection;
+                    sqlCommand.CommandType = CommandType.Text;
+                    sqlCommand.CommandText = consulta;
+                    sqlConnection.Open();
+                    sqlCommand.ExecuteNonQuery();
+
+                } catch (Exception E) {
+                    MessageBox.Show(E.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 

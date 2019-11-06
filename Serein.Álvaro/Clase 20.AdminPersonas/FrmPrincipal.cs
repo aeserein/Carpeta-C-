@@ -118,15 +118,7 @@ namespace AdminPersonas {
             this.Close();
         }
 
-        private void FrmPrincipal_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MenuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
+        ////////////////////////////////////////////////////////////////////////////////////////////////
 
         private void conectarToolStripMenuItem_Click(object sender, EventArgs e) {
             SqlConnection sqlConnection = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
@@ -156,6 +148,12 @@ namespace AdminPersonas {
                 while ( sqlDataReader.Read()) {
                     Persona persona = new Persona((string)sqlDataReader["nombre"], (string)sqlDataReader["apellido"], (int)sqlDataReader["edad"]);
                     MessageBox.Show(persona.ToString());
+
+                    /*  sqlDataReader[0]  columna ID
+                        sqlDataReader[1] columna nombre
+                        sqlDataReader[2]  columna apellido
+                        sqlDataReader[3]  columna edad
+                    */
                 }
             }
             catch (Exception ee)
@@ -167,3 +165,21 @@ namespace AdminPersonas {
         }
     }
 }
+/* Para ejecutar comandos sobre una base de datos se necesita primero tener la conexion establecida
+ * con la base de datos
+ * 
+ * Para ejecutar un comando voy a tener que inicializar "SqlCommand", aca lo instancio con el constructo por defecto
+ * El command necesita un objeto de tipo SqlConnection valido y que este abierto, para poder ejecutar un comando, se le asigna la coneccion con .Connection
+ * El command  necesita saber que tipo de comando se va ejecutar sobre esa base de datos, se le asigna con .CommandType
+ * 
+ * */
+
+/* CommandType: va a determinar el tipo de comando que voy a ejecutar a partir del enumerado
+*
+* .Text: es para indicar que voy a pasar una instruccion de sql, para ejecutarlo en el motor de base de datos, es codigo sql
+* .TableDirect: va a esperar recibir el nombre de una tabla y devuelve el contenido de esa tabla 
+* .StoredProcedure: es una funcion que se guarda dentro del motor de base de datos, va a esperar que se le pase el nombre de una funcion interna dentro de la base de datos
+*/
+
+// sqldatareader son de solo lectura y solo avance, no se puede retroceder
+// .ExecuteReader() construye un tipo de dato SqlDataReader
