@@ -13,20 +13,15 @@ using System.Data.SqlClient;
 
 namespace AdminPersonas
 {
-    public partial class frmVisorPersona : Form
-    {
+    public partial class frmVisorPersona : Form {
+
         List<Persona> lista;
 
-        public List<Persona> Lista
-        {
-            get
-            {
-                return this.lista;
-            }
+        public List<Persona> Lista {
+            get { return this.lista; }
         }
 
-        public frmVisorPersona(List<Persona> lista)
-        {
+        public frmVisorPersona(List<Persona> lista) {
             InitializeComponent();
             this.lista = lista;
             this.Actualizar();
@@ -118,11 +113,9 @@ namespace AdminPersonas
             }
         }
 
-        private void Actualizar()
-        {
+        private void Actualizar() {
             this.lstVisor.Items.Clear();
-            foreach(Persona value in lista)
-            {
+            foreach(Persona value in lista) {
                 this.lstVisor.Items.Add(value.ToString());
             }
         }
