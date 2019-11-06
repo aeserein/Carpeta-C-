@@ -7,16 +7,13 @@
   "targets": {
     ".NETCoreApp,Version=v2.0": {
       "Clase 05/1.0.0": {
-        "dependencies": {
-          "Clase05.Entidades": "1.0.0"
-        },
         "runtime": {
           "Clase 05.dll": {}
         }
       },
-      "Clase05.Entidades/1.0.0": {
+      "Clase 05.Entidades/1.0.0": {
         "runtime": {
-          "Clase05.Entidades.dll": {}
+          "Clase 05.Entidades.dll": {}
         }
       }
     }
@@ -27,7 +24,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Clase05.Entidades/1.0.0": {
+    "Clase 05.Entidades/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

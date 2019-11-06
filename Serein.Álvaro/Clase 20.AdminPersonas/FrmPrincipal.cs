@@ -20,9 +20,11 @@ namespace AdminPersonas {
 
         private List<Persona> lista;
 
-        private DataTable tablaPersonas;
+        private DataTable dataTable;
         // Creo una tabla para trabajar de forma local.
         // Se puede cargar de cualquier forma, no solo por comandos SQL
+
+        private SqlDataAdapter sqlDataAdapter;
 
         private void CargarDataTable() {
 
@@ -34,10 +36,40 @@ namespace AdminPersonas {
                 sqlCommand.Connection = sqlConnection;
                 sqlCommand.CommandType = CommandType.Text;
                 sqlCommand.CommandText = consulta;
-                sqlConnection.Open();
-                SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
-                tablaPersonas.Load(sqlDataReader);
-                sqlDataReader.Close();
+
+                sqlDataAdapter = new SqlDataAdapter(sqlCommand.CommandText, sqlConnection);
+                sqlDataAdapter.Fill(this.dataTable);
+                //El data adapter abre y cierra la conexión con Fill(dataTable);
+
+                SqlCommand comandoInsert = new SqlCommand();
+                comandoInsert.CommandType = CommandType.Text;
+                comandoInsert.CommandText = "INSERT INTO Persona VALUES(@arg1,@arg2,@arg3)";
+                sqlDataAdapter.InsertCommand = comandoInsert;
+                sqlDataAdapter.InsertCommand.Parameters.Add("@arg1", SqlDbType.VarChar, 50, "nombre");
+                sqlDataAdapter.InsertCommand.Parameters.Add("@arg2", SqlDbType.VarChar, 50, "apellido");
+                sqlDataAdapter.InsertCommand.Parameters.Add("@arg3", SqlDbType.Int, 10, "edad");
+                // 1º parámetro: Los "argX" deben coincidir con los parámetros del comando sql
+                // 2º parámetro: Tipo de variable
+                // 3º parámetro: longitud para visualizarse (?)
+                // 4º parámetro: nombre de la variable en la base de datos
+
+                SqlCommand comandoUpdate = new SqlCommand();
+                comandoUpdate.CommandType = CommandType.Text;
+                comandoUpdate.CommandText = "UPDATE Persona SET nombre = @arg1, apellido = @arg2, edad = @arg3 WHERE id = @arg0";
+                sqlDataAdapter.UpdateCommand = comandoUpdate;
+                sqlDataAdapter.UpdateCommand.Parameters.Add("@arg1", SqlDbType.VarChar, 50, "nombre");
+                sqlDataAdapter.UpdateCommand.Parameters.Add("@arg2", SqlDbType.VarChar, 50, "apellido");
+                sqlDataAdapter.UpdateCommand.Parameters.Add("@arg3", SqlDbType.Int, 10, "edad");
+
+                SqlCommand comandoDelete = new SqlCommand();
+                comandoDelete.CommandType = CommandType.Text;
+                comandoDelete.CommandText = "DELETE FROM Persona WHERE id = @arg0";
+                sqlDataAdapter.DeleteCommand = comandoDelete;
+
+                //sqlConnection.Open();
+                //SqlDataReader sqlDataReader = sqlCommand.ExecuteReader();
+                //dataTable.Load(sqlDataReader);
+                //sqlDataReader.Close();
 
             } catch (Exception e) {
                 MessageBox.Show(e.Message);
@@ -53,7 +85,7 @@ namespace AdminPersonas {
             this.WindowState = FormWindowState.Maximized;
 
             this.lista = new List<Persona>();
-            this.tablaPersonas = new DataTable("Personas"); // Se le pone un nombre
+            this.dataTable = new DataTable("Personas"); // Se le pone un nombre
             this.CargarDataTable();
 
             //lista.Add(new Persona("agus", "mendoza", 23));
@@ -61,8 +93,7 @@ namespace AdminPersonas {
             //lista.Add(new Persona("pepito", "perez", 32));
         }
 
-        private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
+        private void cargarArchivoToolStripMenuItem_Click(object sender, EventArgs e) {
             //implementar...
 
             //  OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -148,7 +179,7 @@ namespace AdminPersonas {
                 while ( sqlDataReader.Read()) {
                     Persona persona = new Persona((string)sqlDataReader["nombre"], (string)sqlDataReader["apellido"], (int)sqlDataReader["edad"]);
                     MessageBox.Show(persona.ToString());
-
+                    this.lista.Add(persona);
                     /*  sqlDataReader[0]  columna ID
                         sqlDataReader[1] columna nombre
                         sqlDataReader[2]  columna apellido
@@ -162,6 +193,17 @@ namespace AdminPersonas {
             }
 
             sqlConnection.Close();
+        }
+
+        private void visorDTToolStripMenuItem_Click(object sender, EventArgs e) {
+            frmVisorDataTable frmVisorDataTable = new frmVisorDataTable(this.dataTable);
+            frmVisorDataTable.StartPosition = FormStartPosition.CenterScreen;
+            frmVisorDataTable.Text = "Visor data table";
+            frmVisorDataTable.Show();
+        }
+
+        private void sincronizarToolStripMenuItem_Click(object sender, EventArgs e) {
+            this.sqlDataAdapter.Update(dataTable);
         }
     }
 }

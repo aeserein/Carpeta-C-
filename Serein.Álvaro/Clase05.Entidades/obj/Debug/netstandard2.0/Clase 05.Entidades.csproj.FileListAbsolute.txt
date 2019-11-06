@@ -1,0 +1,9 @@
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\bin\Debug\netstandard2.0\Clase 05.Entidades.deps.json
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\bin\Debug\netstandard2.0\Clase 05.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\bin\Debug\netstandard2.0\Clase 05.Entidades.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase 05.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase 05.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase 05.Entidades.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase 05.Entidades.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase 05.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase05.Entidades\obj\Debug\netstandard2.0\Clase 05.Entidades.pdb

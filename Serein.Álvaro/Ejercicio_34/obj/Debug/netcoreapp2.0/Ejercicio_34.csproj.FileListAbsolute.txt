@@ -1,0 +1,11 @@
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\bin\Debug\netcoreapp2.0\Ejercicio_34.deps.json
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\bin\Debug\netcoreapp2.0\Ejercicio_34.runtimeconfig.json
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\bin\Debug\netcoreapp2.0\Ejercicio_34.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\bin\Debug\netcoreapp2.0\Ejercicio_34.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\bin\Debug\netcoreapp2.0\Ejercicio_34.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\obj\Debug\netcoreapp2.0\Ejercicio_34.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\obj\Debug\netcoreapp2.0\Ejercicio_34.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\obj\Debug\netcoreapp2.0\Ejercicio_34.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\obj\Debug\netcoreapp2.0\Ejercicio_34.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\obj\Debug\netcoreapp2.0\Ejercicio_34.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_34\obj\Debug\netcoreapp2.0\Ejercicio_34.pdb

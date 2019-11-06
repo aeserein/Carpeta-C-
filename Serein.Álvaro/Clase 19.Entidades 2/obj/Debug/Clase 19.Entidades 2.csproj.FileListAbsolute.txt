@@ -4,3 +4,9 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Entidades 2
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Entidades 2\obj\Debug\Clase 19.Entidades 2.csproj.CoreCompileInputs.cache
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Entidades 2\obj\Debug\Clase 19.Entidades 2.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 19.Entidades 2\obj\Debug\Clase 19.Entidades 2.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Entidades 2\bin\Debug\Clase 19.Entidades 2.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Entidades 2\bin\Debug\Clase 19.Entidades 2.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Entidades 2\obj\Debug\Clase 19.Entidades 2.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Entidades 2\obj\Debug\Clase 19.Entidades 2.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Entidades 2\obj\Debug\Clase 19.Entidades 2.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Entidades 2\obj\Debug\Clase 19.Entidades 2.pdb

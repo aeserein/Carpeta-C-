@@ -15,19 +15,23 @@ namespace AdminPersonas
 {
     public partial class frmVisorPersona : Form {
 
-        List<Persona> lista;
+        private List<Persona> lista;
 
         public List<Persona> Lista {
             get { return this.lista; }
         }
 
-        public frmVisorPersona(List<Persona> lista) {
+        public frmVisorPersona() {
             InitializeComponent();
+        }
+
+        public frmVisorPersona(List<Persona> lista) : this() {
+            
             this.lista = lista;
             this.Actualizar();
         }
 
-        private void btnAgregar_Click(object sender, EventArgs e) {
+        protected virtual void btnAgregar_Click(object sender, EventArgs e) {
             frmPersona frm = new frmPersona();
             frm.StartPosition = FormStartPosition.CenterScreen;
             frm.ShowDialog();
@@ -53,7 +57,7 @@ namespace AdminPersonas
             }
         }
 
-        private void btnModificar_Click(object sender, EventArgs e) {
+        protected virtual void btnModificar_Click(object sender, EventArgs e) {
 
             int index = lstVisor.SelectedIndex;
 
@@ -86,7 +90,7 @@ namespace AdminPersonas
             }
         }
 
-        private void btnEliminar_Click(object sender, EventArgs e) {
+        protected virtual void btnEliminar_Click(object sender, EventArgs e) {
 
             frmPersona frm = new frmPersona();
             frm.StartPosition = FormStartPosition.CenterScreen;

@@ -28,3 +28,4 @@ C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 20.AdminPersonas\obj
 C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\Clase 20.AdminPersonas.csproj.CopyComplete
 C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.exe
 C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 20.AdminPersonas\obj\Debug\AdminPersonas.frmVisorDataTable.resources

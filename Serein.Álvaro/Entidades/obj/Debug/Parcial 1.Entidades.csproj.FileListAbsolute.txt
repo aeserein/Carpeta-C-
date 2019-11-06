@@ -1,0 +1,6 @@
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Entidades\bin\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Entidades\bin\Debug\Entidades.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Entidades\obj\Debug\Parcial 1.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Entidades\obj\Debug\Parcial 1.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Entidades\obj\Debug\Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Entidades\obj\Debug\Entidades.pdb

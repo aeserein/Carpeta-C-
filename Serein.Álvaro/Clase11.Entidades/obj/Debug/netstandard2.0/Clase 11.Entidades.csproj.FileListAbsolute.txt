@@ -15,3 +15,4 @@ d:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase11.Entidades\ob
 d:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase11.Entidades\obj\Debug\netstandard2.0\Clase 11.Entidades.dll
 d:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase11.Entidades\obj\Debug\netstandard2.0\Clase 11.Entidades.pdb
 d:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase11.Entidades\obj\Debug\netstandard2.0\Clase 11.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase11.Entidades\obj\Debug\netstandard2.0\Clase 11.Entidades.csprojAssemblyReference.cache

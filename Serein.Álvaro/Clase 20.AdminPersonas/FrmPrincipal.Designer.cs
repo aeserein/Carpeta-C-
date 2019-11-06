@@ -37,6 +37,8 @@
             this.bDToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.conectarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.traerTodosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.visorDTToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.sincronizarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -46,7 +48,9 @@
             this.xMLToolStripMenuItem,
             this.visualizarToolStripMenuItem,
             this.salirToolStripMenuItem,
-            this.bDToolStripMenuItem});
+            this.bDToolStripMenuItem,
+            this.visorDTToolStripMenuItem,
+            this.sincronizarToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -102,16 +106,30 @@
             // conectarToolStripMenuItem
             // 
             this.conectarToolStripMenuItem.Name = "conectarToolStripMenuItem";
-            this.conectarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.conectarToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.conectarToolStripMenuItem.Text = "Conectar";
             this.conectarToolStripMenuItem.Click += new System.EventHandler(this.conectarToolStripMenuItem_Click);
             // 
             // traerTodosToolStripMenuItem
             // 
             this.traerTodosToolStripMenuItem.Name = "traerTodosToolStripMenuItem";
-            this.traerTodosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.traerTodosToolStripMenuItem.Size = new System.Drawing.Size(134, 22);
             this.traerTodosToolStripMenuItem.Text = "Traer todos";
             this.traerTodosToolStripMenuItem.Click += new System.EventHandler(this.traerTodosToolStripMenuItem_Click);
+            // 
+            // visorDTToolStripMenuItem
+            // 
+            this.visorDTToolStripMenuItem.Name = "visorDTToolStripMenuItem";
+            this.visorDTToolStripMenuItem.Size = new System.Drawing.Size(63, 20);
+            this.visorDTToolStripMenuItem.Text = "Visor DT";
+            this.visorDTToolStripMenuItem.Click += new System.EventHandler(this.visorDTToolStripMenuItem_Click);
+            // 
+            // sincronizarToolStripMenuItem
+            // 
+            this.sincronizarToolStripMenuItem.Name = "sincronizarToolStripMenuItem";
+            this.sincronizarToolStripMenuItem.Size = new System.Drawing.Size(77, 20);
+            this.sincronizarToolStripMenuItem.Text = "Sincronizar";
+            this.sincronizarToolStripMenuItem.Click += new System.EventHandler(this.sincronizarToolStripMenuItem_Click);
             // 
             // FrmPrincipal
             // 
@@ -140,6 +158,8 @@
         private System.Windows.Forms.ToolStripMenuItem bDToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem conectarToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem traerTodosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem visorDTToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem sincronizarToolStripMenuItem;
     }
 }
 

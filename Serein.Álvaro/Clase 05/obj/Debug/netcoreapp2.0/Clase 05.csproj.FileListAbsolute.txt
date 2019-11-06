@@ -9,8 +9,6 @@ C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\obj\Debug\netcore
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.AssemblyInfo.cs
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.dll
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.pdb
-C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase05.Entidades.dll
-C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase05.Entidades.pdb
 C:\Users\alumno\Desktop\Carpeta-Csharp\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.csproj.CopyComplete
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.deps.json
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.runtimeconfig.json
@@ -26,3 +24,5 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\n
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.csproj.CopyComplete
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 05\obj\Debug\netcoreapp2.0\Clase 05.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 05\bin\Debug\netcoreapp2.0\Clase 05.Entidades.pdb

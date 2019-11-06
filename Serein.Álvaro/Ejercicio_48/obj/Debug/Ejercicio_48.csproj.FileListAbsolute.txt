@@ -8,3 +8,13 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_48\obj\Deb
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_48\obj\Debug\Ejercicio_48.csproj.CopyComplete
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_48\obj\Debug\Ejercicio_48.exe
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_48\obj\Debug\Ejercicio_48.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\bin\Debug\Ejercicio_48.exe.config
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\bin\Debug\Ejercicio_48.exe
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\bin\Debug\Ejercicio_48.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\bin\Debug\Ejercicios_48.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\bin\Debug\Ejercicios_48.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\obj\Debug\Ejercicio_48.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\obj\Debug\Ejercicio_48.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\obj\Debug\Ejercicio_48.csproj.CopyComplete
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\obj\Debug\Ejercicio_48.exe
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Ejercicio_48\obj\Debug\Ejercicio_48.pdb

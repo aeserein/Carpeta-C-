@@ -26,8 +26,7 @@ namespace AdminPersonas.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB4PC19\\SQLEXPRESS;Initial Catalog=Personas;Integrated Security=True" +
-            "")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=LAB4PC25\\SQLEXPRESS;Initial Catalog=Persona;Integrated Security=True")]
         public string ConexiónSQL {
             get {
                 return ((string)(this["ConexiónSQL"]));

@@ -4,3 +4,9 @@ D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\ob
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase 06.Entidades.csproj.CoreCompileInputs.cache
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase06.Entidades.dll
 D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase06.Entidades.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase06.Entidades\bin\Debug\Clase06.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase06.Entidades\bin\Debug\Clase06.Entidades.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase 06.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase 06.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase06.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase06.Entidades\obj\Debug\Clase06.Entidades.pdb

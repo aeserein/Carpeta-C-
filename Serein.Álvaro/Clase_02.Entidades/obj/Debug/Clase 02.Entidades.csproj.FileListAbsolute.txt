@@ -1,0 +1,2 @@
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase_02.Entidades\obj\Debug\Clase 02.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase_02.Entidades\obj\Debug\Clase 02.Entidades.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.0\Clase 19.Consola3.deps.json
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.0\Clase 19.Consola3.runtimeconfig.json
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.0\Clase 19.Consola3.runtimeconfig.dev.json
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.0\Clase 19.Consola3.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.0\Clase 19.Consola3.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.0\Clase 19.Entidades 2.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\bin\Debug\netcoreapp2.0\Clase 19.Entidades 2.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.0\Clase 19.Consola3.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.0\Clase 19.Consola3.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.0\Clase 19.Consola3.AssemblyInfoInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.0\Clase 19.Consola3.AssemblyInfo.cs
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.0\Clase 19.Consola3.csproj.CopyComplete
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.0\Clase 19.Consola3.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 19.Consola3\obj\Debug\netcoreapp2.0\Clase 19.Consola3.pdb

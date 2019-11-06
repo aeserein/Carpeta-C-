@@ -1,0 +1,10 @@
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\bin\Debug\Clase 17.exe.config
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\bin\Debug\Clase 17.exe
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\bin\Debug\Clase 17.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\obj\Debug\Clase 16_Archivos en WF.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\obj\Debug\Clase_17.FrmArchivo.resources
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\obj\Debug\Clase_17.Properties.Resources.resources
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\obj\Debug\Clase 16_Archivos en WF.csproj.GenerateResource.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\obj\Debug\Clase 16_Archivos en WF.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\obj\Debug\Clase 17.exe
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 17\obj\Debug\Clase 17.pdb
