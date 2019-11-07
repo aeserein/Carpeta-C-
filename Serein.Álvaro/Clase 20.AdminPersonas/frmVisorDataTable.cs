@@ -32,7 +32,8 @@ namespace AdminPersonas {
             if (frm.DialogResult == DialogResult.OK) {
                 DataRow dataRow = this.dataTable.NewRow();
                 ObtenerDatos(dataRow, frm.Persona);
-                AgregarAListBox(dataRow);
+                this.dataTable.Rows.Add(dataRow);
+                ActualizarLista();
             }
         }
 
@@ -41,9 +42,10 @@ namespace AdminPersonas {
 
             if (lstVisor.SelectedIndex >= 0) {
                 DataRow dataRow = this.dataTable.Rows[index];
+                int aux = Convert.ToInt32(dataRow["edad"]);
                 Persona persona = new Persona(dataRow["nombre"].ToString(),
                                               dataRow["apellido"].ToString(),
-                                              (int)dataRow["edad"]);
+                                              aux);
                 frmPersona frm = new frmPersona(persona);
                 frm.StartPosition = FormStartPosition.CenterScreen;
                 frm.ShowDialog();
@@ -64,6 +66,7 @@ namespace AdminPersonas {
                 DataRow dataRow = this.dataTable.Rows[index];
                 dataRow.Delete();
             }
+            this.ActualizarLista();
         }
 
         private void AgregarAListBox(DataRow dataRow) {

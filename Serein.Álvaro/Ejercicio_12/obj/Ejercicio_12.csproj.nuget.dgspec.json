@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\Ejercicio_12.csproj": {}
+    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\Ejercicio_12.csproj": {}
   },
   "projects": {
-    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\Ejercicio_12.csproj": {
+    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\Ejercicio_12.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\Ejercicio_12.csproj",
+        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\Ejercicio_12.csproj",
         "projectName": "Ejercicio_12",
-        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\Ejercicio_12.csproj",
+        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\Ejercicio_12.csproj",
         "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\obj\\",
+        "outputPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_12\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj": {
-                "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj"
+              "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj": {
+                "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj"
               }
             }
           }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj": {
+    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj",
+        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj",
         "projectName": "lib_flow",
-        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj",
+        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\lib_flow.csproj",
         "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\obj\\",
+        "outputPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_flow\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

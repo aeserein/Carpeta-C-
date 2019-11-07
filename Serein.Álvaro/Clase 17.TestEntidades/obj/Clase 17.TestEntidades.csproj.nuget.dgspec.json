@@ -1,28 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\Clase 17.TestEntidades.csproj": {}
+    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\Clase 17.TestEntidades.csproj": {}
   },
   "projects": {
-    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj": {
+    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj",
+        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj",
         "projectName": "Clase 17.Entidades",
-        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj"
+        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj"
       },
       "frameworks": {
         "net461": {}
       }
     },
-    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\Clase 17.TestEntidades.csproj": {
+    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\Clase 17.TestEntidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\Clase 17.TestEntidades.csproj",
+        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\Clase 17.TestEntidades.csproj",
         "projectName": "Clase 17.TestEntidades",
-        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\Clase 17.TestEntidades.csproj",
+        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\Clase 17.TestEntidades.csproj",
         "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\obj\\",
+        "outputPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.TestEntidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -41,8 +41,8 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj": {
-                "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj"
+              "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj": {
+                "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 17.Entidades\\Clase 17.Entidades.csproj"
               }
             }
           }

@@ -32,6 +32,14 @@ namespace AdminPersonas {
             SqlConnection sqlConnection = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
             SqlCommand sqlCommand = new SqlCommand();
 
+            #region Offline
+            this.dataTable.Columns.Add("nombre");
+            this.dataTable.Columns.Add("apellido");
+            this.dataTable.Columns.Add("edad");
+            #endregion
+
+            /*
+            #region Online
             try {
                 sqlCommand.Connection = sqlConnection;
                 sqlCommand.CommandType = CommandType.Text;
@@ -75,6 +83,8 @@ namespace AdminPersonas {
                 MessageBox.Show(e.Message);
             }
             sqlConnection.Close();
+            #endregion
+            */
         }
 
         public FrmPrincipal() {
