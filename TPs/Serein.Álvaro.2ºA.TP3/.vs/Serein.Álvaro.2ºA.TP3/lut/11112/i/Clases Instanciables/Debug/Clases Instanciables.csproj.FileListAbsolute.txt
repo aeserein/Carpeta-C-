@@ -1,0 +1,5 @@
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Clases Instanciables\bin\Debug\Clases Instanciables.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Clases Instanciables\Debug\Clases Instanciables.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Clases Instanciables\Debug\Clases Instanciables.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Clases Instanciables\Debug\Clases Instanciables.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Clases Instanciables\Debug\Clases Instanciables.dll

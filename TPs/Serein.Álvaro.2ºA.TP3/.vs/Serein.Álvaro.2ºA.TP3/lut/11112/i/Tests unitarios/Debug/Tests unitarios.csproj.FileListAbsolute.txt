@@ -1,0 +1,8 @@
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Tests unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Tests unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Tests unitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Tests unitarios\bin\Debug\Tests unitarios.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Tests unitarios\Debug\Tests unitarios.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Tests unitarios\Debug\Tests unitarios.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Tests unitarios\Debug\Tests unitarios.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Tests unitarios\Debug\Tests unitarios.csprojAssemblyReference.cache

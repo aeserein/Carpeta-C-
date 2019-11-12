@@ -1,0 +1,6 @@
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Programa\bin\Debug\Programa.exe.config
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Programa\bin\Debug\Programa.exe
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Programa\Debug\Programa.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Programa\Debug\Programa.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Programa\Debug\Programa.exe
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Programa\Debug\Programa.csprojAssemblyReference.cache

@@ -1,0 +1,5 @@
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Clases Abstractas\bin\Debug\Clases Abstractas.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Clases Abstractas\Debug\Clases Abstractas.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Clases Abstractas\Debug\Clases Abstractas.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Clases Abstractas\Debug\Clases Abstractas.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Clases Abstractas\Debug\Clases Abstractas.csprojAssemblyReference.cache

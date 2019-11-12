@@ -8,21 +8,15 @@ namespace Excepciones {
 
     public class DniInvalidoException : Exception {
 
-        private string mensajeBase;
-
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        private static string mensajeBase = "DNI inválido.";
 
 
-        public DniInvalidoException() {
-            this.mensajeBase = "Error: Formato de DNI inválido.";
+        public DniInvalidoException()
+            : base(mensajeBase) {
         }
         public DniInvalidoException(Exception e)
-            : this() {
+            : base(mensajeBase, e) {
         }
-
-        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-
-
         public DniInvalidoException(string message)
             : base(message) {
         }

@@ -1,0 +1,5 @@
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\b\Excepciones\bin\Debug\Excepciones.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Excepciones\Debug\Excepciones.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Excepciones\Debug\Excepciones.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Excepciones\Debug\Excepciones.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\Serein.Álvaro.2ºA.TP3\.vs\Serein.Álvaro.2ºA.TP3\lut\0\i\Excepciones\Debug\Excepciones.dll
