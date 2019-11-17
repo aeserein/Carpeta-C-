@@ -27,7 +27,9 @@ namespace Entidades {
                 PaqueteDAO.comando.CommandType = System.Data.CommandType.Text;
                 if (true) {
                     throw new NotImplementedException();
-                    PaqueteDAO.comando.CommandText = "INSERT INTO Paquetes VALUES({p})";
+                    PaqueteDAO.comando.CommandText = "INSERT INTO Paquetes VALUES('{p.DireccionEntrega}','{p.TrackingID}','Serein Álvaro')";
+
+			//sqlCommand = new SqlCommand("INSERT INTO dbo.Paquetes (direccionEntrega, trackingID, alumno) VALUES ('" + p.DireccionEntrega + "','" + p.TrackingID + "','" + "Ducau Arley" + "')", sqlConnection);
                 }
                 PaqueteDAO.comando.Connection = PaqueteDAO.conexion;
 

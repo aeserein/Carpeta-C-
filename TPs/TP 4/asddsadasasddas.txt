@@ -1,0 +1,5 @@
+1 - "Método de extensión para la clase String"
+2 - Preguntar si el stringConnection "Properties.Settings.Default.ConexiónSQL" corre en cualquier máquina
+3 - Todo lo de PaqueteDAO
+4 - Paquete.MockCicloDeVida -> Qué corren?
+5 - Thread.Abort() rompe si quiere cerrar algo ya cerrado?
