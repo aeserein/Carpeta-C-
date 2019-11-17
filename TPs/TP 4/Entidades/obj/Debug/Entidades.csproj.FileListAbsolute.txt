@@ -1,0 +1,2 @@
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache

@@ -1,0 +1,6 @@
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.Entidades\bin\Debug\Clase 22.Entidades.dll
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.Entidades\bin\Debug\Clase 22.Entidades.pdb
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.Entidades\obj\Debug\Clase 22.Entidades.csproj.CoreCompileInputs.cache
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.Entidades\obj\Debug\Clase 22.Entidades.dll
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.Entidades\obj\Debug\Clase 22.Entidades.pdb
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.Entidades\bin\Debug\Clase 22.Entidades.dll.config

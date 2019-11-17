@@ -1,0 +1,11 @@
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\bin\Debug\Clase 22.exe.config
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\bin\Debug\Clase 22.exe
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\bin\Debug\Clase 22.pdb
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\bin\Debug\Clase 22.Entidades.dll
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\bin\Debug\Clase 22.Entidades.pdb
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\obj\Debug\Clase 22.csprojAssemblyReference.cache
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\obj\Debug\Clase 22.csproj.CoreCompileInputs.cache
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\obj\Debug\Clase 22.csproj.CopyComplete
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\obj\Debug\Clase 22.exe
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\obj\Debug\Clase 22.pdb
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22\bin\Debug\Clase 22.Entidades.dll.config

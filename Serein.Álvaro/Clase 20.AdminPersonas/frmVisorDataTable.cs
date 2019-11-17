@@ -62,7 +62,7 @@ namespace AdminPersonas {
         protected override void btnEliminar_Click(object sender, EventArgs e) {
             int index = lstVisor.SelectedIndex;
 
-            if (lstVisor.SelectedIndex >= 0) {
+            if (index >= 0) {
                 DataRow dataRow = this.dataTable.Rows[index];
                 dataRow.Delete();
             }
@@ -70,12 +70,12 @@ namespace AdminPersonas {
         }
 
         private void AgregarAListBox(DataRow dataRow) {
-            this.lstVisor.Items.Add("Nombre: " + dataRow[0] + " - Apellido: " + dataRow[1] + " - Edad: " + dataRow[2]);
+            this.lstVisor.Items.Add("Nombre: " + dataRow[1] + " - Apellido: " + dataRow[2] + " - Edad: " + dataRow[3]);
         }
         private void ObtenerDatos(DataRow dataRow, Persona persona) {
-            dataRow[0] = persona.nombre;
-            dataRow[1] = persona.apellido;
-            dataRow[2] = persona.edad;
+            dataRow[1] = persona.nombre;
+            dataRow[2] = persona.apellido;
+            dataRow[3] = persona.edad;
         }
         private void ActualizarLista() {
             this.lstVisor.Items.Clear();
@@ -83,11 +83,6 @@ namespace AdminPersonas {
                 if (dr.RowState != DataRowState.Deleted)
                     AgregarAListBox(dr);
             }
-        }
-
-        private void btnEliminar_Click_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

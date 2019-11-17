@@ -1,0 +1,17 @@
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\obj\Debug\Clase 22.WF.csprojAssemblyReference.cache
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\obj\Debug\Clase_22.WF.frmEmpleado.resources
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\obj\Debug\Clase_22.WF.Properties.Resources.resources
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\obj\Debug\Clase 22.WF.csproj.GenerateResource.cache
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\obj\Debug\Clase 22.WF.csproj.CoreCompileInputs.cache
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.WF.exe.config
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.WF.exe
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.WF.pdb
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.Entidades.dll
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.exe
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.Entidades.pdb
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.Entidades.dll.config
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.pdb
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\bin\Debug\Clase 22.exe.config
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\obj\Debug\Clase 22.WF.csproj.CopyComplete
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\obj\Debug\Clase 22.WF.exe
+E:\Carpeta-CSharp\Serein.Álvaro\Clase 22.WF\obj\Debug\Clase 22.WF.pdb
