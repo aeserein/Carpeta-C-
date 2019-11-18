@@ -8,7 +8,7 @@ using System.Threading;
 
 namespace Entidades {
 
-    class Paquete : IMostrar<Paquete> {
+    public class Paquete : IMostrar<Paquete> {
 
         private string direccionEntrega;
         private EEstado estado;

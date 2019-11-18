@@ -15,7 +15,7 @@ namespace Entidades {
             //throw new NotImplementedException();
             
             try {
-                StreamWriter streamWriter = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + archivo + ".txt", true);
+                StreamWriter streamWriter = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + archivo, true);
                 streamWriter.Write(texto + "\n");
                 streamWriter.Close();
                 return true;

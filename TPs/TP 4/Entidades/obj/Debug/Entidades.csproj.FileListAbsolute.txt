@@ -1,2 +1,7 @@
 D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
 D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\bin\Debug\Entidades.dll.config
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\bin\Debug\Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\bin\Debug\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.pdb

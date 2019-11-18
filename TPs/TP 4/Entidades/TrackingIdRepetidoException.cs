@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Entidades {
-    class TrackingIdRepetidoException : Exception {
+
+    public class TrackingIdRepetidoException : Exception {
 
         public TrackingIdRepetidoException(string mensaje)
             : base(mensaje) {
