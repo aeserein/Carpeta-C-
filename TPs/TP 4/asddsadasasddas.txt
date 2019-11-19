@@ -6,3 +6,4 @@
 6 - En MostrarInformacion<T> -> MostrarDatos o ToString?
 7 - Ver la clase GuardaArchivo y la aplicación como método de extensión
 8 - Menú de click derecho en las dos primeras columnas
+9 - ¿Por qué en la RTB entregado sale entre paréntesis?

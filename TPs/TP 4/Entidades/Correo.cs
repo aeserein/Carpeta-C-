@@ -49,7 +49,7 @@ namespace Entidades {
         public static Correo operator + (Correo c, Paquete p) {
             foreach (Paquete paquete in c.Paquetes) {
                 if (paquete == p)
-                    throw new TrackingIdRepetidoException("Error - El paquete ya se encuentra en la lista");
+                    throw new TrackingIdRepetidoException("El paquete ya se encuentra en la lista.");
             }
             c.Paquetes.Add(p);
 

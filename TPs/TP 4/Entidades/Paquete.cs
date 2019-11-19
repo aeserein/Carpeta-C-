@@ -40,8 +40,11 @@ namespace Entidades {
 
         #region Métodos
         public override string ToString() {
-            return this.MostrarDatos(this) + "\n" +
+            return this.MostrarDatos(this);
+            /*
+            return this.MostrarDatos(this) + " - " +
                    this.Estado.ToString();
+            */
         }
         public void MockCicloDeVida() {
 
@@ -52,9 +55,6 @@ namespace Entidades {
             Thread.Sleep(4 * 1000);
             this.Estado = EEstado.Entregado;
             this.InformaEstado(this, null);
-
-            ////////////////// Qué corren?
-            ////////////////// Con Invoke?
 
             try {
                 PaqueteDAO.Insertar(this);
