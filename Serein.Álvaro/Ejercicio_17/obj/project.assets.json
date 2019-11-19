@@ -675,11 +675,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_17\\Ejercicio_17.csproj",
+      "projectUniqueName": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_17\\Ejercicio_17.csproj",
       "projectName": "Ejercicio_17",
-      "projectPath": "E:\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_17\\Ejercicio_17.csproj",
+      "projectPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_17\\Ejercicio_17.csproj",
       "packagesPath": "C:\\Users\\alumno\\.nuget\\packages\\",
-      "outputPath": "E:\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_17\\obj\\",
+      "outputPath": "C:\\Users\\alumno\\Desktop\\Carpeta-CSharp\\Serein.Álvaro\\Ejercicio_17\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\alumno\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,0 +1,10 @@
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\bin\Debug\Clase 23.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\bin\Debug\Clase 23.Entidades.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\obj\Debug\Clase 23.Entidades.csprojAssemblyReference.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\obj\Debug\Clase 23.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\obj\Debug\Clase 23.Entidades.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\obj\Debug\Clase 23.Entidades.pdb
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\bin\Debug\Entidades.Externa.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\bin\Debug\Entidades.Externa.Sellada.dll
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\obj\Debug\Clase 23.Entidades.csproj.CopyComplete
+C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 23.Entidades\bin\Debug\Clase 23.Entidades.dll.config
