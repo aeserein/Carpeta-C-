@@ -2,7 +2,7 @@
 
 namespace Ejercicio_42 {
 
-    class Program {
+    class Program  {
 
 
         private Program(int n, int m) {

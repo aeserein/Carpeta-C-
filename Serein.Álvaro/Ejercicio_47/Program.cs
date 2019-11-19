@@ -1,5 +1,5 @@
 ﻿using System;
-using Ejercicio_47bis;
+using Ejercicio_47bis; 
 
 namespace Ejercicio_47 {
 

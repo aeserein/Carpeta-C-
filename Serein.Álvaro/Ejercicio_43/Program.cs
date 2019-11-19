@@ -6,4 +6,4 @@ namespace Ejercicio_43 {
             Console.WriteLine("Resolución en ejercicio 36");
         }
     }
-}
+} 
