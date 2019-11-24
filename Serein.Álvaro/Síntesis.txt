@@ -160,4 +160,87 @@ Serialización Binaria
 	También se debe castear cuando se lee a variable
 	También se debe cerrar (.Close())
 
+-------------------------------------------------------------
+
+SQL
+
+La Connection String especifica los datos de una conexión
+Ej:	"DataSource=[Instancia del servidor];
+	 InitialCatalog=[Nombre de la base de datos];
+	 IntegratedSecurity=true";
+SqlConnection con argumento ConnectionString en constructor
+SqlCommand
+	Tipo (por ahora solo texto)
+	Consulta
+	Debe tener una conexión asociada
+La conexión se abre y se cierra
+SqlDataReader dr = comando.ExecuteReader()
+	Esto devuelve algo, si tiene algo
+Ciclo while dr.Read() para bajar todo
+Actualizar -> "UPDATE Personas SET nombre = 'Fer' WHERE id = 1";
+Bajar -> "SELECT nombre FROM Personas"
+	 "SELECT * FROM Personas"
+Subir -> "INSERT INTO Personas (nombre) VALUES('Pedro')"
+Borrar -> DELETE FROM Personas WHERE id = 1"
+comando.ExecuteNonQuery() Para cuando no se espera a que devuelva algo
+
+-------------------------------------------------------------
+
+THREADS
+
+También llamado hilo de ejecución o subproceso
+Se usa para ejecutar más de una tarea al mismo tiempo
+Los hilos de ejecución comparten recursos, se manejan por interrupciones
+El proceso sigue en ejecución mientras al menos uno de sus hilos siga activo
+Los recursos se liberan cuando mueren todos los threads
+En System.Threading
+Se crea un Thread, se le pasa un método en el constructor
+	Corre con .Start()
+Se le pasa un constructor new ParameterizedThreadStart(Metodo) dentro del constructor del thread para threads parametrizados
+	Se corren con .Start(parámetro acá)
+Para modificar un control de WF desde fuera de su "dueño"
+	if label.InvokeRequired
+		label.BeginInvoke(MethodInvoker delegado)
+	else
+		Se cambia normalmente
+
+-------------------------------------------------------------
+
+EVENTOS
+
+Se declaran mediante delegados
+Sirven para notificar a una parte del programa que ocurrió algo y entonces ejecutar código
+El uso más común es en las interfaces gráficas
+Son mensajes enviados por un objeto para indicar que se ocurrió algo
+	Puede ser por interacción del usuario con el programa
+	Puede ser por diseño en el código, sin que lo esté activando directamente el usuario
+Cada evento tiene un "emisor" que lo produce y un "receptor" o "manejador" que lo captura
+El emisor no sabe qué harán sus manejadores y cómo
+Para conectar el emisor y el manejador se usan delegados
+El delegado encapsula método/s y se llama de forma anónima.
+	Cuando la ejecución llega al evento, este corre todos los delegados que se le han asignado
+	Si no tiene delegados asignados va a lanzar OutOfRangeException
+Los delegados son parametrizados para pasar información a sus manejadores
+Un evento puede tener más de un manejador
+Un manejador puede estar en más de un evento
+Acción -> Al delegado -> Al manejador/es
+Se le suma un manejador con obj.evento += Manejador
+Se sacan de un evento con obj.evento -= Manejador
+
+-------------------------------------------------------------
+
+METODOS DE EXTENSIÓN
+
+Sirven para "agregar" funcionalidad a clases ya compiladas
+Son como llamar a métodos estáticos que toman un objeto de esa clase como parámetro
+	Pero se las llama como si fuesen de instancia
+Se definen como estáticos
+public static int Metodo(this [tipo] [nombre])
+	Permite llamarlo desde cualquier objeto de tipo [tipo]
+Todos los parámetros siguientes en ese método son parámetros que se deben pasar para su llamada como un método normal
+Solo se pueden usar cuando se importó el namespace con "using [namespace]"
+Sirven para clases e interfaces
+
+	
+
 	
