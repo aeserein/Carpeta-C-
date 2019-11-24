@@ -1,0 +1,163 @@
+EXCEPCIONES
+
+Gestión de errores mediante excepciones
+Cortan el flujo del programa y van derramando de función en función hasta llegar a main.
+Si main no las agarra, se encarga el sistema operativo
+Todas derivan de Exception, que es parte de CLR
+Ventajas
+	-> Se dejan de usar códigos de error númericos o 'defines'
+	-> Se declaran en archivos independientes
+	-> Se les asignan mensajes de error significativos
+	-> Tienen nombres significativos en sí mismas
+	-> Pueden contener información pertinente al tipo de excepción
+try catch para separar código según lo que ocurre (más fácil de entenderlo)
+Tipos de catch por excepción
+Si no encuentra el tipo de catch (no tiene el base), va bajando en el stack de llamadas
+Si encuentra, se reanuda la ejecución desde el catch pertinente
+El catch general (Exception e) debe ser el último bloque catch
+Throw para lanzar excepciones on demand
+Solo se puede throwear derivantes de Exception
+Se suelen lanzar con un string y una innerException como argumentos
+finally corre si el try tuvo éxito o si saltó la excepción
+finally sirve para evitar repetir código y para liberar recursos
+
+-------------------------------------------------------------
+
+TEST UNITARIOS
+
+Diseño -> Armado -> Test -> Aprender -> Diseño
+Escribir casos de prueba en un entorno aislado del programa real
+Pruebas integrales es una prueba de todo junto
+Pruebas funcionales son pruebas de funciones separadas
+Se agrega un proyecto de tipo test unitario
+Etiqueta [TestMethod]
+AAA
+	-> Arrange = Crear e inicializar
+	-> Act = Poner a correr alguna función
+	-> Assert = Ver que los resultados sean correctos
+Clase Assert
+	-> Métodos estáticos
+	-> Trabajan con booleanos para chequar resultados
+	-> Determina si se pasa un test o no
+	-> También puede ser manejado desde la etiqueta [ExpectedException(typeof(----))]
+[Timeout(----)]
+Para ejecutar pruebas: Ejecutar -> Todas las pruebas
+
+-------------------------------------------------------------
+
+GENERICS
+
+Clases "parametrizadas"
+Tipado fuerte en una clase, pero sin saber de antemano qué tipo de dato
+Parece poder tener cantidad infinita de generics
+Restricciones
+	-> where T :	struct		<- tipo de valor (implica restricción new())
+			class		<- tipo de referencia
+			unamanged	<- ni tipo de referencia, ni referencia adentro (implica struct)
+			[Clase]
+			[Interfaz]
+			new()		<- Que tenga constructor por defecto
+			U		<- Debe ser o derivar de U (definir antes restricción de U)
+Si implica, no se puede combinar
+Todos los tipos de valor deben tener constructor sin argumentos accesible
+Método genérico puede estar dentro de una clase no genérica
+Para heredar
+	Clase<T> puede heredar de otra clase <T> o <int>
+	Una clase no genérica no puede heredar de una clase <T>
+	Una clase no genérica si puede heredar de una clase <int>
+	Clase<T> no puede heredar de una clase<T,U>
+	Como regla general, no se puede heredar cuando falta un tipo de la clase que se está heredando
+Más de una restricción
+	class NodeItem<T> where T : System.IComparable<T>, new() { }
+	class SpecialNodeItem<T> : NodeItem<T> where T : System.IComparable<T>, new() { }
+	class SuperKeyType<K, V, U>
+    		where U : System.IComparable<U>
+    		where V : new() { }
+
+-------------------------------------------------------------
+
+INTERFACES
+
+Implementar una interfaz obliga a implementar sus métodos
+Las interfaces describen qué debe hacer una clase, pero la clase define cómo en la implementación
+Las interfaces:
+	No pueden tener variables
+	Pueden tener propiedades sin implementación
+	Todos los métodos públicos (implícito)
+Se puede implementar más de una interfaz
+Están para parchear la falta de herencia múltiple
+Se las llama INombre -> La I por convención
+Para implementar interfaz en una clase derivada
+	class Clase : ClaseParent, IInterfaz {}
+No se usa override para implementar los métodos abstractos de la interfaz porque no usan "abstract"
+	Todos los métodos abstractos (implícito)
+Implementación explícita
+	IInterfaz.Método() {}
+	No se pueden sobreescribir en clases que deriven de la clase donde se define
+	Solo cambia la firma donde se implementa
+
+-------------------------------------------------------------
+
+ARCHIVOS
+
+StreamWriter para escribir	-> En System.IO
+	(string path)
+	(string path, bool append)
+	(string path, bool append, Encoding encoding)
+	Write(string s) -> Escribe en archivo sin \n
+	WriteLine(string s) -> Escribe con \n
+	Close() -> Cierra sw
+StreamReader para leer		-> En System.IO
+	(string path)
+	(string path, bool append)
+	Read() -> Un caracter
+	ReadLine() -> Una línea
+	ReadToEnd() -> Todo
+Bloque using para declarar y liberar un StreamWriter/Reader
+File.Exists(string path) 	Devuelve verdadero si existe y puede leer. Falso si falla como sea
+File.Copy(string s1, string s2) Copia un archivo en otro
+File.Delete(string path) 	Borra
+Directory.Delete(string path)	Borra carpeta si está vacía
+		(string path, boolean) Borra si el boolean es true
+Directory.Exists(string path)
+Environment.GetFolderPath(Environment.SpecialFolder._____)
+
+-------------------------------------------------------------
+
+SERIALIZACIÓN
+
+Convertir un objeto en memoria a texto de forma estandarizada
+Para leerlo más tarde, en otro programa, o en otra máquina, o subirlo a una base de datos
+Serialización binaria incluye las privadas también
+Para leerlo se "deserializa"
+Serialización XML
+	En System.Xml.Serialization
+	Incluye atributos y propiedades públicas
+	Incluye colecciones de solo lectura, porque puede acceder a sus .Add
+	Debe tener constructor por defecto
+	No serializa métodos
+	new XmlSerializer(typeof(----))
+		.Serialize(stream, object) y .Deserialize(stream)
+	Se debe castear cuando se lee -> variable = (Dato)xmlser.Deserialize(reader)
+	Sigue estandar 1.0 de W3C de XML
+	Especificaciones XML Schema Part 2: Datatypes
+	La serialización depende de tener el .dll creado con la clase donde se serializa
+	XmlTextWriter(string path, Encoding encoding)
+	XmlTextReader(string path)
+	Para serializar una clase derivada -> etiqueta [XmlInclude(typeof(Derivada))] en la clase parent
+	Los readers y writers se cierran (.Close())
+Serialización Binaria
+	Se pone la etiqueta [Serializable] en la clase a serializar
+	En System.Runtime.Serialization.Formatters.Binary
+	Puede serializar variables y propiedades privadas
+	Debe tener constructor por defecto
+	BinaryFormatter()
+		.Serialize(FileStream, object) y .Deserialize(FileStream)
+	FileStream(string path, System.IO.Mode mode)
+	.Read(byte[] array, int offset, int count)	| ???
+	.Seek(long offset, IO.SeekOrigin origin)	| ???
+	.Write(byte[] array, int offset, int count)	| ???
+	También se debe castear cuando se lee a variable
+	También se debe cerrar (.Close())
+
+	
