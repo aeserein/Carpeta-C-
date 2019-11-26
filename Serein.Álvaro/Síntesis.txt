@@ -117,7 +117,7 @@ StreamWriter para escribir	-> En System.IO
 	No crea carpetas
 StreamReader para leer		-> En System.IO
 	(string path)
-	(string path, bool append)
+	(string path, Encoding encoding) y algunos con buffers
 	Read() -> Un caracter
 	ReadLine() -> Una línea
 	ReadToEnd() -> Todo	-> No requiere while porque es una sola lectura
@@ -131,6 +131,7 @@ File.Delete(string path) 	Borra
 Directory.Delete(string path)	Borra carpeta si está vacía
 		(string path, boolean) Borra si el boolean es true
 Directory.Exists(string path)
+Directory.CreateDirectory(string path) -> Crea todos los subdirectorios
 Environment.GetFolderPath(Environment.SpecialFolder._____)
 
 -------------------------------------------------------------

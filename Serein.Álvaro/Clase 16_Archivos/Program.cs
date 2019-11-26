@@ -126,7 +126,7 @@ namespace Clase_16_Archivos {
 
     static void Metodo4() {
       Console.WriteLine("\nEn Método4");
-      throw new NullReferenceException();
+      throw new Metodo4Exception();
     }
   }
 }
