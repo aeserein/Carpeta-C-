@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\Ejercicio_13_lib.csproj": {}
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\Ejercicio_13_lib.csproj": {}
   },
   "projects": {
-    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\Ejercicio_13_lib.csproj": {
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\Ejercicio_13_lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\Ejercicio_13_lib.csproj",
+        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\Ejercicio_13_lib.csproj",
         "projectName": "Ejercicio_13_lib",
-        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\Ejercicio_13_lib.csproj",
+        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\Ejercicio_13_lib.csproj",
         "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-        "outputPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\obj\\",
+        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_13_lib\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

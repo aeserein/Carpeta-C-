@@ -7,3 +7,6 @@
 7 - Ver la clase GuardaArchivo y la aplicación como método de extensión
 8 - Menú de click derecho en las dos primeras columnas
 9 - ¿Por qué en la RTB entregado sale entre paréntesis?
+10 - Hay una ventana que quiere que aparezca arriba a la izquierda o algo así
+11 - Ver si hay que poner InvokeRequired para modificar los controles de WF
+Consulta, en el TP4, la clase PaqueteDAO.cs, está bien que sea static como dice el PDF? -> Está bien

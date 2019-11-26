@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\Clase 02.csproj": {}
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\Clase 02.csproj": {}
   },
   "projects": {
-    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\Clase 02.csproj": {
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\Clase 02.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\Clase 02.csproj",
+        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\Clase 02.csproj",
         "projectName": "Clase 02",
-        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\Clase 02.csproj",
+        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\Clase 02.csproj",
         "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-        "outputPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\obj\\",
+        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 02\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj": {
-                "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj"
+              "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj": {
+                "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj"
               }
             }
           }
@@ -59,12 +59,12 @@
         }
       }
     },
-    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj": {
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj",
+        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj",
         "projectName": "Clase 02.Entidades",
-        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj"
+        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase_02.Entidades\\Clase 02.Entidades.csproj"
       },
       "frameworks": {
         "net461": {}

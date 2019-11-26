@@ -11,6 +11,7 @@ Ventajas
 	-> Tienen nombres significativos en sí mismas
 	-> Pueden contener información pertinente al tipo de excepción
 try catch para separar código según lo que ocurre (más fácil de entenderlo)
+"Aquí se lanza la excepción"
 Tipos de catch por excepción
 Si no encuentra el tipo de catch (no tiene el base), va bajando en el stack de llamadas
 Si encuentra, se reanuda la ejecución desde el catch pertinente
@@ -20,17 +21,18 @@ Solo se puede throwear derivantes de Exception
 Se suelen lanzar con un string y una innerException como argumentos
 finally corre si el try tuvo éxito o si saltó la excepción
 finally sirve para evitar repetir código y para liberar recursos
+Fijarse bien en los tipos de excepciones y recorrido del stack
 
 -------------------------------------------------------------
 
 TEST UNITARIOS
 
-Diseño -> Armado -> Test -> Aprender -> Diseño
+Diseño -> Armado -> Test -> Aprender 	-> Diseño
 Escribir casos de prueba en un entorno aislado del programa real
 Pruebas integrales es una prueba de todo junto
 Pruebas funcionales son pruebas de funciones separadas
 Se agrega un proyecto de tipo test unitario
-Etiqueta [TestMethod]
+[TestClass] y [TestMethod]
 AAA
 	-> Arrange = Crear e inicializar
 	-> Act = Poner a correr alguna función
@@ -50,10 +52,11 @@ GENERICS
 Clases "parametrizadas"
 Tipado fuerte en una clase, pero sin saber de antemano qué tipo de dato
 Parece poder tener cantidad infinita de generics
+Leer bien las T, como si fuese una clase cualquiera
 Restricciones
 	-> where T :	struct		<- tipo de valor (implica restricción new())
 			class		<- tipo de referencia
-			unamanged	<- ni tipo de referencia, ni referencia adentro (implica struct)
+			unmanaged	<- ni tipo de referencia, ni referencia adentro (implica struct)
 			[Clase]
 			[Interfaz]
 			new()		<- Que tenga constructor por defecto
@@ -73,6 +76,7 @@ Más de una restricción
 	class SuperKeyType<K, V, U>
     		where U : System.IComparable<U>
     		where V : new() { }
+typeof(T).Name para sacar el nombre de una clase dentro de la clase genérica
 
 -------------------------------------------------------------
 
@@ -87,10 +91,12 @@ Las interfaces:
 Se puede implementar más de una interfaz
 Están para parchear la falta de herencia múltiple
 Se las llama INombre -> La I por convención
-Para implementar interfaz en una clase derivada
+Para implementar interfaz en una clase derivada, primero la clase, despues las interfaces
 	class Clase : ClaseParent, IInterfaz {}
 No se usa override para implementar los métodos abstractos de la interfaz porque no usan "abstract"
 	Todos los métodos abstractos (implícito)
+Los métodos se declaran -> [tipo] [nombre]();
+La implementación también es [tipo] [nombre]();
 Implementación explícita
 	IInterfaz.Método() {}
 	No se pueden sobreescribir en clases que deriven de la clase donde se define
@@ -107,12 +113,17 @@ StreamWriter para escribir	-> En System.IO
 	Write(string s) -> Escribe en archivo sin \n
 	WriteLine(string s) -> Escribe con \n
 	Close() -> Cierra sw
+	Si no existe el archivo, lo crea
+	No crea carpetas
 StreamReader para leer		-> En System.IO
 	(string path)
 	(string path, bool append)
 	Read() -> Un caracter
 	ReadLine() -> Una línea
-	ReadToEnd() -> Todo
+	ReadToEnd() -> Todo	-> No requiere while porque es una sola lectura
+	Los reads se pasan a un string
+	while ((linea = sr.ReadLine()) != null)
+Estos tiran excepciones de de argumento, o archivo/carpeta cuando no encuentra o no puede leer
 Bloque using para declarar y liberar un StreamWriter/Reader
 File.Exists(string path) 	Devuelve verdadero si existe y puede leer. Falso si falla como sea
 File.Copy(string s1, string s2) Copia un archivo en otro
@@ -132,20 +143,31 @@ Serialización binaria incluye las privadas también
 Para leerlo se "deserializa"
 Serialización XML
 	En System.Xml.Serialization
-	Incluye atributos y propiedades públicas
+	Incluye atributos y propiedades públicas L/E
 	Incluye colecciones de solo lectura, porque puede acceder a sus .Add
 	Debe tener constructor por defecto
 	No serializa métodos
-	new XmlSerializer(typeof(----))
-		.Serialize(stream, object) y .Deserialize(stream)
+"No es texto plano sin formato", a pesar de que es literalmente un txt sin formato
+new XmlSerializer(typeof(----))
+.Serialize(stream, object) y .Deserialize(stream)
 	Se debe castear cuando se lee -> variable = (Dato)xmlser.Deserialize(reader)
-	Sigue estandar 1.0 de W3C de XML
-	Especificaciones XML Schema Part 2: Datatypes
-	La serialización depende de tener el .dll creado con la clase donde se serializa
-	XmlTextWriter(string path, Encoding encoding)
-	XmlTextReader(string path)
-	Para serializar una clase derivada -> etiqueta [XmlInclude(typeof(Derivada))] en la clase parent
-	Los readers y writers se cierran (.Close())
+Sigue estandar 1.0 de W3C de XML
+Especificaciones XML Schema Part 2: Datatypes
+La serialización depende de tener el .dll creado con la clase donde se serializa
+XmlTextWriter o StreamWriter, ambas con el path
+Para serializar una clase derivada -> etiqueta [XmlInclude(typeof(Derivada))] en la clase parent
+Para escribir
+	XmlSerializer(tipo)
+	Stream/XmlTextWriter(path)
+	Serialize(stream, objeto)
+Para leer
+	XmlSerializer(tipo)
+	Stream/XmlTextReader(path)
+	Deserialize(stream) y a una variable
+Los readers y writers se cierran (.Close())
+OpenFileDialog openFileDialog
+	.Filter = "Archivo|*.xml";
+
 Serialización Binaria
 	Se pone la etiqueta [Serializable] en la clase a serializar
 	En System.Runtime.Serialization.Formatters.Binary
@@ -168,27 +190,43 @@ La Connection String especifica los datos de una conexión
 Ej:	"DataSource=[Instancia del servidor];
 	 InitialCatalog=[Nombre de la base de datos];
 	 IntegratedSecurity=true";
+Properties.Settings.Default.[NombreConexión] <- De tipo Conexión
 SqlConnection con argumento ConnectionString en constructor
 SqlCommand
-	Tipo (por ahora solo texto)
-	Consulta
-	Debe tener una conexión asociada
+	.CommandType
+	.CommandText
+	.Connection
 La conexión se abre y se cierra
 SqlDataReader dr = comando.ExecuteReader()
 	Esto devuelve algo, si tiene algo
 Ciclo while dr.Read() para bajar todo
-Actualizar -> "UPDATE Personas SET nombre = 'Fer' WHERE id = 1";
+Actualizar -> "UPDATE Personas SET nombre='Fer', apellido='Perez' WHERE id = 1";
 Bajar -> "SELECT nombre FROM Personas"
 	 "SELECT * FROM Personas"
 Subir -> "INSERT INTO Personas (nombre) VALUES('Pedro')"
 Borrar -> DELETE FROM Personas WHERE id = 1"
 comando.ExecuteNonQuery() Para cuando no se espera a que devuelva algo
 
+SqlDataAdapter
+	.InsertCommand
+	.UpdateCommand
+	.DeleteCommand
+	SelectCommand y conexión en el constructor
+	Todos comandos separados dentro de la misma clase
+Se puede crear los 3 comandos con constructores = new SqlCommand(consulta, conexión)
+.Fill(datatable) para ejectuar el SelectCommand y actualizar al estado de la base
+UnoDeLos4Command.Parameters.Add([nombre del parámetro en el comando], Tipo SQL, tamaño, nombre columna)
+Los DataTable se manejan por Rows
+DataRow dataRow = this.dataTable.NewRow() para crear un row
+Las bajadas son en Object, hay que parsearlas o usar .ToString()
+DataRowState
+Los datos de un Row se ubican con indexador o con datarow["nombre"]
 -------------------------------------------------------------
 
 THREADS
 
 También llamado hilo de ejecución o subproceso
+"Tareas encadenadas que se pueden ejecutar en cualquier SO"
 Se usa para ejecutar más de una tarea al mismo tiempo
 Los hilos de ejecución comparten recursos, se manejan por interrupciones
 El proceso sigue en ejecución mientras al menos uno de sus hilos siga activo
@@ -203,6 +241,7 @@ Para modificar un control de WF desde fuera de su "dueño"
 		label.BeginInvoke(MethodInvoker delegado)
 	else
 		Se cambia normalmente
+Abort(), IsAlive, Join(), Resume()
 
 -------------------------------------------------------------
 
@@ -226,6 +265,13 @@ Un manejador puede estar en más de un evento
 Acción -> Al delegado -> Al manejador/es
 Se le suma un manejador con obj.evento += Manejador
 Se sacan de un evento con obj.evento -= Manejador
+
+Orden
+	Declarar delegado -> [modificador] delegate [tipo] [nombre] (args);
+	Declarar evento	  -> public event [nombre del delegado] [nombre];
+	Correr ("Asignar" evento) -> this.evento(argumentos)
+	Crear manejador -> [modificador] [static/no static] [mismo tipo] nombre (mismos args) {}
+	Agregar a instancia.evento
 
 -------------------------------------------------------------
 

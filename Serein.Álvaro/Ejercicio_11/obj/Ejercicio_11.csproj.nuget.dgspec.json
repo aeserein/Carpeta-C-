@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\Ejercicio_11.csproj": {}
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\Ejercicio_11.csproj": {}
   },
   "projects": {
-    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\Ejercicio_11.csproj": {
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\Ejercicio_11.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\Ejercicio_11.csproj",
+        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\Ejercicio_11.csproj",
         "projectName": "Ejercicio_11",
-        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\Ejercicio_11.csproj",
+        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\Ejercicio_11.csproj",
         "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-        "outputPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\obj\\",
+        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Ejercicio_11\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -30,8 +30,8 @@
         "frameworks": {
           "netcoreapp2.0": {
             "projectReferences": {
-              "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj": {
-                "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj"
+              "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj": {
+                "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj"
               }
             }
           }
@@ -59,14 +59,14 @@
         }
       }
     },
-    "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj": {
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj",
+        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj",
         "projectName": "lib_numeros",
-        "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj",
+        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\lib_numeros.csproj",
         "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-        "outputPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\obj\\",
+        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\lib_numeros\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

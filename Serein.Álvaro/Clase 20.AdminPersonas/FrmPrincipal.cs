@@ -82,13 +82,6 @@ namespace AdminPersonas {
                 sqlDataAdapter.DeleteCommand.Parameters.Add("@arg0", SqlDbType.Int, 10, "id");
 
 
-                SqlCommand unComandoAparte = new SqlCommand();
-                unComandoAparte.Parameters.Add("@arg1", SqlDbType.VarChar, 50, "nombre");
-                unComandoAparte.Parameters.Add("@arg2", SqlDbType.VarChar, 50, "apellido");
-                unComandoAparte.Parameters.Add("@arg3", SqlDbType.Int, 10, "edad");
-                unComandoAparte.Parameters.Add("@arg0", SqlDbType.Int, 10, "id");
-
-
                 /*  Otra forma más simple de hacerlo
                 sqlDataAdapter.InsertCommand = new SqlCommand("INSERT INTO Persona VALUES(@arg1,@arg2,@arg3)", sqlConnection);
                 sqlDataAdapter.UpdateCommand = new SqlCommand("UPDATE Persona SET nombre = @arg1, apellido = @arg2, edad = @arg3 WHERE id = @arg0", sqlConnection);
@@ -191,8 +184,8 @@ namespace AdminPersonas {
             try {
                 sqlConnection.Open();
                 MessageBox.Show("Conectado");
-            } catch (Exception ee) {
-                MessageBox.Show(ee.Message);
+            } catch (Exception eeeeeeeeeeeeeeeeeeeeeeeeeee_yooooooooo) {
+                MessageBox.Show(eeeeeeeeeeeeeeeeeeeeeeeeeee_yooooooooo.Message);
             }
 
             sqlConnection.Close();

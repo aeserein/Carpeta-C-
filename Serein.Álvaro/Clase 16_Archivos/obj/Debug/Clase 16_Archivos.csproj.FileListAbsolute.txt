@@ -18,3 +18,13 @@ C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 16_Archivos\obj\Debu
 C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.csproj.CopyComplete
 C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.exe
 C:\Users\alumno\Desktop\Carpeta-CSharp\Serein.Álvaro\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\bin\Debug\Clase 16_Archivos.exe.config
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\bin\Debug\Clase 16_Archivos.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\bin\Debug\Clase 16_Archivos.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\bin\Debug\Metodo4Exception.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\bin\Debug\Metodo4Exception.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.exe
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Clase 16_Archivos\obj\Debug\Clase 16_Archivos.pdb
