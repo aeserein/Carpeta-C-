@@ -128,8 +128,7 @@ namespace AdminPersonas {
             // System.Xml.Serialization.XmlSerializer xmlSerializer = new System.Xml.Serialization.XmlSerializer(typeof(Persona));
             // System.Xml.XmlTextWriter xmlTextWriter = new System.Xml.XmlTextWriter(openFileDialog.FileName, Encoding.UTF8);
 
-            try
-            {
+            try {
                 OpenFileDialog openFileDialog = new OpenFileDialog(); // para abrir
                 openFileDialog.Filter = "Archivo|*.xml";
                 if(openFileDialog.ShowDialog() == DialogResult.OK)
@@ -140,9 +139,7 @@ namespace AdminPersonas {
                         lista = (List<Persona>)xmlSerializer.Deserialize(xmlTextReader);
                     }
                 }
-            }
-            catch(Exception x)
-            {
+            } catch(Exception x) {
                 MessageBox.Show(x.Message);
             }
         }

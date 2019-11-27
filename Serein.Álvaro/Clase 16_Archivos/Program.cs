@@ -10,7 +10,7 @@ namespace Clase_16_Archivos {
 
   class Program {
 
-    static void Main(string[] args) {/*
+    static void Main(string[] args) {
 
       try {
         Console.WriteLine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments));
@@ -67,7 +67,7 @@ namespace Clase_16_Archivos {
       } catch (FileNotFoundException e) {
         Console.WriteLine(e.Message);
         Console.WriteLine("No se puede abrir archivo-----------------------");
-      }*/
+      }
 
       ///////////////////////////////////////////////////////////////////////////////
       Console.WriteLine();

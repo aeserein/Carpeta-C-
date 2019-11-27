@@ -1,0 +1,5 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\ModeloParcial2.Entidades\bin\Debug\ModeloParcial2.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\ModeloParcial2.Entidades\bin\Debug\ModeloParcial2.Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\ModeloParcial2.Entidades\obj\Debug\ModeloParcial2.Entidades.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\ModeloParcial2.Entidades\obj\Debug\ModeloParcial2.Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\ModeloParcial2.Entidades\obj\Debug\ModeloParcial2.Entidades.pdb

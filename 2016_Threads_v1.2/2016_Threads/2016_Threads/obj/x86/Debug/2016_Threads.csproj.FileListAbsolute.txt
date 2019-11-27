@@ -29,3 +29,15 @@ D:\CSharp\2016\###Segundo Cuatri\2016_Threads\2016_Threads\obj\x86\Debug\Pelotit
 D:\CSharp\2016\###Segundo Cuatri\2016_Threads\2016_Threads\obj\x86\Debug\Pelotita_Con_Threads.Properties.Resources.resources
 D:\CSharp\2016\###Segundo Cuatri\2016_Threads\2016_Threads\obj\x86\Debug\Pelotita_Con_Threads.Form3.resources
 D:\CSharp\2016\###Segundo Cuatri\2016_Threads\2016_Threads\obj\x86\Debug\Pelotita_Con_Threads.Form4.resources
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\bin\Debug\2016_Threads.exe
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\bin\Debug\2016_Threads.pdb
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\2016_Threads.csprojAssemblyReference.cache
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\Pelotita_Con_Threads.Form2.resources
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\Pelotita_Con_Threads.Form3.resources
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\Pelotita_Con_Threads.Form1.resources
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\Pelotita_Con_Threads.Form4.resources
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\Pelotita_Con_Threads.Properties.Resources.resources
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\2016_Threads.csproj.GenerateResource.cache
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\2016_Threads.csproj.CoreCompileInputs.cache
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\2016_Threads.exe
+d:\Alvaro\Programación\04 - Programación 2\2016_Threads_v1.2\2016_Threads\2016_Threads\obj\x86\Debug\2016_Threads.pdb

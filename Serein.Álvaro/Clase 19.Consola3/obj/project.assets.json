@@ -697,11 +697,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Consola3\\Clase 19.Consola3.csproj",
+      "projectUniqueName": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Consola3\\Clase 19.Consola3.csproj",
       "projectName": "Clase 19.Consola3",
-      "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Consola3\\Clase 19.Consola3.csproj",
+      "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Consola3\\Clase 19.Consola3.csproj",
       "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-      "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Consola3\\obj\\",
+      "outputPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Consola3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -720,8 +720,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Entidades 2\\Clase 19.Entidades 2.csproj": {
-              "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Entidades 2\\Clase 19.Entidades 2.csproj"
+            "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Entidades 2\\Clase 19.Entidades 2.csproj": {
+              "projectPath": "d:\\Alvaro\\Programación\\04 - Programación 2\\Serein.Álvaro\\Clase 19.Entidades 2\\Clase 19.Entidades 2.csproj"
             }
           }
         }

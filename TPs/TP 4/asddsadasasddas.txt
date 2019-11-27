@@ -9,4 +9,7 @@
 9 - ¿Por qué en la RTB entregado sale entre paréntesis?
 10 - Hay una ventana que quiere que aparezca arriba a la izquierda o algo así
 11 - Ver si hay que poner InvokeRequired para modificar los controles de WF
+12 - Regex para comparar strings o algo así?
+13 - Nombre del archivo incluye extensión o no?
+
 Consulta, en el TP4, la clase PaqueteDAO.cs, está bien que sea static como dice el PDF? -> Está bien

@@ -53,7 +53,6 @@ namespace AdminPersonas
                 } catch (Exception E) {
                     MessageBox.Show(E.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
-
             }
         }
 

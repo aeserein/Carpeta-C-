@@ -1,0 +1,2 @@
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\ModeloParcial2.Archivo\obj\Debug\ModeloParcial2.Archivo.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\ModeloParcial2.Archivo\obj\Debug\ModeloParcial2.Archivo.csproj.CoreCompileInputs.cache
