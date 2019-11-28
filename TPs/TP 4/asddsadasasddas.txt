@@ -1,15 +1,10 @@
-1 - "Método de extensión para la clase String"
-2 - Preguntar si el stringConnection "Properties.Settings.Default.ConexiónSQL" corre en cualquier máquina
-3 - Todo lo de PaqueteDAO
-4 - Paquete.MockCicloDeVida -> Qué corren?
-5 - Thread.Abort() rompe si quiere cerrar algo ya cerrado?
-6 - En MostrarInformacion<T> -> MostrarDatos o ToString?
-7 - Ver la clase GuardaArchivo y la aplicación como método de extensión
-8 - Menú de click derecho en las dos primeras columnas
-9 - ¿Por qué en la RTB entregado sale entre paréntesis?
-10 - Hay una ventana que quiere que aparezca arriba a la izquierda o algo así
-11 - Ver si hay que poner InvokeRequired para modificar los controles de WF
-12 - Regex para comparar strings o algo así?
-13 - Nombre del archivo incluye extensión o no?
+1 - GuardaString: Nombre con o sin extensión?
 
-Consulta, en el TP4, la clase PaqueteDAO.cs, está bien que sea static como dice el PDF? -> Está bien
+
+
+
+
+1 - Paquete.ToString()
+2 - Paquete.MockCicloDeVida() -> this.InformaEstado(this, null); -> Ver parámetros, especialmente el null
+3 - En MostrarInformacion<T> -> MostrarDatos o ToString?
+4 - Ver catch del boton agregar. Puse un MessageBox, pero no dice nada en la consigna

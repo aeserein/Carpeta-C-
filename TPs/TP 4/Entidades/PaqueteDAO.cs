@@ -16,6 +16,8 @@ namespace Entidades {
         #region Constructores
         static PaqueteDAO() {
             PaqueteDAO.conexion = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
+            PaqueteDAO.comando = new SqlCommand();
+            
         }
         #endregion
 
@@ -23,20 +25,20 @@ namespace Entidades {
         static public bool Insertar(Paquete p) {
 
             try {
-                PaqueteDAO.comando = new SqlCommand();
                 PaqueteDAO.comando.CommandType = System.Data.CommandType.Text;
-
-                    PaqueteDAO.comando.CommandText = "INSERT INTO Paquetes VALUES('" + p.DireccionEntrega + "','" + p.TrackingID + "','Serein Álvaro')";
-			        //sqlCommand = new SqlCommand("INSERT INTO dbo.Paquetes (direccionEntrega, trackingID, alumno) VALUES ('" + p.DireccionEntrega + "','" + p.TrackingID + "','" + "Ducau Arley" + "')", sqlConnection);
-
+                PaqueteDAO.comando.CommandText = string.Format("INSERT INTO Paquetes VALUES('{0}','{1}','{2}')",
+                                                               p.DireccionEntrega,
+                                                               p.TrackingID,
+                                                               "Serein Álvaro Enuel");
                 PaqueteDAO.comando.Connection = PaqueteDAO.conexion;
 
                 PaqueteDAO.conexion.Open();
-                PaqueteDAO.comando.ExecuteNonQuery();
-                PaqueteDAO.conexion.Close();
+                PaqueteDAO.comando.ExecuteNonQuery();                
                 return true;
             } catch (Exception e) {
                 throw e;
+            } finally {
+                PaqueteDAO.conexion.Close();
             }
         }
         #endregion

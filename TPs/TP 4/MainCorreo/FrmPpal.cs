@@ -45,6 +45,7 @@ namespace MainCorreo {
             lstEstadoIngresado.Items.Clear();
             lstEstadoEnViaje.Items.Clear();
             lstEstadoEntregado.Items.Clear();
+
             foreach(Paquete paquete in this.correo.Paquetes) {
                 switch (paquete.Estado) {
                     case Paquete.EEstado.Ingresado : {
@@ -82,7 +83,6 @@ namespace MainCorreo {
                 else if (elemento is Correo)
                     rtbMostrar.Text = ((Correo)elemento).MostrarDatos((Correo)elemento);
 
-                //////////////////////////////////////////////////////// Ver
                 rtbMostrar.Text.Guardar("salida.txt");
             }
         }

@@ -221,7 +221,7 @@
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "FrmPpal";
-            this.Text = "Correo UTN por Álvaro.Serein.2ºA";
+            this.Text = "Correo UTN por Álvaro.Serein.2A";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmPpal_FormClosing);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();

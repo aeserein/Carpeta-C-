@@ -30,7 +30,8 @@ namespace Entidades {
         #region Métodos
         public void FinEntregas() {
             foreach (Thread thread in this.mockPacketes) {
-                thread.Abort();
+                if (thread.IsAlive)
+                    thread.Abort();
             }
         }
         #endregion
@@ -39,7 +40,10 @@ namespace Entidades {
         public string MostrarDatos(IMostrar<List<Paquete>> elementos) {
             StringBuilder sb = new StringBuilder();
             foreach (Paquete p in ((Correo)elementos).Paquetes) {
-                sb.AppendLine(string.Format("{0} para {1} ({2})", p.TrackingID, p.DireccionEntrega, p.Estado.ToString() ));
+                sb.AppendLine(string.Format("{0} para {1} ({2})",
+                                            p.TrackingID,
+                                            p.DireccionEntrega,
+                                            p.Estado.ToString() ));
             }
             return sb.ToString();
         }

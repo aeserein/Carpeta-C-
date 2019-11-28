@@ -1,7 +1,13 @@
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_16\bin\Debug\netcoreapp2.1\Ejercicio_16.deps.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_16\bin\Debug\netcoreapp2.1\Ejercicio_16.runtimeconfig.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_16\bin\Debug\netcoreapp2.1\Ejercicio_16.runtimeconfig.dev.json
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_16\bin\Debug\netcoreapp2.1\Ejercicio_16.dll
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercicio_16\bin\Debug\netcoreapp2.1\Ejercicio_16.pdb
+D:\Alvaro\Programación\04 - Programación 2\Serein.Álvaro\Ejercici
 D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\bin\Debug\Entidades.dll.config
 D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\bin\Debug\Entidades.dll
 D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\bin\Debug\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.dll
 D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache

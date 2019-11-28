@@ -1,0 +1,8 @@
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\b\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\b\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\b\TestUnitarios\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\b\TestUnitarios\bin\Debug\TestUnitarios.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\TestUnitarios\Debug\TestUnitarios.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\TestUnitarios\Debug\TestUnitarios.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\TestUnitarios\Debug\TestUnitarios.csproj.CopyComplete
+D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\TestUnitarios\Debug\TestUnitarios.dll

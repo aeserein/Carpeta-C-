@@ -13,6 +13,7 @@ namespace Entidades {
         private string direccionEntrega;
         private EEstado estado;
         private string trackingID;
+
         public event DelegadoEstado InformaEstado;
 
         #region Propiedades
@@ -67,7 +68,9 @@ namespace Entidades {
 
         #region IMostrar
         public string MostrarDatos(IMostrar<Paquete> elemento) {
-            return string.Format("{0} para {1}", ((Paquete)elemento).TrackingID, ((Paquete)elemento).DireccionEntrega);
+            return string.Format("{0} para {1}",
+                                 ((Paquete)elemento).TrackingID,
+                                 ((Paquete)elemento).DireccionEntrega);
         }
         #endregion
 
@@ -91,6 +94,5 @@ namespace Entidades {
             Entregado   // 2
         }
         #endregion
-
     }
 }

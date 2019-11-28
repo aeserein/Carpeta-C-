@@ -11,12 +11,10 @@ namespace Entidades {
     public static class GuardaString {
 
         public static bool Guardar(this string texto, string archivo) {
-
-            //throw new NotImplementedException();
             
             try {
                 StreamWriter streamWriter = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + archivo, true);
-                streamWriter.Write(texto + "\n");
+                streamWriter.WriteLine(texto);
                 streamWriter.Close();
                 return true;
             } catch {
