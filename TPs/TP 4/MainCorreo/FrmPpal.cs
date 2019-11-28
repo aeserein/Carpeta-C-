@@ -28,9 +28,12 @@ namespace MainCorreo {
                 correo += paquete;
             } catch (TrackingIdRepetidoException E) {
                 MessageBox.Show(E.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            } catch (Exception) {
+            } 
+            /////////////////////////////////////////////////
+            catch (Exception) {
                 MessageBox.Show("No se pudo subir la lista a la base de datos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            ////////////////////////////////////////////////
             this.ActualizarEstados();
         }
 

@@ -74,12 +74,13 @@ namespace Entidades {
                 this.Estado++;
                 this.InformaEstado(this, null);
             }
-
+            ///////////////////////////////////////////////////////
             try {
                 PaqueteDAO.Insertar(this);
             } catch (Exception) {
                 throw;
             }
+            ///////////////////////////////////////////////////////
         }
         #endregion
 
