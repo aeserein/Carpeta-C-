@@ -17,8 +17,8 @@ namespace TestUnitarios {
         [TestMethod]
         [ExpectedException(typeof(TrackingIdRepetidoException))]
         public void Test_MismoTrackingID() {
-            Paquete p1 = new Paquete("Paquete1", "123123123");
-            Paquete p2 = new Paquete("Paquete2", "123123123");
+            Paquete p1 = new Paquete("Dirección 1", "123123123");
+            Paquete p2 = new Paquete("Dirección 2", "123123123");
             Correo correo = new Correo();
 
             correo += p1;

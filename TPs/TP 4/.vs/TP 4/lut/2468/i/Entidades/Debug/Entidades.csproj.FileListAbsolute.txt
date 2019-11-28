@@ -1,6 +1,0 @@
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\b\Entidades\bin\Debug\Entidades.dll.config
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\b\Entidades\bin\Debug\Entidades.dll
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\Entidades\Debug\Entidades.csprojAssemblyReference.cache
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\Entidades\Debug\Entidades.csproj.CoreCompileInputs.cache
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\Entidades\Debug\Entidades.csproj.CopyComplete
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\Entidades\Debug\Entidades.dll

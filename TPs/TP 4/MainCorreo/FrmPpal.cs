@@ -28,6 +28,8 @@ namespace MainCorreo {
                 correo += paquete;
             } catch (TrackingIdRepetidoException E) {
                 MessageBox.Show(E.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            } catch (Exception) {
+                MessageBox.Show("No se pudo subir la lista a la base de datos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             this.ActualizarEstados();
         }
@@ -79,11 +81,12 @@ namespace MainCorreo {
         private void MostrarInformacion<T>(IMostrar<T> elemento) {
             if (!Object.Equals(elemento, null)) {
                 if (elemento is Paquete)
-                    rtbMostrar.Text = ((Paquete)elemento).MostrarDatos((Paquete)elemento);
+                    this.rtbMostrar.Text = ((Paquete)elemento).MostrarDatos((Paquete)elemento);
                 else if (elemento is Correo)
-                    rtbMostrar.Text = ((Correo)elemento).MostrarDatos((Correo)elemento);
+                    this.rtbMostrar.Text = ((Correo)elemento).MostrarDatos((Correo)elemento);
 
-                rtbMostrar.Text.Guardar("salida.txt");
+                if ( !(this.rtbMostrar.Text.Guardar("salida.txt")) )
+                    MessageBox.Show("No se pudo guardar archivo de texto.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

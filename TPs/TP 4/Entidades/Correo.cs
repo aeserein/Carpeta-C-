@@ -14,13 +14,19 @@ namespace Entidades {
         private List<Paquete> paquetes;
 
         #region Propiedades
+        /// <summary>
+        /// Lista dinámica de Paquetes.
+        /// </summary>
         public List<Paquete> Paquetes {
-            get => paquetes;
-            set => paquetes = value;
+            get => this.paquetes;
+            set => this.paquetes = value;
         }
         #endregion
 
         #region Constructores
+        /// <summary>
+        /// Crea una instancia de Correo.
+        /// </summary>
         public Correo() {
             this.mockPacketes = new List<Thread>();
             this.paquetes = new List<Paquete>();
@@ -28,6 +34,9 @@ namespace Entidades {
         #endregion
 
         #region Métodos
+        /// <summary>
+        /// Cierra todos los hilos de ciclos de vida de paquetes.
+        /// </summary>
         public void FinEntregas() {
             foreach (Thread thread in this.mockPacketes) {
                 if (thread.IsAlive)
@@ -37,6 +46,11 @@ namespace Entidades {
         #endregion
 
         #region IMostrar
+        /// <summary>
+        /// Muestra la lista de Paquetes.
+        /// </summary>
+        /// <param name="elementos">Lista de Paquetes.</param>
+        /// <returns>Una cadena de caracteres que representa los Paquetes.</returns>
         public string MostrarDatos(IMostrar<List<Paquete>> elementos) {
             StringBuilder sb = new StringBuilder();
             foreach (Paquete p in ((Correo)elementos).Paquetes) {
@@ -50,6 +64,12 @@ namespace Entidades {
         #endregion
 
         #region Operadores
+        /// <summary>
+        /// Agrega un Paquete a una instancia de Correo. Simula su ciclo de vida en un subproceso.
+        /// </summary>
+        /// <param name="c">Instancia de Correo</param>
+        /// <param name="p">Instancia de Paquete</param>
+        /// <returns>La instancia de Correo con el Paquete agregado.</returns>
         public static Correo operator + (Correo c, Paquete p) {
             foreach (Paquete paquete in c.Paquetes) {
                 if (paquete == p)
