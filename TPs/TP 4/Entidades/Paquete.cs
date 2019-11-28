@@ -14,8 +14,6 @@ namespace Entidades {
         private EEstado estado;
         private string trackingID;
 
-        public event DelegadoEstado InformaEstado;
-
         #region Propiedades
         /// <summary>
         /// Lee o devuelve dirección de entrega.
@@ -74,13 +72,11 @@ namespace Entidades {
                 this.Estado++;
                 this.InformaEstado(this, null);
             }
-            ///////////////////////////////////////////////////////
             try {
                 PaqueteDAO.Insertar(this);
-            } catch (Exception) {
-                throw;
+            } catch (Exception e) {
+                this.InformaException(e);
             }
-            ///////////////////////////////////////////////////////
         }
         #endregion
 
@@ -119,8 +115,26 @@ namespace Entidades {
         }
         #endregion
 
-        #region Delegados
+        #region Delegados / Eventos
+        /// <summary>
+        /// Delegado para informar estado del Paquete.
+        /// </summary>
         public delegate void DelegadoEstado(object sender, EventArgs e);
+
+        /// <summary>
+        /// Evento para informar estado del Paquete.
+        /// </summary>
+        public event DelegadoEstado InformaEstado;
+
+        /// <summary>
+        /// Delegado para informar excepciones.
+        /// </summary>
+        public delegate void DelegadoException (Exception e);
+
+        /// <summary>
+        /// Evento para informar excepciones.
+        /// </summary>
+        public event DelegadoException InformaException;
         #endregion
 
         #region Enumerados

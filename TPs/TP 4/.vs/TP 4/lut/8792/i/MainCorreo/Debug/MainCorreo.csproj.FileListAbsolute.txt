@@ -1,9 +1,0 @@
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\b\MainCorreo\bin\Debug\MainCorreo.exe.config
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\b\MainCorreo\bin\Debug\MainCorreo.exe
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\MainCorreo\Debug\MainCorreo.FrmPpal.resources
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\MainCorreo\Debug\MainCorreo.Properties.Resources.resources
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\MainCorreo\Debug\MainCorreo.csproj.GenerateResource.cache
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\MainCorreo\Debug\MainCorreo.csproj.CoreCompileInputs.cache
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\MainCorreo\Debug\MainCorreo.csproj.CopyComplete
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\MainCorreo\Debug\MainCorreo.exe
-D:\Alvaro\Programación\04 - Programación 2\TPs\TP 4\.vs\TP 4\lut\0\i\MainCorreo\Debug\MainCorreo.csprojAssemblyReference.cache

@@ -35,7 +35,7 @@ namespace Entidades {
 
         #region Métodos
         /// <summary>
-        /// Cierra todos los hilos de ciclos de vida de paquetes.
+        /// Cierra todos los hilos de ciclos de vida de Paquetes.
         /// </summary>
         public void FinEntregas() {
             foreach (Thread thread in this.mockPacketes) {
@@ -73,7 +73,7 @@ namespace Entidades {
         public static Correo operator + (Correo c, Paquete p) {
             foreach (Paquete paquete in c.Paquetes) {
                 if (paquete == p)
-                    throw new TrackingIdRepetidoException("El paquete ya se encuentra en la lista.");
+                    throw new TrackingIdRepetidoException("El Tracking ID " + paquete.TrackingID + " ya figura en la lista de envíos.");
             }
             c.Paquetes.Add(p);
 

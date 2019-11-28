@@ -41,8 +41,8 @@ namespace Entidades {
                 PaqueteDAO.conexion.Open();
                 PaqueteDAO.comando.ExecuteNonQuery();                
                 return true;
-            } catch (Exception e) {
-                throw e;
+            } catch (Exception) {
+                throw new Exception("No se pudo subir la lista a la base de datos.");
             } finally {
                 PaqueteDAO.conexion.Close();
             }
