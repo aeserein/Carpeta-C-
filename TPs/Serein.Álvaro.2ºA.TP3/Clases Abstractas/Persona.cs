@@ -120,18 +120,18 @@ namespace EntidadesAbstractas {
                     if (dato > 0 && dato <= 89999999)
                         return dato;
                     else
-                        goto Excepción;                        
+                        throw new NacionalidadInvalidaException();
                 }
                 case ENacionalidad.Extranjero : {
                     if (dato > 90000000 && dato <= 99999999)
                         return dato;
                     else
-                        goto Excepción;
+                        throw new NacionalidadInvalidaException();
+                }
+                default : {
+                    throw new NacionalidadInvalidaException();
                 }
             }
-
-            Excepción:
-                throw new NacionalidadInvalidaException();
         }
 
         /// <summary>
@@ -144,9 +144,7 @@ namespace EntidadesAbstractas {
             dato.Trim();
             dato.Replace(".", "");
 
-            if (dato.Length <= 6 ||
-                dato.Length > 8 ||
-                Regex.Matches(dato, @"[a-zA-Z]").Count > 0)
+            if (dato.Length <= 6 || dato.Length > 8 || Regex.Matches(dato, @"[a-zA-Z]").Count > 0)
                 throw new DniInvalidoException();
             else
                 return Persona.ValidarDni(nacionalidad, Convert.ToInt32(dato));

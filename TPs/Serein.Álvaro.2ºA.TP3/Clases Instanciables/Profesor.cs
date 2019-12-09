@@ -89,7 +89,11 @@ namespace Clases_Instanciables {
         /// <param name="clase">Una clase.</param>
         /// <returns>Verdadero si es profesor de esa clase.</returns>
         public static bool operator == (Profesor i, Universidad.EClases clase) {
-            return i.clasesDelDia.Contains(clase);
+            foreach (Universidad.EClases eClases in i.clasesDelDia) {
+                if (eClases == clase)
+                    return true;
+            }
+            return false;
         }
 
         /// <summary>

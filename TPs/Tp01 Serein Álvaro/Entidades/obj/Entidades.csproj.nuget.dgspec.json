@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Alvaro\\Programación\\04 - Programación 2\\Tp01 Serein Álvaro\\Entidades\\Entidades.csproj": {}
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\TPs\\Tp01 Serein Álvaro\\Entidades\\Entidades.csproj": {}
   },
   "projects": {
-    "D:\\Alvaro\\Programación\\04 - Programación 2\\Tp01 Serein Álvaro\\Entidades\\Entidades.csproj": {
+    "D:\\Alvaro\\Programación\\04 - Programación 2\\TPs\\Tp01 Serein Álvaro\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\Tp01 Serein Álvaro\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "D:\\Alvaro\\Programación\\04 - Programación 2\\TPs\\Tp01 Serein Álvaro\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Tp01 Serein Álvaro\\Entidades\\Entidades.csproj",
+        "projectPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\TPs\\Tp01 Serein Álvaro\\Entidades\\Entidades.csproj",
         "packagesPath": "C:\\Users\\sant_\\.nuget\\packages\\",
-        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\Tp01 Serein Álvaro\\Entidades\\obj\\",
+        "outputPath": "D:\\Alvaro\\Programación\\04 - Programación 2\\TPs\\Tp01 Serein Álvaro\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

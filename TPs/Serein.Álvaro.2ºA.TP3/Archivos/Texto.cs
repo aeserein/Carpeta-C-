@@ -18,11 +18,15 @@ namespace Archivos {
         /// <param name="datos">Datos a guardar.</param>
         /// <returns>Verdadero si pudo escribir el archivo.</returns>
         public bool Guardar(string archivo, string datos) {
+            StreamWriter sw = null;
             try {
-                File.WriteAllText(archivo, datos, Encoding.UTF8);
+                sw = new StreamWriter(archivo, true);
+                sw.Write(datos);
                 return true;
             } catch (Exception e) {
                 throw new ArchivosException(e);
+            } finally {
+                sw.Close();
             }
         }
 
@@ -33,11 +37,15 @@ namespace Archivos {
         /// <param name="datos">Instancia donde guardar los datos.</param>
         /// <returns>>Verdadero si pudo leer el archivo.</returns>
         public bool Leer(string archivo, out string datos) {
+            StreamReader sr = null;
             try {
-                datos = File.ReadAllText("Jornada.txt");
+                sr = new StreamReader(archivo);
+                datos = sr.ReadToEnd();
                 return true;
             } catch (Exception e) {
                 throw new ArchivosException(e);
+            } finally {
+                sr.Close();
             }
         }
     }

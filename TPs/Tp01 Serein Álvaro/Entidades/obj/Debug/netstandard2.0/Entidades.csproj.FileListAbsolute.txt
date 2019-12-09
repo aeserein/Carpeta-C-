@@ -11,3 +11,12 @@ d:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\Entidades\obj\D
 d:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
 d:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.dll
 d:\Alvaro\Programación\04 - Programación 2\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\bin\Debug\netstandard2.0\Entidades.deps.json
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\bin\Debug\netstandard2.0\Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\bin\Debug\netstandard2.0\Entidades.pdb
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.csprojAssemblyReference.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.csproj.CoreCompileInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfoInputs.cache
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.AssemblyInfo.cs
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.dll
+D:\Alvaro\Programación\04 - Programación 2\TPs\Tp01 Serein Álvaro\Entidades\obj\Debug\netstandard2.0\Entidades.pdb

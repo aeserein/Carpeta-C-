@@ -1,4 +1,5 @@
 ﻿namespace MiCalculadora {
+
     partial class FormCalculadora {
         /// <summary>
         /// Required designer variable.
@@ -39,7 +40,7 @@
             this.btnOperar.Location = new System.Drawing.Point(12, 109);
             this.btnOperar.Name = "btnOperar";
             this.btnOperar.Size = new System.Drawing.Size(119, 35);
-            this.btnOperar.TabIndex = 4;
+            this.btnOperar.TabIndex = 3;
             this.btnOperar.Text = "Operar";
             this.btnOperar.UseVisualStyleBackColor = true;
             this.btnOperar.Click += new System.EventHandler(this.BtnOperar_Click);
@@ -49,7 +50,7 @@
             this.btnLimpiar.Location = new System.Drawing.Point(141, 109);
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.Size = new System.Drawing.Size(119, 35);
-            this.btnLimpiar.TabIndex = 5;
+            this.btnLimpiar.TabIndex = 4;
             this.btnLimpiar.Text = "Limpiar";
             this.btnLimpiar.UseVisualStyleBackColor = true;
             this.btnLimpiar.Click += new System.EventHandler(this.BtnLimpiar_Click);
@@ -60,7 +61,7 @@
             this.btnCerrar.Location = new System.Drawing.Point(269, 109);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(119, 35);
-            this.btnCerrar.TabIndex = 6;
+            this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = true;
             this.btnCerrar.Click += new System.EventHandler(this.BtnCerrar_Click);
@@ -70,7 +71,7 @@
             this.btnConvertirABinario.Location = new System.Drawing.Point(12, 154);
             this.btnConvertirABinario.Name = "btnConvertirABinario";
             this.btnConvertirABinario.Size = new System.Drawing.Size(184, 35);
-            this.btnConvertirABinario.TabIndex = 7;
+            this.btnConvertirABinario.TabIndex = 6;
             this.btnConvertirABinario.Text = "Convertir a Binario";
             this.btnConvertirABinario.UseVisualStyleBackColor = true;
             this.btnConvertirABinario.Click += new System.EventHandler(this.BtnConvertirABinario_Click);
@@ -80,7 +81,7 @@
             this.btnConvertirADecimal.Location = new System.Drawing.Point(204, 154);
             this.btnConvertirADecimal.Name = "btnConvertirADecimal";
             this.btnConvertirADecimal.Size = new System.Drawing.Size(184, 35);
-            this.btnConvertirADecimal.TabIndex = 8;
+            this.btnConvertirADecimal.TabIndex = 7;
             this.btnConvertirADecimal.Text = "Convertir a Decimal";
             this.btnConvertirADecimal.UseVisualStyleBackColor = true;
             this.btnConvertirADecimal.Click += new System.EventHandler(this.BtnConvertirADecimal_Click);
@@ -144,7 +145,7 @@
             this.MinimizeBox = false;
             this.Name = "FormCalculadora";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Calculadora de Álvaro Serein del curso 2º A";
+            this.Text = "Calculadora de Álvaro Enuel Serein del curso 2ºA";
             this.ResumeLayout(false);
             this.PerformLayout();
 

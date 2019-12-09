@@ -62,13 +62,10 @@ namespace EntidadesAbstractas {
         /// <param name="pg1">Primer Universitario.</param>
         /// <param name="pg2">Segundo Universitario.</param>
         /// <returns>Verdadero si tienen el mismo DNI o legajo.</returns>
-        public static bool operator == (Universitario pg1, Universitario pg2) {
-            if ( (pg1.GetType() == pg2.GetType()) &&
-                 (pg1.DNI == pg2.DNI || pg1.legajo == pg2.legajo) ) {
-                throw new AlumnoRepetidoException();
-            } else {
-                return false;
-            }
+        public static bool operator ==(Universitario pg1, Universitario pg2) {
+            return ((pg1.GetType() == pg2.GetType())
+                    &&
+                    (pg1.DNI == pg2.DNI || pg1.legajo == pg2.legajo));
         }
 
         /// <summary>

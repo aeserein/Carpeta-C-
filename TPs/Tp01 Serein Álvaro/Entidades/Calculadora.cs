@@ -10,15 +10,15 @@ namespace Entidades {
     public static class Calculadora {
 
         /// <summary>
-        /// Realiza la operación entre las dos instancias de Numero. Si el operador es inválido, suma los parámetros.
+        /// Realiza la operación, luego de verificar el operador.
         /// </summary>
-        /// <param name="num1">Operando</param>
-        /// <param name="num2">Operando</param>
-        /// <param name="operador">(double) Resultado</param>
-        /// <returns></returns>
+        /// <param name="num1">Primer Número a operar.</param>
+        /// <param name="num2">Segundo Número a operar.</param>
+        /// <param name="operador">Operación a realizar.</param>
+        /// <returns>Resultado de la operación.</returns>
         public static double Operar(Numero num1, Numero num2, string operador) {
-            operador = ValidarOperador(operador);
-            double resultado;
+            operador = Calculadora.ValidarOperador(operador);
+            double resultado = 0;
             switch(operador) {
                 case "+": {
                     resultado = num1 + num2;
@@ -36,18 +36,18 @@ namespace Entidades {
                     resultado = num1 / num2;
                     break;
                 }
-                default:
-                    resultado = double.MinValue;
+                default: {
                     break;
+                }
             }
             return resultado;
         }
 
         /// <summary>
-        /// Valida operador entre "+", "-", "*" o "/"
+        /// Valida el operador.
         /// </summary>
-        /// <param name="operador">Operador</param>
-        /// <returns>(string) Mismo operador si es válido. "+" si no lo es.</returns>
+        /// <param name="operador">Cadena de caracteres que representa el operador.</param>
+        /// <returns>El operador original si es válido, o el de suma si es inválido.</returns>
         private static string ValidarOperador(string operador) {
             if (operador=="+" || operador=="-" ||
                 operador=="*" || operador=="/") {

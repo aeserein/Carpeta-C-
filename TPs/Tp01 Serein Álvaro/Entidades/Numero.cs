@@ -10,106 +10,89 @@ namespace Entidades {
 
         private double numero;
 
-        //////////////////////////////////////////////////////////////////  Propiedades
-
+        #region Propiedades
+        /// <summary>
+        /// Asigna valor al Número, previa validación.
+        /// </summary>
         private string SetNumero {
             set {
                 this.numero = ValidarNumero(value);
             }
         }
+        #endregion
 
-        //////////////////////////////////////////////////////////////////  Constructores
+        #region Constructores
+        /// <summary>
+        /// Inicializa el valor del Número en 0.
+        /// </summary>
+        public Numero() : this(0) {
+        }
 
-        public Numero() : this(0) { }
+        /// <summary>
+        /// Inicializa el valor del Número.
+        /// </summary>
+        /// <param name="numero">Número a asignar.</param>
+        public Numero(double numero) : this(numero.ToString()) {
+        }
 
-        public Numero(double numero) : this(numero.ToString()) { }
-
+        /// <summary>
+        /// Inicializa el valor del Número.
+        /// </summary>
+        /// <param name="strNumero">Número a asignar.</param>
         public Numero(string strNumero) {
             this.SetNumero = strNumero;
         }
+        #endregion
 
-        //////////////////////////////////////////////////////////////////  Métodos
-
+        #region Métodos
         /// <summary>
-        /// Valida un string numérico, lo convierte a double.
+        /// Comprueba que el valor recibido sea numérico y lo retorna.
         /// </summary>
-        /// <param name="strNumero">Número a validar</param>
-        /// <returns>(double) Devuelve el valor original si es válido.
-        /// 0 si strNumero es inválido.</returns>
+        /// <param name="strNumero">Cadena de caracteres que representa un número a validar.</param>
+        /// <returns>El número original si es válido, o 0 si es inválido.</returns>
         private double ValidarNumero(string strNumero) {
             double aux = 0;
             double.TryParse(strNumero, out aux);
-            return aux;                
+            return aux;
         }
-
+        
         /// <summary>
-        /// Convierte un número binario en decimal.
-        /// Ambos de tipo string.
+        /// Convierte un número binario a decimal.
         /// </summary>
-        /// <param name="binario">Número a convertir a decimal</param>
-        /// <returns>(string) Número convertido a decimal.
-        /// "Valor inválido" si no se puede convertir.</returns>
+        /// <param name="binario">Cadena de caracteres que representa el número en sistema binario.</param>
+        /// <returns>El número decimal como cadena de caracteres, o "Valor inválido" si no se pudo convertir.</returns>
         public static string BinarioDecimal(string binario) {
-
             if (binario == "")
                 return "Valor inválido";
 
-            byte f;
-            for (f = 0; f < binario.Length; f++) {
+            for (byte f = 0; f < binario.Length; f++) {
                 if (binario[f] != '0' && binario[f] != '1')
                     return "Valor inválido";
             }
 
-            double numero = 0;
-            int exponente = binario.Length;
-
-            for (f = 0; f < binario.Length; f++) {
-                exponente--;
-                if (binario[f] == '1')
-                    numero += Math.Pow(2, exponente);
-            }
-
-            return numero.ToString();
+            string aux;
+            aux = Convert.ToInt32(binario, 2).ToString();
+            return aux;
         }
 
         /// <summary>
-        /// Convierte un número decimal (double) a binario (string).
-        /// Trabaja con el valor absoluto e ignora la parte decimal.
+        /// Convierte un número decimal a binario. Solo convierte el valor entero y absoluto.
         /// </summary>
-        /// <param name="numero">Número a convertir a binario</param>
-        /// <returns>(string) Número convertido a binario.
-        /// "Valor inválido" si numero = double.MinValue.</returns>
+        /// <param name="numero">Número a convertir.</param>
+        /// <returns>Cadena de caracteres que representa el número en sistema binario, o "Valor inválido" si no se pudo convertir.</returns>
         public static string DecimalBinario(double numero) {
 
-            if (numero == double.MinValue)
-                return "Valor inválido";
-
-            string binario = "";
             long parteEntera = (long)numero;
+            parteEntera = Math.Abs(parteEntera);
 
-            if (parteEntera<0) {
-                parteEntera = parteEntera * (-1);
-            }
-
-            while (parteEntera >= 1) {
-                binario = parteEntera % 2 + binario;
-                parteEntera /= 2;
-            }
-
-            while (binario.Length % 8 > 0) {
-                binario = '0' + binario;
-            }
-
-            return binario;
+            return Convert.ToString(parteEntera, 2);
         }
 
         /// <summary>
-        /// Convierte un número decimal (string) a binario (string).
-        /// Trabaja con el valor absoluto e ignora la parte decimal.
+        /// Convierte un número decimal a binario. Solo convierte el valor entero y absoluto.
         /// </summary>
-        /// <param name="numero">Número a convertir a binario</param>
-        /// <returns>(string) Número convertido a binario.
-        /// "Valor inválido" si numero contiene letras.</returns>
+        /// <param name="numero">Cadena de caracteres que representa el número a convertir.</param>
+        /// <returns>Cadena de caracteres que representa el número en sistema binario, o "Valor inválido" si no se pudo convertir.</returns>
         public static string DecimalBinario(string numero) {
             double aux;
             if (double.TryParse(numero, out aux))
@@ -117,53 +100,51 @@ namespace Entidades {
             else
                 return "Valor inválido";
         }
+        #endregion
 
-
-        //////////////////////////////////////////////////////////////////  Operadores
-
-
+        #region Operadores
         /// <summary>
-        /// Suma objetos de tipo Numero
+        /// Suma dos Números.
         /// </summary>
-        /// <param name="n1">Sumando</param>
-        /// <param name="n2">Sumando</param>
-        /// <returns>(double) Resultado</returns>
+        /// <param name="n1">Número a sumar.</param>
+        /// <param name="n2">Número a sumar.</param>
+        /// <returns>Resultado de la suma.</returns>
         public static double operator +(Numero n1, Numero n2) {
             return n1.numero + n2.numero;
         }
 
         /// <summary>
-        /// Resta objetos de tipo Numero
+        /// Resta dos Números.
         /// </summary>
-        /// <param name="n1">Minuendo</param>
-        /// <param name="n2">Sustraendo</param>
-        /// <returns>(double) Resultado</returns>
+        /// <param name="n1">Minuendo.</param>
+        /// <param name="n2">Sustraendo.</param>
+        /// <returns>Resultado de la resta.</returns>
         public static double operator -(Numero n1, Numero n2) {
             return n1.numero - n2.numero;
         }
 
         /// <summary>
-        /// Multiplica objetos de tipo Numero
+        /// Multiplica dos Números.
         /// </summary>
-        /// <param name="n1">Factor</param>
-        /// <param name="n2">Factor</param>
-        /// <returns>(double) Resultado</returns>
+        /// <param name="n1">Número a multiplicar.</param>
+        /// <param name="n2">Número a multiplicar.</param>
+        /// <returns>Resultado de la multiplicación.</returns>
         public static double operator *(Numero n1, Numero n2) {
             return n1.numero * n2.numero;
         }
 
         /// <summary>
-        /// Divide objetos de tipo Numero.
-        /// Devuelve double.MinValue si el divisor es 0
+        /// Divide dos Números.
         /// </summary>
-        /// <param name="n1">Dividendo</param>
+        /// <param name="n1">Dividendo.</param>
         /// <param name="n2">Divisor</param>
-        /// <returns>(double) Resultado</returns>
+        /// <returns>Resultado de la división.</returns>
         public static double operator /(Numero n1, Numero n2) {
             if (n2.numero == 0)
                 return double.MinValue;
             else
                 return n1.numero / n2.numero;
         }
+        #endregion
     }
 }

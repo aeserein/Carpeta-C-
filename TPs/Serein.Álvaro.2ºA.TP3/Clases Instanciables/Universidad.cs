@@ -121,7 +121,11 @@ namespace Clases_Instanciables {
         /// <param name="a">Alumno</param>
         /// <returns>Verdadero si el Alumno forma parte de la Universidad.</returns>
         public static bool operator == (Universidad g, Alumno a) {
-            return g.Alumnos.Contains(a);
+            foreach (Alumno alumno in g.Alumnos) {
+                if (alumno == a)
+                    return true;
+            }
+            return false;
         }
 
         /// <summary>
@@ -141,7 +145,11 @@ namespace Clases_Instanciables {
         /// <param name="i">Profesor</param>
         /// <returns>Verdadero si el Profesor forma parte de la Universidad.</returns>
         public static bool operator == (Universidad g, Profesor i) {
-            return g.Instructores.Contains(i);
+            foreach (Profesor p in g.Instructores) {
+                if (p == i)
+                    return true;
+            }
+            return false;
         }
 
         /// <summary>
@@ -179,7 +187,7 @@ namespace Clases_Instanciables {
                 if (profesor != clase)
                     return profesor;
             }
-            throw new SinProfesorException();
+            return null;
         }
 
         /// <summary>
