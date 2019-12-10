@@ -18,7 +18,7 @@ namespace ENTIDADES.SP {
         }
         public double Peso
         {
-            get { return base._peso; }
+            get { return base.Peso; }
         }
 
         public override bool TieneCarozo {

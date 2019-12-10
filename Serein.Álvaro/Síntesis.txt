@@ -288,6 +288,13 @@ Todos los parámetros siguientes en ese método son parámetros que se deben pas
 Solo se pueden usar cuando se importó el namespace con "using [namespace]"
 Sirven para clases e interfaces
 
-	
+-------------------------------------------------------------
 
-	
+PRUEBA
+
+0 - Nombre en MessageBox
+2 - Inicializaciones?
+3 - No serializa/deserializa nada
+4 - No muestra el mensaje
+7 - Mal la ejecución + el error de tipeo
+8 - Mal la consulta + hacer 3 métodos de extensión

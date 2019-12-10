@@ -27,17 +27,14 @@ namespace Librería_Segundo_Parcial {
 
                 xmlSerializer.Serialize(streamWriter, datos);
 
+                streamWriter.Close();
+
             } catch (Exception) {
 
                 // Verificar qué hay que hacer por consigna
                 throw;
 
-            } finally {
-
-                streamWriter.Close();
-                // Verifico si hay que hacer algo más por consigna
             }
-
         }
 
         public void Leer(string archivo, out T datos) {
@@ -59,6 +56,8 @@ namespace Librería_Segundo_Parcial {
 
                 // Me fijo si hay que hacer algo
 
+                streamReader.Close();
+
                 // Asigno el auxiliar a out datos
                 // aux = datos
                 // Borrar línea de abajo que está para que no salte el compilador
@@ -69,10 +68,6 @@ namespace Librería_Segundo_Parcial {
                 // Verificar qué hay que hacer por consigna
                 throw;
 
-            } finally {
-
-                streamReader.Close();
-                // Verifico si hay que hacer algo más por consigna
             }
         }
     }

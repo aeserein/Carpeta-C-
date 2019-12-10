@@ -83,7 +83,7 @@ namespace ENTIDADES.SP {
         public static Cajon<T> operator +(Cajon<T> cajon, T fruta) {
             if (cajon.Elementos.Count < cajon._capacidad) {
                 cajon.Elementos.Add(fruta);
-
+                
                 if (cajon.PrecioTotal > 55) {
                     try {
                         cajon.eventoPrecio(cajon.PrecioTotal);
@@ -109,14 +109,13 @@ namespace ENTIDADES.SP {
             StreamWriter streamWriter = null;
 
             try {
-                xmlSerializer = new XmlSerializer(typeof(T));
+                xmlSerializer = new XmlSerializer(typeof(Cajon<T>));
                 streamWriter = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "\\" + archivo);
                 xmlSerializer.Serialize(streamWriter, this);
+                streamWriter.Close();
                 return true;
             } catch (Exception) {
                 return false;
-            } finally {
-                streamWriter.Close();
             }
         }
         #endregion

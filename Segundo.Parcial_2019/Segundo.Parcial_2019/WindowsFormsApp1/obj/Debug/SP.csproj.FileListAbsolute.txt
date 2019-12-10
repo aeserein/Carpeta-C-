@@ -8,3 +8,17 @@ C:\Users\alumno\Desktop\Segundo.Parcial\WindowsFormsApp1\bin\Debug\SP.pdb
 C:\Users\alumno\Desktop\Segundo.Parcial\WindowsFormsApp1\obj\Debug\SP.exe
 C:\Users\alumno\Desktop\Segundo.Parcial\WindowsFormsApp1\obj\Debug\SP.pdb
 C:\Users\alumno\Desktop\Segundo.Parcial\WindowsFormsApp1\obj\Debug\SP.SegundoParcial.resources
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\SP.exe.config
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\SP.exe
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\SP.pdb
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\ENTIDADES.SP.dll
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\ENTIDADES.SP.pdb
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\bin\Debug\ENTIDADES.SP.dll.config
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csprojAssemblyReference.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.SegundoParcial.resources
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.Properties.Resources.resources
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csproj.GenerateResource.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csproj.CoreCompileInputs.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.csproj.CopyComplete
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.exe
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\WindowsFormsApp1\obj\Debug\SP.pdb

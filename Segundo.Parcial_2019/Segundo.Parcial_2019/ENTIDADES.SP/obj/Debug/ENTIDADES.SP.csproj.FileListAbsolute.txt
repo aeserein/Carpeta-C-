@@ -3,3 +3,10 @@ C:\Users\alumno\Desktop\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\b
 C:\Users\alumno\Desktop\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.csproj.CoreCompileInputs.cache
 C:\Users\alumno\Desktop\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.dll
 C:\Users\alumno\Desktop\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.pdb
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.dll.config
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.dll
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\bin\Debug\ENTIDADES.SP.pdb
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.csprojAssemblyReference.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.csproj.CoreCompileInputs.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.dll
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019\Segundo.Parcial_2019\ENTIDADES.SP\obj\Debug\ENTIDADES.SP.pdb

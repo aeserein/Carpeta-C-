@@ -25,7 +25,7 @@ namespace ENTIDADES.SP
             try
             {
                 conexion = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
-                comando = new SqlCommand("DELETE FROM Personas WHERE id = " + id);
+                comando = new SqlCommand("DELETE FROM frutas WHERE id = " + id);
                 comando.CommandType = System.Data.CommandType.Text;
                 comando.Connection = conexion;
                 conexion.Open();

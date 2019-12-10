@@ -14,6 +14,7 @@ namespace Librería_Segundo_Parcial {
 
         private SqlConnection conexion;
         private SqlCommand comando;
+
         public SQL() {
             // Completar con connectionString seteado
             //                                Properties.Settings.Default.-----
@@ -41,6 +42,7 @@ namespace Librería_Segundo_Parcial {
                     this.comando.ExecuteNonQuery();
                 }
                 */
+                this.conexion.Close();
 
             } catch (Exception e) {
 
@@ -49,7 +51,7 @@ namespace Librería_Segundo_Parcial {
 
             } finally {
 
-                this.conexion.Close();
+                
 
                 // Verifico si hay que hacer algo más por consigna
             }
@@ -80,6 +82,8 @@ namespace Librería_Segundo_Parcial {
                     // Sumar a una lista, verificar algo, etc
                 }
 
+                this.conexion.Close();
+
                 // Pasar la lista auxiliar al out datos acá
                 // datos = aux
                 // Borrar la línea de abajo, solo está para que no sale el compilador
@@ -90,13 +94,7 @@ namespace Librería_Segundo_Parcial {
                 // Verificar qué hay que hacer por consigna
                 throw;
 
-            } finally {
-
-                this.conexion.Close();
-
-                // Verifico si hay que hacer algo más por consigna
-
-            }            
+            }        
         }
     }
 }

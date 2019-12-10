@@ -25,20 +25,20 @@ namespace SP
         public Cajon<Banana> c_bananas;
         public Cajon<Durazno> c_duraznos;
 
-        public SegundoParcial()
-        {
+        public SegundoParcial() {
             InitializeComponent();
+            this.btnPunto1_Click(null, null);
+            this.btnPunto2_Click(null, null);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-            MessageBox.Show("Apellido y nombre del alumno...");
+        private void Form1_Load(object sender, EventArgs e) {
+            //MessageBox.Show("Apellido y nombre del alumno...");
         }
 
         //Crear la siguiente jerarquía de clases:
         //Fruta-> _color:string y _peso:double (protegidos); TieneCarozo:bool (prop. s/l, abstracta);
         //constructor con 2 parametros y FrutaToString():string (protegido y virtual, retorna los valores de la fruta)
-         //Manzana-> _provinciaOrigen:string (protegido); Nombre:string (prop. s/l, retornará 'Manzana'); 
+        //Manzana-> _provinciaOrigen:string (protegido); Nombre:string (prop. s/l, retornará 'Manzana'); 
         //Reutilizar FrutaToString en ToString() (mostrar todos los valores). TieneCarozo->true
         //Banana-> _paisOrigen:string (protegido); Nombre:string (prop. s/l, retornará 'Banana'); 
         //Reutilizar FrutaToString en ToString() (mostrar todos los valores). TieneCarozo->false
@@ -50,11 +50,11 @@ namespace SP
             this._manzana = new Manzana("verde", 2, "rio negro");
             this._banana = new Banana("amarillo", 5, "ecuador");
             this._durazno = new Durazno("rojo", 2.5, 53);
-
+            /*
             MessageBox.Show(this._manzana.ToString());
             MessageBox.Show(this._banana.ToString());
             MessageBox.Show(this._durazno.ToString());
-
+            */
         }
 
         //Crear la clase Cajon<T>
@@ -83,10 +83,11 @@ namespace SP
             this.c_bananas += this._banana;
 
             this.c_duraznos += this._durazno;
-
+            /*
             MessageBox.Show(this.c_manzanas.ToString());
             MessageBox.Show(this.c_bananas.ToString());
             MessageBox.Show(this.c_duraznos.ToString());
+            */
 
         }
 
@@ -99,31 +100,26 @@ namespace SP
         private void btnPunto3_Click(object sender, EventArgs e) {
             Fruta aux = null;
 
-            if (this._manzana.Xml("manzana.xml"))
-            {
+            if (this._manzana.Xml("manzana.xml")) {
                 MessageBox.Show("Manzana serializada OK");
-            }
-            else
-            {
+            } else {
                 MessageBox.Show("NO Serializado");
             }
 
-            if (((IDeserializar)this._manzana).Xml("manzana.xml", out aux))
-            {
+
+
+            if (((IDeserializar)this._manzana).Xml("manzana.xml", out aux)) {
                 MessageBox.Show("Manzana deserializada OK");
                 MessageBox.Show(((Manzana)aux).ToString());
-            }
-            else
-            {
+            } else {
                 MessageBox.Show("NO Deserializado");
             }
 
-            if (this.c_manzanas.Xml("manzanas.xml"))
-            {
+
+
+            if (this.c_manzanas.Xml("manzanas.xml")) {
                 MessageBox.Show("Cajon de Manzanas serializado OK");
-            }
-            else
-            {
+            } else {
                 MessageBox.Show("NO Serializado");
             }
 
@@ -131,22 +127,19 @@ namespace SP
 
         //Si se intenta agregar frutas al cajón y se supera la cantidad máxima, se lanzará un CajonLlenoException, 
         //cuyo mensaje explicará lo sucedido.
-        private void btnPunto4_Click(object sender, EventArgs e)
-        {
+        private void btnPunto4_Click(object sender, EventArgs e) {
             //implementar estructura de manejo de excepciones
             try {
                 this.c_duraznos += this._durazno;
-            } catch (Exception) {
-                // ¿nada?
+            } catch (Exception eeeeeeee_yoooooooo) {
+                MessageBox.Show(eeeeeeee_yoooooooo.Message);
             }
-            
-
         }
 
         //Si el precio total del cajon supera los 55 pesos, se disparará el evento EventoPrecio. 
         //Diseñarlo (de acuerdo a las convenciones vistas) en la clase cajon. 
         //Crear el manejador necesario para que se imprima en un archivo de texto: 
-        //la fecha (con hora, minutos y segundos) y el total del precio del cajón en un nuevo renglón.
+        ////la fecha (con hora, minutos y segundos) y el total del precio del cajón en un nuevo renglón.
         private void btnPunto5_Click(object sender, EventArgs e) {
             Manejadora manejadora = new Manejadora();
             this.c_bananas.eventoPrecio += manejadora.Manejadora_EventoPrecio;
@@ -164,14 +157,10 @@ namespace SP
 
         //Agregar en la base de datos las frutas del formulario (_manzana, _banana y _durazno).
         //Invocar al metodo AgregarFrutas():bool
-        private void btnPunto7_Click(object sender, EventArgs e)
-        {
-            if (SegundoParcial.AgregarFrutas(this))
-            {
+        private void btnPunto7_Click(object sender, EventArgs e) {
+            if (SegundoParcial.AgregarFrutas(this)) {
                 MessageBox.Show("Se agregaron las frutas a la Base de Datos");
-            }
-            else
-            {
+            } else {
                 MessageBox.Show("NO se agregaron las frutas a la Base de Datos");
             }
         }
@@ -183,37 +172,23 @@ namespace SP
         //TRUE, si se ha eliminado la fruta. 
         //FALSE, si no se elimino.
         //Excepción, si se probocó algún error en la base de datos
-        private void btnPunto8_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                if (this.c_manzanas.EliminarFruta(1))
-                {
+        private void btnPunto8_Click(object sender, EventArgs e) {
+            try {
+                if (this.c_manzanas.EliminarFruta(1)) {
                     MessageBox.Show("Se ha eliminado la fruta de la base de datos");
-                }
-                else
-                {
+                } else {
                     MessageBox.Show("No se ha eliminado la fruta de la base de datos");
                 }
-            }
-            catch (Exception)
-            {
+            } catch (Exception) {
             }
 
-
-            try
-            {
-                if (this.c_manzanas.EliminarFruta(1))
-                {
+            try {
+                if (this.c_manzanas.EliminarFruta(1)) {
                     MessageBox.Show("Se ha eliminado la fruta de la base de datos");
-                }
-                else
-                {
+                } else {
                     MessageBox.Show("No se ha eliminado la fruta de la base de datos");
                 }
-            }
-            catch (Exception)
-            {
+            } catch (Exception) {
             }
 
 
@@ -258,14 +233,11 @@ namespace SP
             }
         }
 
-        private static bool AgregarFrutas(SegundoParcial frm)
-        {
+        private static bool AgregarFrutas(SegundoParcial frm) {
             SqlConnection conexion;
             SqlCommand comando = new SqlCommand();
-            SqlDataReader sqlDataReader = null;
 
-            try
-            {
+            try {
                 conexion = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
 
                 comando.CommandType = CommandType.Text;
@@ -273,31 +245,29 @@ namespace SP
                 conexion.Open();
 
                 /////////////// MANZANA
-                comando.CommandText = string.Format("INSERT INTO frutas VALUES('{0}',{1},2}",
+                comando.CommandText = string.Format("INSERT INTO frutas VALUES('{0}',{1},{2})",
                                                     frm._manzana.Nombre,
                                                     frm._manzana.Peso,
                                                     10);    // <------------ _manzana no tiene atributo precio, así que le invento
-                sqlDataReader = comando.ExecuteReader();
+                comando.ExecuteNonQuery();
 
                 /////////////// BANANA
-                comando.CommandText = string.Format("INSERT INTO frutas VALUES('{0}',{1},2}",
+                comando.CommandText = string.Format("INSERT INTO frutas VALUES('{0}',{1},{2})",
                                                     frm._banana.Nombre,
                                                     frm._banana.Peso,
                                                     15);    // <------------ _manzana no tiene atributo precio, así que le invento
-                sqlDataReader = comando.ExecuteReader();
+                comando.ExecuteNonQuery();
 
                 /////////////// DURAZNO
-                comando.CommandText = string.Format("INSERT INTO frutas VALUES('{0}',{1},2}",
+                comando.CommandText = string.Format("INSERT INTO frutas VALUES('{0}',{1},{2})",
                                                     frm._durazno.Nombre,
                                                     frm._durazno.Peso,
                                                     20);    // <------------ _manzana no tiene atributo precio, así que le invento
-                sqlDataReader = comando.ExecuteReader();
+                comando.ExecuteNonQuery();
 
                 conexion.Close();
                 return true;
-            }
-            catch (Exception e)
-            {
+            } catch (Exception e) {
                 return false;
             }
         }
