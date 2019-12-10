@@ -70,7 +70,9 @@ namespace AdminPersonas {
         }
 
         private void AgregarAListBox(DataRow dataRow) {
-            this.lstVisor.Items.Add("Nombre: " + dataRow[1] + " - Apellido: " + dataRow[2] + " - Edad: " + dataRow[3]);
+            this.lstVisor.Items.Add("Nombre: " + dataRow[1] +
+                                    " - Apellido: " + dataRow[2] +
+                                    " - Edad: " + dataRow[3]);
         }
         private void ObtenerDatos(DataRow dataRow, Persona persona) {
             dataRow[1] = persona.nombre;

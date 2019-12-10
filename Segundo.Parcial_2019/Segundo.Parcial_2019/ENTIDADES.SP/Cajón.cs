@@ -32,10 +32,9 @@ namespace ENTIDADES.SP {
         //Sobrecarga de operador
         //(+) Será el encargado de agregar elementos al cajón, siempre y cuando no supere la capacidad del mismo.
 
-
-        protected int _capacidad;
         protected List<T> _elementos;
-        protected double _precioUnitario;
+        private int capacidad;
+        private double precioUnitario;
 
         public delegate void EventoPrecio(double precio);
         public event EventoPrecio eventoPrecio;
@@ -45,7 +44,16 @@ namespace ENTIDADES.SP {
             get { return this._elementos; }
         }
         public double PrecioTotal {
-            get { return (this._precioUnitario * this.Elementos.Count); }
+            get { return (this.PrecioUnitario * this.Elementos.Count); }
+        }
+
+        protected int Capacidad {
+            get => capacidad;
+            set => capacidad = value;
+        }
+        protected double PrecioUnitario {
+            get => precioUnitario;
+            set => precioUnitario = value;
         }
         #endregion
 
@@ -54,10 +62,10 @@ namespace ENTIDADES.SP {
             this._elementos = new List<T>();
         }
         public Cajon(int capacidad) : this() {
-            this._capacidad = capacidad;
+            this.Capacidad = capacidad;
         }
         public Cajon(double precioUnitario, int capacidad) : this(capacidad) {
-            this._precioUnitario = precioUnitario;
+            this.PrecioUnitario = precioUnitario;
         }
         #endregion
 
@@ -65,7 +73,7 @@ namespace ENTIDADES.SP {
         public override string ToString() {
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat("Capacidad: {0} - Cantidad: {1} - Precio: {2}",
-                            this._capacidad,
+                            this.Capacidad,
                             this.Elementos.Count,
                             this.PrecioTotal);
             sb.AppendLine();
@@ -81,7 +89,7 @@ namespace ENTIDADES.SP {
         //Crear el manejador necesario para que se imprima en un archivo de texto: 
         //la fecha (con hora, minutos y segundos) y el total del precio del cajón en un nuevo renglón.
         public static Cajon<T> operator +(Cajon<T> cajon, T fruta) {
-            if (cajon.Elementos.Count < cajon._capacidad) {
+            if (cajon.Elementos.Count < cajon.Capacidad) {
                 cajon.Elementos.Add(fruta);
                 
                 if (cajon.PrecioTotal > 55) {

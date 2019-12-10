@@ -18,7 +18,7 @@ namespace Librería_Segundo_Parcial {
         public SQL() {
             // Completar con connectionString seteado
             //                                Properties.Settings.Default.-----
-            this.conexion = new SqlConnection("ACA CONNECTION STRING");
+            this.conexion = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
 
             this.comando.CommandType = System.Data.CommandType.Text;
             this.comando.Connection = this.conexion;
@@ -96,5 +96,22 @@ namespace Librería_Segundo_Parcial {
 
             }        
         }
+        public void Borrar(string tabla, int id) {
+            try {
+                SqlConnection conexion = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
+                SqlCommand comando;
+                comando.CommandType = System.Data.CommandType.Text;
+                comando.Connection = conexion;
+                comando.CommandText = string.Format("DELETE FROM {0} WHERE -------id?------- = {1}",
+                                                    tabla,
+                                                    id);
+                conexion.Open();
+                comando.ExecuteNonQuery();
+                conexion.Close();
+            } catch (Exception e) {
+                throw
+            }
+        }
+
     }
 }
