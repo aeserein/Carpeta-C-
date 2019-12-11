@@ -16,7 +16,7 @@ namespace ENTIDADES.SP {
 
     
 
-    public class Cajon<T> : ISerializar {
+    public class Cajon<T> : ISerializar where T : Fruta {
 
         //Crear la clase Cajon<T>
         //atributos: _capacidad:int, _elementos:List<T> y _precioUnitario:double (todos protegidos)             

@@ -22,8 +22,7 @@ namespace ENTIDADES.SP
             SqlConnection conexion;
             SqlCommand comando;
 
-            try
-            {
+            try {
                 conexion = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
                 comando = new SqlCommand("DELETE FROM frutas WHERE id = " + id);
                 comando.CommandType = System.Data.CommandType.Text;
@@ -31,59 +30,10 @@ namespace ENTIDADES.SP
                 conexion.Open();
                 comando.ExecuteNonQuery();
                 return true;
-            }
-            catch (Exception e)
-            {
-
+            } catch (Exception e) {
                 throw;
             }
-
         }
 
-        public static bool EliminarFruta(this Cajon<Banana> cajon, int id)
-        {
-            SqlConnection conexion;
-            SqlCommand comando;
-
-            try
-            {
-                conexion = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
-                comando = new SqlCommand("DELETE FROM Personas WHERE id = " + id);
-                comando.CommandType = System.Data.CommandType.Text;
-                comando.Connection = conexion;
-                conexion.Open();
-                comando.ExecuteNonQuery();
-                return true;
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
-        }
-
-        public static bool EliminarFruta(this Cajon<Durazno> cajon, int id)
-        {
-            SqlConnection conexion;
-            SqlCommand comando;
-
-            try
-            {
-                conexion = new SqlConnection(Properties.Settings.Default.ConexiónSQL);
-                comando = new SqlCommand("DELETE FROM Personas WHERE id = " + id);
-                comando.CommandType = System.Data.CommandType.Text;
-                comando.Connection = conexion;
-                conexion.Open();
-                comando.ExecuteNonQuery();
-                return true;
-            }
-            catch (Exception)
-            {
-
-                throw;
-            }
-
-        }
     }
 }
