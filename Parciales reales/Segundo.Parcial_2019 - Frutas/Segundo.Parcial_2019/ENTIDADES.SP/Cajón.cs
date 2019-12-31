@@ -47,11 +47,11 @@ namespace ENTIDADES.SP {
             get { return (this.PrecioUnitario * this.Elementos.Count); }
         }
 
-        protected int Capacidad {
+        public int Capacidad {
             get => capacidad;
             set => capacidad = value;
         }
-        protected double PrecioUnitario {
+        public double PrecioUnitario {
             get => precioUnitario;
             set => precioUnitario = value;
         }

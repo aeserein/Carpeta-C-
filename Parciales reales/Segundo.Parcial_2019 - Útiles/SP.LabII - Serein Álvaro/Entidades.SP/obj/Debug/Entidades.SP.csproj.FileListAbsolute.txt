@@ -1,0 +1,12 @@
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\Entidades.SP\bin\Debug\Entidades.SP.dll
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\Entidades.SP\bin\Debug\Entidades.SP.pdb
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\Entidades.SP\obj\Debug\Entidades.SP.csprojAssemblyReference.cache
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\Entidades.SP\obj\Debug\Entidades.SP.csproj.CoreCompileInputs.cache
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\Entidades.SP\obj\Debug\Entidades.SP.dll
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\Entidades.SP\obj\Debug\Entidades.SP.pdb
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\Entidades.SP\bin\Debug\Entidades.SP.dll
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\Entidades.SP\bin\Debug\Entidades.SP.pdb
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\Entidades.SP\obj\Debug\Entidades.SP.csprojAssemblyReference.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\Entidades.SP\obj\Debug\Entidades.SP.csproj.CoreCompileInputs.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\Entidades.SP\obj\Debug\Entidades.SP.dll
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\Entidades.SP\obj\Debug\Entidades.SP.pdb

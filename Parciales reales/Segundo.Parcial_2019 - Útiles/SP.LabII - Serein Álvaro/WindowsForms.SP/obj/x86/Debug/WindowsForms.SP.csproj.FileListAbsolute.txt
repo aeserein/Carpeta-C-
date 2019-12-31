@@ -1,0 +1,38 @@
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\bin\Debug\WindowsForms.SP.exe
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\bin\Debug\WindowsForms.SP.pdb
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\bin\Debug\Entidades.SP.dll
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\bin\Debug\Entidades.SP.pdb
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csprojResolveAssemblyReference.cache
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.SegundoParcial.resources
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.Properties.Resources.resources
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.GenerateResource.Cache
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.exe
+c:\users\administrador\documents\visual studio 2010\Projects\SP.LabII\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.pdb
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.exe
+C:\Users\Administrador\Documents\Visual Studio 2010\Projects\SP.LabII - Alumnos\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.pdb
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csprojAssemblyReference.cache
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.SegundoParcial.resources
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.Properties.Resources.resources
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.GenerateResource.cache
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.CoreCompileInputs.cache
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.exe
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.pdb
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\WindowsForms.SP.exe
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\WindowsForms.SP.pdb
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\Entidades.SP.dll
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\Entidades.SP.pdb
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.CopyComplete
+D:\-------------------------------Serein\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\WindowsForms.SP.exe.config
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\WindowsForms.SP.exe.config
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\WindowsForms.SP.exe
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\WindowsForms.SP.pdb
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\Entidades.SP.dll
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\bin\Debug\Entidades.SP.pdb
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csprojAssemblyReference.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.SegundoParcial.resources
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.Properties.Resources.resources
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.GenerateResource.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.CoreCompileInputs.cache
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.csproj.CopyComplete
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.exe
+d:\Alvaro\Programación\04 - Programación 2\Segundo.Parcial_2019 - Útiles\SP.LabII - Serein Álvaro\WindowsForms.SP\obj\x86\Debug\WindowsForms.SP.pdb
